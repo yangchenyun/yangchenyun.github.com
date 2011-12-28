@@ -1,0 +1,4 @@
+markdown: rdiscount
+pygments: true
+exclude: []
+permalink: /:categories/:year/:month/:title/
