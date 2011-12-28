@@ -1,7 +1,6 @@
 ---
 layout: default
-title: My Work
-category: about
+title: Benchmark
 ---
 
 # Benchmark.js
@@ -66,6 +65,7 @@ load('benchmark.js');
 In [RequireJS](http://requirejs.org/):
 
 {% highlight javascript %}
+
 require({
   'paths': {
     'benchmark': 'path/to/benchmark'
@@ -87,6 +87,7 @@ require({
   Benchmark.platform = platform;
   console.log(Benchmark.platform.name);
 });
+
 {% endhighlight %}
 
 
