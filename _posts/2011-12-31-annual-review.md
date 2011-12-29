@@ -1,9 +1,7 @@
 ---
-layout: default
+layout: post
 title: Annual Review
 ---
-
-#Annual Review
 
 ##Overall Performance
 
@@ -24,7 +22,7 @@ title: Annual Review
 
   May 15th, I designed and deployed [[the site for TEDxFiveStarSquare]] and later designed the banner/poster/screen for the event. This is my first attempt for design and development.
 
-  June 7th, I started the Napos project with [[ELEME|http://ele.me]] and later on August 24th, I joined the team in charge of UI design and frontend development. This is the most effective team I met ever before - energetic, down-to-earth and hard work. I gained valuable project experience with the development.
+  June 7th, I started the Napos project with [ELEME](http://ele.me) and later on August 24th, I joined the team in charge of UI design and frontend development. This is the most effective team I met ever before - energetic, down-to-earth and hard work. I gained valuable project experience with the development.
 
   August 21th, I did a [[presentation]] about making a change in your life at TEDxYouth West-lake.
 
@@ -118,3 +116,56 @@ title: Annual Review
   [Didn't reach 300 new contacts]
   [Didn't keep in touch with old friends]
     [Reason: no place to scale up the contact/no enough content]
+
+{% highlight python %}
+def cmd(cmd=""):
+    '''Run a command in the site directory.  Usable from other commands or the CLI.'''
+    require('site_path')
+
+    if not cmd:
+        sys.stdout.write(_cyan("Command to run: "))
+        cmd = raw_input().strip()
+
+    if cmd:
+        with cd(env.site_path):
+            run(cmd)
+
+def sdo(cmd=""):
+    '''Sudo a command in the site directory.  Usable from other commands or the CLI.'''
+    require('site_path')
+
+    if not cmd:
+        sys.stdout.write(_cyan("Command to run: sudo "))
+        cmd = raw_input().strip()
+
+    if cmd:
+        with cd(env.site_path):
+            sudo(cmd)
+
+def vcmd(cmd=""):
+    '''Run a virtualenv-based command in the site directory.  Usable from other commands or the CLI.'''
+    require('site_path')
+    require('venv_path')
+
+    if not cmd:
+        sys.stdout.write(_cyan("Command to run: %s/bin/" % env.venv_path.rstrip('/')))
+        cmd = raw_input().strip()
+
+    if cmd:
+        with cd(env.site_path):
+            run(env.venv_path.rstrip('/') + '/bin/' + cmd)
+
+def vsdo(cmd=""):
+    '''Sudo a virtualenv-based command in the site directory.  Usable from other commands or the CLI.'''
+    require('site_path')
+    require('venv_path')
+
+    if not cmd:
+        sys.stdout.write(_cyan("Command to run: sudo %s/bin/" % env.venv_path.rstrip('/')))
+        cmd = raw_input().strip()
+
+    if cmd:
+        with cd(env.site_path):
+            sudo(env.venv_path.rstrip('/') + '/bin/' + cmd)
+{% endhighlight %}
+</div>
