@@ -24,7 +24,7 @@ body {
   line-height:25px;
 }
 
-body a {
+body a, body a:visited {
   text-decoration: none;
   color: #e50053;
 }
