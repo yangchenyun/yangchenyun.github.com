@@ -2,6 +2,9 @@
 layout: post
 title: Annual Review
 ---
+##Statistic Summary
+
+I have recorded my time usage in 43 weeks this year and in total I have recorded 2175 hours in which 2403 pomodros are used on tasks. In average everyday I use 6.84 hours and 8.36 pomodoros.
 
 ##Overall Performance
 
@@ -57,7 +60,7 @@ title: Annual Review
   * Mihaly Csikszentmihalyi - <Flow>, read through once
   * !Somebody! - <Bird by Bird>, read 50% of all chapters
 
-  THe biggest achievement is that I got myself accustomized to reading electronic books. I built myself an search-able electronic library and I also customize the [[PDFPreview]] with an highlight system to help me correct previous "scanning-as-reading" habit. Green highlights unknown words and phrases, yellow highlights key sentences, red underline marks important material and purple marks where I need to read over again. With the notes and comments, I could archive the same reading experience as reading a paper book.
+  The biggest achievement is that I got myself accustomized to reading electronic books. I built myself an search-able electronic library and I also customize the [[PDFPreview]] with an highlight system to help me correct previous "scanning-as-reading" habit. Green highlights unknown words and phrases, yellow highlights key sentences, red underline marks important material and purple marks where I need to read over again. With the notes and comments, I could archive the same reading experience as reading a paper book.
 
 ###Web Design and Computer Science
   I wanted myself to be a "qualified web designer" in the beginning of the year and thanks to my full-time work in the second half year I have exceeded this goal by all means.
@@ -104,11 +107,16 @@ title: Annual Review
     I cut the inspiration pomodoro in the second half year and I received a huge motivation decline there.
 
 ####Physical Training and Health
-  [Do swimming during Jan - May, stopped after June]
-  [Inches on my backbone]
-  [Sleep late, May after 12:00pm, June after 2:00am]
+  I didn't a bad job in the field of health and training. In the first half year, I only used 18.8 hours for physical training and even this practice stopped in the second half year. So in average, I only have exercised 3 min per day which is far fewer than the 30 min per day.
+
+  As a result, I began to suffer from aches from shoulder and low backbone. In the end of the year, the pain could even last the whole day and make sitting an discomfortable position.
+
+  Another setback in health is my biological clock. The habit of getting up early still eludes me. I was still quite exciting after midnight and I used to work later than 12:00pm since May. The situation got worse when I went to work where I slept later than 2:00am in average. With the shift in sleeping hours, I also have shifted the time I get up - usually 8 hours after I went to bed.
+
+  This shift in sleeping hours dispairs my sleeping quality and I felt a decline in endurance and time of focus when I am working.
 
 ###Network
+  62 contact, mainly TEDxFSS, ELEME
   [Contacts with TEDxFSS]
   [Stackoverflow.com engagement]
   [People found me through my personal page]
@@ -116,56 +124,3 @@ title: Annual Review
   [Didn't reach 300 new contacts]
   [Didn't keep in touch with old friends]
     [Reason: no place to scale up the contact/no enough content]
-
-{% highlight python %}
-def cmd(cmd=""):
-    '''Run a command in the site directory.  Usable from other commands or the CLI.'''
-    require('site_path')
-
-    if not cmd:
-        sys.stdout.write(_cyan("Command to run: "))
-        cmd = raw_input().strip()
-
-    if cmd:
-        with cd(env.site_path):
-            run(cmd)
-
-def sdo(cmd=""):
-    '''Sudo a command in the site directory.  Usable from other commands or the CLI.'''
-    require('site_path')
-
-    if not cmd:
-        sys.stdout.write(_cyan("Command to run: sudo "))
-        cmd = raw_input().strip()
-
-    if cmd:
-        with cd(env.site_path):
-            sudo(cmd)
-
-def vcmd(cmd=""):
-    '''Run a virtualenv-based command in the site directory.  Usable from other commands or the CLI.'''
-    require('site_path')
-    require('venv_path')
-
-    if not cmd:
-        sys.stdout.write(_cyan("Command to run: %s/bin/" % env.venv_path.rstrip('/')))
-        cmd = raw_input().strip()
-
-    if cmd:
-        with cd(env.site_path):
-            run(env.venv_path.rstrip('/') + '/bin/' + cmd)
-
-def vsdo(cmd=""):
-    '''Sudo a virtualenv-based command in the site directory.  Usable from other commands or the CLI.'''
-    require('site_path')
-    require('venv_path')
-
-    if not cmd:
-        sys.stdout.write(_cyan("Command to run: sudo %s/bin/" % env.venv_path.rstrip('/')))
-        cmd = raw_input().strip()
-
-    if cmd:
-        with cd(env.site_path):
-            sudo(env.venv_path.rstrip('/') + '/bin/' + cmd)
-{% endhighlight %}
-</div>
