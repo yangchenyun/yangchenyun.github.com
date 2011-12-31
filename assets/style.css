@@ -110,6 +110,7 @@ p,h1,h2,h3,h4,h5,h6{margin:0;padding:0;}
 .clear{clear:both;}
 body a,body a:visited{text-decoration:none;color:#e11d30;}
 body a:hover{text-decoration:underline;}
+body p{margin-bottom:1em;}
 h1,h2,h3,h4,h5,h6{font-family:"Droid Serif",sans-serif;font-weight:normal;}
 h1{font-size:45px;line-height:50px;margin:25px 0;}
 h2{font-size:32px;line-height:50px;margin:25px 0;}
