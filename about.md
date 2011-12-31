@@ -12,11 +12,11 @@ permalink: /about/
 
   I led the UI design and frontend development at a start-up([site](http://ele.me/at/entry/1),[webapp](http://ele.me/napos.php)) before December, 2011.
 
-  I also collected [inspiration](http://quote.yangchenyun.com) to keep myself motivated and love working with [TEDxFSS](http://tedxfivestarsquare.com).
+  I also collect [inspiration](http://quote.yangchenyun.com) to keep myself motivated and love volunteer working at [TEDxFSS](http://tedxfivestarsquare.com).
 
-  My toolkit consists of `javaScript`/`coffeescript`, `HTML5` and `CSS3`. I also use `Ruby` for scripting tasks. For the backend side, I have worked projects based on `Rails`, `Django` and `Symfony`.
+  My toolkit consists of `javaScript`/`coffeescript`, `HTML5` and `CSS3`. I also use `Ruby` for scripting. For the backend side, I have worked projects based on `Rails`, `Django` and `Symfony`. I am also fascinated about Unix after switching my workspace from the cumbersome Windows system.
 
-  Currently, I am organizing my knowledge on the front-end side while digging more deeper into the details. I am also learning basic sysadmin, data abstraction and `Rails` to accomplish my personal projects. Because --
+  Currently, I am organizing my knowledge on the front-end side while digging more deeper into the details. Besides, I am also learning basic sysadmin, data abstraction and `Rails` to accomplish my personal projects. Because...
 
   >Creating useful things with elegance is what drives me so far.
 
