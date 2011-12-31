@@ -5,6 +5,7 @@ permalink: /about/
 ---
 ##About me
 
+  ![self-potrait](/images/me.jpg)
   I am a web designer and developer from Shanghai. At Oct 26th 2010, I resolved to start my career as a web designer and developer after my strong desire for creation.
 
   After one year, I learned to deliver websites with a focus on minimal design and clear information structure.
