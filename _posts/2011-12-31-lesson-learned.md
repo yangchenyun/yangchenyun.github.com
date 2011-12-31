@@ -57,5 +57,4 @@ title: Lesson Learned
 
 
 ##Lesson 3: Be careful about 'Opportunity'
-
 [Lessons learned from ele.me]

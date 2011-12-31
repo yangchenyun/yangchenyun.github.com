@@ -38,6 +38,14 @@ Cut pomodoro used for inspiration
 
 
 ##Remaining Problem
+Ideas
+23  8
+24  13
+23  4
+35  7
+25  11
+
+
 Sporadic projects
   Frequent miles program
   Travel Planning to Malaysia / Indonesia / Thailand and Nepal
