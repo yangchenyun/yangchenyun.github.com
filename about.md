@@ -1,8 +1,9 @@
 ---
 layout: default
 title: About me
-date: 2011-12-31
+permalink: /about
 ---
+
 ##About me
 
   I am a web designer and developer in Shanghai. At Oct 26th 2010, I resolved to start my career as a web designer and developer after my strong desire for creation.
@@ -30,7 +31,8 @@ date: 2011-12-31
   I am learning `Ruby` and the full web stack, so I need a project to drive me through the whole process - how the data on one server is rendered in your browser.
 
   I will write about two topics in the future:
-  * The methods I used for learning([this one](http://http://ge.tt/3XTYjJg)) and keep myself productive.
+  * The methods I used for learning([this one](
+Article: What Hinders Adults From Learning)) and keep myself productive.
 
   * Knowledge about frontend development and usage of `javaScript`
 

@@ -2,9 +2,12 @@
 layout: default
 title: Home
 ---
-<h2>Recent Updates</h2>
+<h2>About me</h2>
+
+
+<h2>Recent Articles</h2>
 <ul id="recent-list">
-{% for post in site.posts limit: 7 %}
+{% for post in site.posts limit: 10 %}
   <li><p><a class="more" href="{{ post.url }}">{{ post.title }}  &raquo;</a>
   </p></li>
 {% endfor %}
