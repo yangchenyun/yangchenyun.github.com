@@ -1,4 +1,4 @@
 markdown: rdiscount
 pygments: true
-exclude: ['/css', '/js']
+exclude: ['/css', '/js', '*.less']
 permalink: /:categories/:year/:month/:title/

@@ -17,16 +17,16 @@
 @text: #eee;
 @bg: #343535;*/
 
-html {
-  overflow-y: scroll;
-}
-
 body {
   color: @text;
   position: relative;
   background: @bg;
   font: normal 18px/25px Palatino, "Palatino Linotype", serif;
   line-height:25px;
+}
+
+p,h1,h2,h3,h4,h5,h6 {
+  margin: 0; padding: 0;
 }
 
 .clear {
@@ -150,7 +150,6 @@ body p code, body li code {
 .wrap {
   width: 900px;
   margin: 0 auto;
-  margin-bottom: 5em;
   position:relative;
 }
 
@@ -204,8 +203,13 @@ body p code, body li code {
 .wrap footer {
   font-size: 14px;
   font-style: italic;
-  line-height: 50px;
+  line-height: 35px;
   text-align: center;
+  .copyright {
+    position:absolute;
+    right:0;
+    color:#aaa;
+  }
 }
 
 blockquote {

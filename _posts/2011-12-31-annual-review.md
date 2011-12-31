@@ -15,7 +15,7 @@ date: 2011-12-31
 
   On June 7th, I started the [Napos](http://ele.me/napos.php) project in [ELEME](http://ele.me) and later I joined the team and took charge of UI design and frontend development.
 
-  On August 21th, I made a [speech](link_to_tedxyouth) about making a change in your life at TEDxYouth West-lake.
+  >On August 21th, I made a [speech](link_to_tedxyouth) about making a change in your life at TEDxYouth West-lake.
 
 ###Excerpt of 2011
 
