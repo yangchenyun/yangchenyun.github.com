@@ -5,7 +5,7 @@ permalink: /about/
 ---
 ##About me
 
-  I am a web designer and developer in Shanghai. At Oct 26th 2010, I resolved to start my career as a web designer and developer after my strong desire for creation.
+  I am a web designer and developer from Shanghai. At Oct 26th 2010, I resolved to start my career as a web designer and developer after my strong desire for creation.
 
   After one year, I learned to deliver websites with a focus on minimal design and clear information structure.
 
@@ -19,7 +19,7 @@ permalink: /about/
 
   >Creating useful things with elegance is what drives me so far.
 
-  By the way, my name is Steven yang.
+  By the way, my name is Steven yang graduated from the Zhejiang University with a degree of Economics.
 
 ##About the Site
 
@@ -30,6 +30,7 @@ permalink: /about/
   I am learning `Ruby` and the full web stack, so I need a project to drive me through the whole process - how the data on one server is rendered in your browser.
 
   I will write about two topics in the future:
+
   * The methods I used for learning([this one](http://http://ge.tt/3XTYjJg)) and keep myself productive.
 
   * Knowledge about frontend development and usage of `javaScript`

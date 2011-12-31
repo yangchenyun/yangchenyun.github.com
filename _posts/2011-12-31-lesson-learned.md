@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Lesson Learned
+date: 2011-12-31 21:00
 ---
 
 ##Lesson 1: Know How to Sustain Yourself
