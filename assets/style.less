@@ -1,15 +1,30 @@
+@import 'helpless.0.0.3.less';
 @import 'normalize.less';
 @import 'pygments.less';
-@import 'font.less';
+@import 'font/font.less';
+
+/*@body-font: ~"'OFL Sorts Mill Goudy', 'OFL Sorts Mill Goudy TT', sans-serif";*/
+/*@body-font: "Latine", sans-serif;*/
+@body-font: "Droid Serif", sans-serif;
+
+//White Theme
+@tint: #E11d30; //#252fd7; //#e50053;
+@text: #222;
+@bg: #e7e8e8 url(noise.jpg);
+
+//Black Theme
+/*@tint: #E11D30;
+@text: #eee;
+@bg: #343535;*/
 
 html {
   overflow-y: scroll;
 }
 
 body {
-  color: #222222;
+  color: @text;
   position: relative;
-  background: url(noise.jpg);
+  background: @bg;
   font: normal 18px/25px Palatino, "Palatino Linotype", serif;
   line-height:25px;
 }
@@ -20,7 +35,7 @@ body {
 
 body a, body a:visited {
   text-decoration: none;
-  color: #e50053;
+  color: @tint;
 }
 
 body a:hover {
@@ -34,7 +49,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'OFL Sorts Mill Goudy', 'OFL Sorts Mill Goudy TT', serif;
+  font-family: @body-font;
   font-weight: normal;
 }
 
@@ -64,16 +79,18 @@ h2 a,
 h3 a,
 h4 a,
 h5 a,
-h6 a {
-  color: #222222;
+h6 a,
+#recent-list a {
+  color: @text;
 }
 h1 a:hover,
 h2 a:hover,
 h3 a:hover,
 h4 a:hover,
 h5 a:hover,
-h6 a:hover {
-  color: #e50053;
+h6 a:hover,
+#recent-list a:hover {
+  color: @tint;
   text-decoration: none;
 }
 h1 .amp,
@@ -131,52 +148,59 @@ body p code, body li code {
 
 
 .wrap {
-  width: 612px;
+  width: 900px;
   margin: 0 auto;
   margin-bottom: 5em;
+  position:relative;
 }
 
-.wrap .top header {
-  float: left;
-  font-family: 'OFL Sorts Mill Goudy', 'OFL Sorts Mill Goudy TT', serif;
+.wrap .content {
+  width: 680px;
+  margin-left: 220px;
+  border-left: 2px solid whiteSmoke;
+  padding-left: 20px;
+}
+
+.wrap .side {
+  width:200px;
+  position: fixed;
+  text-align: right;
+
+}
+
+.wrap .side header {
+  font-family: @body-font;
   font-size: 23px;
   line-height: 50px;
   text-transform: lowercase;
   padding-left: 2px;
-  width: 210px;
 }
-.wrap .top header .amp {
+
+.wrap .side header .amp {
   font-style: italic;
 }
-.wrap .top header a {
-  color: #222222;
+.wrap .side header a {
+  font-size:30px;
+  text-transform: capitalize;
+  color: @text;
+  #hl.transition(color, 0.5s, ease-out);
 }
-.wrap .top header a:hover {
-  color: #e50053;
+
+.wrap .side header a:hover {
+  color: @tint;
 }
-.wrap .top nav {
-  font: normal 18px/50px 'OFL Sorts Mill Goudy', 'OFL Sorts Mill Goudy TT', serif;
+
+.wrap .side nav {
+  font: normal 18px/50px @body-font;
   text-align: right;
   text-transform: lowercase;
   padding-right: 2px;
-  width: 398px;
-  float: left;
 }
-.wrap .top nav .sep {
+.wrap .side nav .sep {
   padding: 0 4px;
   color: #666;
 }
-.wrap .hr {
-  margin-top: -12px;
-  margin-bottom: 37px;
-  height: 25px;
-  background: transparent url('/hr.png') top left no-repeat;
-}
-.wrap .hrb {
-  height: 25px;
-  margin-top: 50px;
-  background: transparent url('hrb.png') top left no-repeat;
-}
+
 .wrap footer {
   font-size: 14px;
   font-style: italic;
@@ -239,6 +263,7 @@ blockquote p:last-child {
   background: none;
   border: none;
 }
+
 .print-links {
   display: none;
 }
@@ -256,7 +281,7 @@ img.self {
   color: #999;
   font-size: 23px;
   font-style: italic;
-  font: italic 23px 'OFL Sorts Mill Goudy', 'OFL Sorts Mill Goudy TT', serif;
+  font: italic 23px @body-font;
   line-height: 30px;
   position: fixed;
   top: 75px;

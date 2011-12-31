@@ -1,0 +1,11 @@
+---
+layout: default
+title: Steven Yang
+---
+<h2>Recent Updates</h2>
+<ul id="recent-list">
+{% for post in site.posts limit: 7 %}
+  <li><p><a class="more" href="{{ post.url }}">{{ post.title }}  &raquo;</a>
+  </p></li>
+{% endfor %}
+</ul>

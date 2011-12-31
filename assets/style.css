@@ -1,3 +1,8 @@
+#hl{}#hl .grid{}
+#hl .typo{}
+#hl .img{}
+#hl .ui{}#hl .ui .themes{}
+#hl .ui .list{}
 article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block;}
 audio,canvas,video{display:inline-block;*display:inline;*zoom:1;}
 audio:not([controls]){display:none;}
@@ -100,18 +105,18 @@ table{border-collapse:collapse;border-spacing:0;}
 .highlight .vg{color:#008080;}
 .highlight .vi{color:#008080;}
 .highlight .il{color:#009999;}
-@font-face{font-family:'OFL Sorts Mill Goudy TT';font-style:normal;font-weight:normal;src:local('OFL Sorts Mill Goudy TT'),local('OFLGoudyStMTT'),url('http://themes.googleusercontent.com/static/fonts/oflsortsmillgoudytt/v3/9ZZVVBRCceNnPBXqWLH8IAznsJgBJReFlc4fyGg_5CcC1LhKU8qFLLahJuQDJSaO.woff') format('woff');}@font-face{font-family:'OFL Sorts Mill Goudy TT';font-style:italic;font-weight:normal;src:local('OFL Sorts Mill Goudy TT Italic'),local('OFLGoudyStMTT-Italic'),url('http://themes.googleusercontent.com/static/fonts/oflsortsmillgoudytt/v3/4zlbkWdiblhTyAxV3yYOK1Map0k-03pf3IKr-TpLv1-zty3XAGWFpfUour78S_ql.woff') format('woff');}html{overflow-y:scroll;}
-body{color:#222222;position:relative;background:url(noise.jpg);font:normal 18px/25px Palatino,"Palatino Linotype",serif;line-height:25px;}
+@font-face{font-family:'OFL Sorts Mill Goudy TT';font-style:normal;font-weight:normal;src:local('OFL Sorts Mill Goudy TT'),local('OFLGoudyStMTT'),url('http://themes.googleusercontent.com/static/fonts/oflsortsmillgoudytt/v3/9ZZVVBRCceNnPBXqWLH8IAznsJgBJReFlc4fyGg_5CcC1LhKU8qFLLahJuQDJSaO.woff') format('woff');}@font-face{font-family:'OFL Sorts Mill Goudy TT';font-style:italic;font-weight:normal;src:local('OFL Sorts Mill Goudy TT Italic'),local('OFLGoudyStMTT-Italic'),url('http://themes.googleusercontent.com/static/fonts/oflsortsmillgoudytt/v3/4zlbkWdiblhTyAxV3yYOK1Map0k-03pf3IKr-TpLv1-zty3XAGWFpfUour78S_ql.woff') format('woff');}@font-face{font-family:"Latine";src:url("font/Latine.eot?") format("eot"),url("font/Latine.woff") format("woff"),url("font/Latine.ttf") format("truetype"),url("font/Latine.svg#Latine") format("svg");font-weight:normal;font-style:normal;}@font-face{font-family:"Droid Serif";src:url("font/DroidSerif-Regular.eot?") format("eot"),url("font/DroidSerif-Regular.woff") format("woff"),url("font/DroidSerif-Regular.ttf") format("truetype"),url("font/DroidSerif-Regular.svg#DroidSerif") format("svg");font-weight:normal;font-style:normal;}html{overflow-y:scroll;}
+body{color:#222222;position:relative;background:#e7e8e8 url(noise.jpg);font:normal 18px/25px Palatino,"Palatino Linotype",serif;line-height:25px;}
 .clear{clear:both;}
-body a,body a:visited{text-decoration:none;color:#e50053;}
+body a,body a:visited{text-decoration:none;color:#e11d30;}
 body a:hover{text-decoration:underline;}
-h1,h2,h3,h4,h5,h6{font-family:'OFL Sorts Mill Goudy','OFL Sorts Mill Goudy TT',serif;font-weight:normal;}
+h1,h2,h3,h4,h5,h6{font-family:"Droid Serif",sans-serif;font-weight:normal;}
 h1{font-size:45px;line-height:50px;margin:25px 0;}
 h2{font-size:32px;line-height:50px;margin:25px 0;}
 h3{font-size:23px;line-height:25px;margin:25px 0;}
 h4{font-size:18px;line-height:25px;margin:25px 0;}
-h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{color:#222222;}
-h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover{color:#e50053;text-decoration:none;}
+h1 a,h2 a,h3 a,h4 a,h5 a,h6 a,#recent-list a{color:#222222;}
+h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover,#recent-list a:hover{color:#e11d30;text-decoration:none;}
 h1 .amp,h2 .amp,h3 .amp,h4 .amp,h5 .amp,h6 .amp{font-style:italic;}
 body code,body pre{font-family:Consolas,Menlo,"Courier New",monospace;font-size:14px;}
 .highlight pre{font-family:Consolas,Menlo,"Courier New",monospace;font-size:16px;line-height:25px;overflow-x:auto;border:1px solid #d5d5d5;border-left:10px solid #d5d5d5;background-color:#fafafa;padding:11px 15px 12px;margin-left:-25px;}
@@ -120,15 +125,15 @@ body code,body pre{font-family:Consolas,Menlo,"Courier New",monospace;font-size:
 .highlight pre::-webkit-scrollbar-track-piece{background-color:#eee;}
 .highlight pre::-webkit-scrollbar-thumb{background-color:#bbb;border:7px solid #eee;-webkit-background-clip:padding-box;-webkit-border-radius:12px;}
 body p code,body li code{border:1px solid #ccc;background-color:#fafafa;font-size:13px;padding:1px 3px;line-height:20px;margin:0;white-space:nowrap;}
-.wrap{width:612px;margin:0 auto;margin-bottom:5em;}
-.wrap .top header{float:left;font-family:'OFL Sorts Mill Goudy','OFL Sorts Mill Goudy TT',serif;font-size:23px;line-height:50px;text-transform:lowercase;padding-left:2px;width:210px;}
-.wrap .top header .amp{font-style:italic;}
-.wrap .top header a{color:#222222;}
-.wrap .top header a:hover{color:#e50053;}
-.wrap .top nav{font:normal 18px/50px 'OFL Sorts Mill Goudy','OFL Sorts Mill Goudy TT',serif;text-align:right;text-transform:lowercase;padding-right:2px;width:398px;float:left;}
-.wrap .top nav .sep{padding:0 4px;color:#666;}
-.wrap .hr{margin-top:-12px;margin-bottom:37px;height:25px;background:transparent url('/hr.png') top left no-repeat;}
-.wrap .hrb{height:25px;margin-top:50px;background:transparent url('hrb.png') top left no-repeat;}
+.wrap{width:900px;margin:0 auto;margin-bottom:5em;position:relative;}
+.wrap .content{width:680px;margin-left:220px;border-left:2px solid whiteSmoke;padding-left:20px;}
+.wrap .side{width:200px;position:fixed;text-align:right;}
+.wrap .side header{font-family:"Droid Serif",sans-serif;font-size:23px;line-height:50px;text-transform:lowercase;padding-left:2px;}
+.wrap .side header .amp{font-style:italic;}
+.wrap .side header a{font-size:30px;text-transform:capitalize;color:#222222;-webkit-transition:color 0.5s ease-out 0s;-moz-transition:color 0.5s ease-out 0s;-o-transition:color 0.5s ease-out 0s;transition:color 0.5s ease-out 0s;}
+.wrap .side header a:hover{color:#e11d30;}
+.wrap .side nav{font:normal 18px/50px "Droid Serif",sans-serif;text-align:right;text-transform:lowercase;padding-right:2px;}
+.wrap .side nav .sep{padding:0 4px;color:#666;}
 .wrap footer{font-size:14px;font-style:italic;line-height:50px;text-align:center;}
 blockquote{border:1px solid #ccc;background-color:#fafafa;padding:11px 15px 12px;margin-left:2em;overflow:auto;}
 blockquote p:last-child{margin-bottom:0;}
@@ -143,4 +148,4 @@ blockquote p:last-child{margin-bottom:0;}
 #post-content.with-diagrams img{display:block;margin:25px auto;padding:0;background:none;border:none;}
 .print-links{display:none;}
 img.self{border:none;padding:0;margin:0;margin-right:-108px;margin-top:-15px;margin-left:30px;margin-bottom:20px;}
-#scrolling-header{color:#999;font-size:23px;font-style:italic;font:italic 23px 'OFL Sorts Mill Goudy','OFL Sorts Mill Goudy TT',serif;line-height:30px;position:fixed;top:75px;text-align:right;width:180px;}
+#scrolling-header{color:#999;font-size:23px;font-style:italic;font:italic 23px "Droid Serif",sans-serif;line-height:30px;position:fixed;top:75px;text-align:right;width:180px;}

@@ -5,7 +5,9 @@ layout: default
   <div id="post-title">
     <h1>{{ page.title }}</h1>
   </div>
-  <div id="post-stats"></div>
+  <div id="post-stats">
+    <p>Posted on {{ post.date | date_to_string }}</p>
+  </div>
   <div id="post-content">
     {{ content }}
   </div>

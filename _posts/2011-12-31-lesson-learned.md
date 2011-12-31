@@ -8,7 +8,7 @@ title: Lesson Learned
   Making decision is hard, but stick with it is much harder. when I was struggling with self-doubt and fear, I developed two ways to sustain myself: **feed your motivation** with [Qotto](quote.yangchenyun.com) and **always take actions**.
 
 ###The Full Story
-  After the first thrilling week after I dived into computer science, things tend out to be much more difficult than I thought before. It's as if without preparation I walked into a Arabic village with a map full of mystical symbols which seems to contain the biggest secret of the city. I started with the simpliest ones, tried to understand it through searching and asking.
+  After the first thrilling week after I dived into computer science, things turned out to be much more difficult than I thought before. It's as if without preparation I walked into a Arabic village with a map full of mystical symbols which seems to contain the biggest secret of the city. I started with the simpliest ones, tried to understand it through searching and asking.
 
   After I have acquired the basic knowledge, I soon realized that there are more areas I need to explore, the map I had is just the entrance of a much bigger world. From times to times, I received news about this bigger world. The more news I heart about it, the eager I wanted to see it, the more frustrating I became - because it is far away from where I am.
 
@@ -53,8 +53,8 @@ title: Lesson Learned
   To prevent taking action, I will ask another question against it - 'will you do it one month later? six month later? one year later?' It the answer is no, I won't start it because I cannot sustain myself until I finished it.
 
 
-##Lesson 5: Slow, Slow, Slow
+##Lesson 4: Slow, Slow, Slow
 
 
-##Lesson 3: Be careful about 'Opportunity'
+##Lesson 5: Be careful about 'Opportunity'
 [Lessons learned from ele.me]

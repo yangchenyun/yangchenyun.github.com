@@ -1,55 +1,50 @@
 ---
 layout: post
 title: Annual Review
+date: 2011-12-31
 ---
-##Statistic Summary
+##A Successful Change
 
-I have recorded my time usage in 43 weeks this year and in total I have recorded 2175 hours in which 2403 pomodros are used on tasks. In average everyday I use 6.84 hours and 8.36 pomodoros.
+  2011 is crucial to me. Straying away from my Economics background, I started learning web design and development from scratch and ended up with a result better than my expectation.
 
-##Overall Performance
+###Highlights
 
-  2011 is an crucial year for me. I strayed away from my Economics background and started carving out my way to become "a person who creates something useful". I chose the web as the first field to explore.
+  On March 14th, I made a [presentation][link_to_adult_learning] at Barcamp Shanghai talking about what hinders adult learning and I met Peter and later the whole TEDxFSS team.
 
-  I planned one year to develop enough skills to start working but the result turned out much better than my expectation. In April, I built the website and contributed to the design work of the TEDxFiveStarSquare which is pulled off by a great team. Later I joined in an energetic start-up and created their order-processing web-application for restaurants and contributed to the new website redesign and later re-factored its architecture in a modularized way.
+  On May 15th, I designed and deployed [[the site of TEDxFiveStarSquare]] and later designed the banner, poster and screen for the event. This solidates my confidence to deliver design and development work.
 
-  I have developed enough skills and knowledge for frontend design/development and some fundamental skills for system administration. (Read more on [Technology Development Reviews])
+  On June 7th, I started the [Napos](http://ele.me/napos.php) project in [ELEME](http://ele.me) and later I joined the team and took charge of UI design and frontend development.
 
-  The progress is mostly due to the [personal management system] I developed to manage my times and goals. It helps me to persist and focus on the most important stuff day in day out.
+  On August 21th, I made a [speech](link_to_tedxyouth) about making a change in your life at TEDxYouth West-lake.
 
-  However, on the other aspects of my life, things doesn't work out as expected. Mostly due to my work, English learning had been paused in the second half year, travel plan to Southern Asia was canceled. And I am still suffering from anxieties and depression from time to time and getting up early still eludes me. The worst might be the backbone aches I began to experience late of the year.
+###Excerpt of 2011
 
-  From the ups and downs of 2011, I also learned a lot [Lessons] and ready to [Move Forward].
+  I expected one year preparation before I could deliver qualified projects. But the first website was accomplished after five months of learning. I built [the website of TEDxFiveStarSquare(TEDxFSS)](http://tedxfivestarsquare.com, "Link to TEDxFiveStarSquare Website") and later contributed to the design of the whole event. With the help of a great team, we pull off the only one [TEDx Event][link_to_tedxfss_event] in Shanghai. ![TEDxFiveStarSquare Logo](/images/tedxfss_logo.jpg)
 
-##Highlights
-  March 14th, I made a [[presentation]] talking about what hinders adult learning at Barcamp Shanghai. This is also the place where I met Peter and later the whole TEDxFSS team
+  After that, I joined in a start-up company and created a [webapp](http://ele.me/napos.php, "Link to Eleme Napos") for restaurants and contributed to the [new website](http://ele.me/at/entry/1) redesign and later led the frontend development.
 
-  May 15th, I designed and deployed [[the site for TEDxFiveStarSquare]] and later designed the banner/poster/screen for the event. This is my first attempt for design and development.
+  Thanks to the people I worked with, I also have fallen in love with Unix and learned to setup various backend service. A summay on technology learned will cover this geeky issue.
 
-  June 7th, I started the Napos project with [ELEME](http://ele.me) and later on August 24th, I joined the team in charge of UI design and frontend development. This is the most effective team I met ever before - energetic, down-to-earth and hard work. I gained valuable project experience with the development.
+  The progress is mostly due to the [personal management system][link_to_personal_management_system] I have developed to manage my times and goals. In 2011, I recorded 7.58 hours and worked with focus 4.18 hours everyday.
 
-  August 21th, I did a [[presentation]] about making a change in your life at TEDxYouth West-lake.
+  However in other aspects, things haven't worked out as expected. Due to my work English learning have been paused in the second half year and travel plan to Southern Asia was canceled. Besides I have been suffering from anxieties from time to time and getting up early still eludes me.
 
-  November 26th, I decided to leave ELEME as I have a quite different methodology to make things tick with the team and I found I my health, production output and learning progress all declined after I joined the team.
+  From the ups and downs of 2011, I learned a lot [Lessons][link_to_lesson] and I am thinking about [move forward][link_to_move_forward].
 
-##Detailed Review
+##A More Close Look at 2011
 
 ###English Writing
-  The biggest achievement for English study is that I developed a memorizing system with [[Supermemo]] methodology for learning. I collected sentences and words from my reading and quoted the detailed explanation in that context from dictionaries. Later this collection will be transformed into Supermemo items (with the format of xml) through a script I wrote myself. Supermemo will take care of the daily drills to make sure I will remember those I come across before.
+  The biggest achievement for English study is that I have developed a memorizing system with [Supermemo][link_to_supermemo] methodology for learning. I collected sentences and words from my reading and quoted the detailed explanation in that context from dictionaries. Later this collection was transformed into Supermemo items (with the format of xml) through a script. The [Supermemo software][link_to_supermemo_software] then took care of the repeatation plans.
 
-  Through out the year, this is what I have remembered:
+  Through out the year, I have remembered **2151** sentences, **1412** Nouns, **441** oral phrases and **2477** words spelling.
 
-  * Words usage in 2151 sentences;
-  * 1412 Nouns;
-  * 441 oral phrases;
-  * 2477 words spelling.
+  The repetition plans are calculated according to the supermemo algorithm which makes sure I will remember what I have learned. The learning effort becomes accumulative.
 
-  The system makes my learning accumulative, the drills are planned out according to the supermemo algorithm which makes sure I will remember what I have learned.
+  Although working out well, the performance still has fallen half short of the goals because I had paused learning new words in the 2nd half year due to my work. A initial habit breaking in June finally led to a permanent stop. In November, I had more than 3000 drills need to be caught up with.
 
-  Although working out well, the performance still far fell short of the goals I set in the beginning of the year as I paused learning new words in the 2nd half year due to my work. The urgency of work is much higher than supermemo drills, and I started to postpone some drills in June and this initial habit breaking leads to a permanent stop. At the end of the year, I had more than 3000 drills need to be catch up with.
+  For the same reason, I also missed the goals for English reading and writing.
 
-  Under the same reason, I also missed the goals for English reading and writing.
-
-  I plan to write 15 publishable articles (20,000 words) this year but I ended up in only [[the one]] I wrote for Barcamp. I plan to read through 10 non-tech English books but I didn't archive it. There are around ten books I have touched this year but I didn't finish all of them.
+  I planned to write 15 publishable articles (20,000 words) but I only ended up in only [one][link_to_adult_learning] and some drafts. I also missed the goal to finish 10 non-tech English books. There are about ten books I have opened this year but I didn't finish all of them.
 
   * Hermann Hesse - <Siddhartha> listened several times with audio version.
   * Rilke - <Letters To A Young Poet> read through
