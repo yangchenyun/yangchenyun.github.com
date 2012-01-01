@@ -21,7 +21,7 @@ date: 2011-12-31 21:00
 
   To deal with the fear and doubt, I developed the [Qotto](quote.yangchenyun.com) to provide inspiration for me. I set it as my default browser page and feed motivation throughout the day.
 
-  Whenever I feel overwhelmed by self-doubt, I force myself to do something - begin reading one or two pages, write several lines of code or write down the fear and doubt.![My yelling self](/images/yelling.jpg) The actions I took always provide me some positive feedback, this feedback makes me feel better.
+  ![My yelling self](/images/yelling.jpg)Whenever I feel overwhelmed by self-doubt, I force myself to do something - begin reading one or two pages, write several lines of code or write down the fear and doubt.The actions I took always provide me some positive feedback, this feedback makes me feel better.
 
 ##Lesson 2: Don't avoid the boring work
 

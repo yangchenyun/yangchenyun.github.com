@@ -19,7 +19,8 @@ date: 2011-12-31 23:00
 
 ###Excerpt of 2011
 
-  I expected one year preparation before I could deliver qualified projects. But the first website was accomplished after five months of learning. I built [the website of TEDxFiveStarSquare(TEDxFSS)][link_to_tedxfss_site] and later contributed to the design of the whole event. With the help of a great team, we pull off the only one [TEDx Event][link_to_tedxfss_event] in Shanghai. ![TEDxFiveStarSquare Logo](/images/tedxfss_logo.jpg)
+  ![TEDxFiveStarSquare Logo](/images/tedxfss_logo.png)
+  I expected one year preparation before I could deliver qualified projects. But the first website was accomplished after five months of learning. I built [the website of TEDxFiveStarSquare(TEDxFSS)][link_to_tedxfss_site] and later contributed to the design of the whole event. With the help of a great team, we pull off the only one [TEDx Event][link_to_tedxfss_event] in Shanghai.
 
   After that, I joined in a start-up company and created a [webapp][link_to_napos] for restaurants and contributed to the [new website][link_to_eleme] redesign and later led the frontend development.
 
