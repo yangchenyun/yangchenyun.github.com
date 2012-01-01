@@ -3,7 +3,6 @@ layout: post
 title: Lesson Learned
 date: 2011-12-31 21:00
 ---
-
 ##Lesson 1: Know How to Sustain Yourself
 
   Making decision is hard, but stick with it is much harder. when I was struggling with self-doubt and fear, I developed two ways to sustain myself: **feed your motivation** with [Qotto](quote.yangchenyun.com) and **always take actions**.
