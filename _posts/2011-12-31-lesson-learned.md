@@ -17,11 +17,12 @@ date: 2011-12-31 21:00
   The excitement and thrilling hope soon subsided. Fear and doubt began to accumulate and finally dominated myself. I was worn out. There comes the time when I found myself ulterly useless. I was 24 and I cannot even feed myself. I tried to carve out in a new field but didn't know whether I am on the right track. Not to mention the endless road I am walking on.
   Is it time to give up?
 
+  ![My yelling self](/images/yelling.jpg)
   I had no answer to that question. All I know is that I have chosen a novel fields to explore and if I gave up and started to explore I had to experience the same frustration. If this **pattern** couldn't be overcome, I will go nowhere further than where I am. I had to sustain myself and keep on walking.
 
   To deal with the fear and doubt, I developed the [Qotto](quote.yangchenyun.com) to provide inspiration for me. I set it as my default browser page and feed motivation throughout the day.
 
-  ![My yelling self](/images/yelling.jpg)Whenever I feel overwhelmed by self-doubt, I force myself to do something - begin reading one or two pages, write several lines of code or write down the fear and doubt.The actions I took always provide me some positive feedback, this feedback makes me feel better.
+  Whenever I feel overwhelmed by self-doubt, I force myself to do something - begin reading one or two pages, write several lines of code or write down the fear and doubt.The actions I took always provide me some positive feedback, this feedback makes me feel better.
 
 ##Lesson 2: Don't avoid the boring work
 

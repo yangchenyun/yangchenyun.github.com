@@ -10,7 +10,7 @@ permalink: /about/
 
   After one year, I learned to deliver websites with a focus on minimal design and clear information structure.
 
-  I led the UI design and frontend development at a start-up([site](http://ele.me/at/entry/1),[webapp](http://ele.me/napos.php)) before December, 2011.
+  I led the UI design and frontend development at a start-up([site](http://ele.me/at/entry/1),[webapp](http://ele.me/napos.php)) in 2011.
 
   I also collect [inspiration](http://quote.yangchenyun.com) to keep myself motivated and love volunteer working at [TEDxFSS](http://tedxfivestarsquare.com).
 
@@ -32,8 +32,8 @@ permalink: /about/
 
   I will write about two topics in the future:
 
-  * The methods I used for learning([this one](http://http://ge.tt/3XTYjJg)) and keep myself productive.
+  * The methods I used for learning([such as this one](http://http://ge.tt/3XTYjJg)) and keep myself productive.
 
-  * Knowledge about frontend development and usage of `javaScript`
+  * Knowledge about frontend development and usage of `javaScript`.
 
   This site is created with [Jekyll](http://github.com/mojombo/jekyll) and hosted on [github](http://github.com).

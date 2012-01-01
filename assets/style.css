@@ -133,16 +133,16 @@ body p code,body li code{border:1px solid #ccc;background-color:#fafafa;font-siz
 .wrap .side header .amp{font-style:italic;}
 .wrap .side header a{font-size:30px;text-transform:capitalize;color:#222222;-webkit-transition:color 0.5s ease-out 0s;-moz-transition:color 0.5s ease-out 0s;-o-transition:color 0.5s ease-out 0s;transition:color 0.5s ease-out 0s;}
 .wrap .side header a:hover{color:#e11d30;}
-.wrap .side nav{font:normal 18px/50px "Droid Serif",sans-serif;text-align:right;text-transform:lowercase;padding-right:2px;}
+.wrap .side nav{font:normal 18px/50px "Droid Serif",sans-serif;text-align:right;text-transform:lowercase;padding-right:2px;}.wrap .side nav a{text-transform:capitalize;}
 .wrap .side nav .sep{padding:0 4px;color:#666;}
 .wrap footer{font-size:14px;font-style:italic;line-height:35px;text-align:center;}.wrap footer .copyright{position:absolute;right:0;color:#aaa;}
 blockquote{border:1px solid #ccc;background-color:#fafafa;padding:11px 15px 12px;margin-left:2em;overflow:auto;}
 blockquote p:last-child{margin-bottom:0;}
 #post-stats p{color:#666;margin-top:-22px;margin-bottom:22px;}
-#post-content img{-webkit-box-shadow:1px 2px 7px #777777;-moz-box-shadow:1px 2px 7px #777777;box-shadow:1px 2px 7px #777777;-ms-filter:progid:DXImageTransform.Microsoft.Shadow(color=#777777,direction=125,strength=2);filter:progid:DXImageTransform.Microsoft.Shadow(color=#777777,direction=125,strength=2);float:right;margin:0 0 15px 15px;}
-#post-content img.left,#post-content img.right{border:none;background:none;padding:none;}
-#post-content img.left{float:left;margin:0 15px 15px 0;}
-#post-content img.right{margin:0 0 15px 15px;}
+body img{-webkit-box-shadow:1px 2px 7px #777777;-moz-box-shadow:1px 2px 7px #777777;box-shadow:1px 2px 7px #777777;-ms-filter:progid:DXImageTransform.Microsoft.Shadow(color=#777777,direction=125,strength=2);filter:progid:DXImageTransform.Microsoft.Shadow(color=#777777,direction=125,strength=2);float:right;margin:0 0 15px 15px;}
+body img.left,body img.right{border:none;background:none;padding:none;}
+body img.left{float:left;margin:0 15px 15px 0;}
+body img.right{margin:0 0 15px 15px;}
 #post-content .gallery img{background:none;padding:0;border:none;display:inline;margin-bottom:25px;margin-right:25px;}
 #post-content .toc ul{list-style:none;}
 #post-content .toc ul:first-child>li{margin-left:0em;}
