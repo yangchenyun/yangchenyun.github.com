@@ -2,6 +2,7 @@
 layout: post
 title: Annual Review 2011
 date: 2011-12-31 23:11
+keywords: annual review, 2012 review, life changes, ELEME, TEDxFivestarsquare, TEDxFSS, 饿了么, 年度小结, 个人总结
 ---
 ##A Successful Turning of Life
 

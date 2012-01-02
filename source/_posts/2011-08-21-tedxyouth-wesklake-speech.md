@@ -2,10 +2,11 @@
 layout: post
 title: Speech at TEDxYouth Westlake
 date: 2011-08-21
+keywords: TEDx, TEDxYouth, TEDxWestlake, Hangzhou, Speech, Talk, Life changes
 ---
 ##What Holds Us Back from Changes
 
-![TEDxFiveStarSquare Logo](/images/tedxwl_logo.png){:class="right"}
+![TEDxWestlake Logo](/images/tedxwl_logo.png){:class="right"}
 This is the a talk I made at [TEDxYouth WeskLake][link_to_tedxyouth] on August 21th 2011.
 
 I talked about lessons learned from my experience to change career path from Economics background to web designer and developer in 301 days.
