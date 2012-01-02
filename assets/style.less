@@ -220,12 +220,33 @@ body p code, body li code {
 }
 
 blockquote {
-  border: 1px solid #ccc;
+  font-size: 22px;
+  line-height: 26px;
+  font-style: italic;
+/*  border: 1px solid #ccc;
   background-color: #fafafa;
   padding: 11px 15px 12px;
   margin-left: 2em;
-  overflow: auto;
+  overflow: auto;*/
 }
+
+blockquote p {
+  quotes: "\201c" "\201d";
+}
+
+blockquote p:first-of-type {
+  text-indent: 0;
+}
+blockquote p::before {
+  content: open-quote;
+}
+blockquote p::after {
+  content: no-close-quote;
+}
+blockquote p:last-of-type::after {
+  content: close-quote;
+}
+
 blockquote p:last-child {
   margin-bottom: 0;
 }

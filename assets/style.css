@@ -136,7 +136,12 @@ body p code,body li code{border:1px solid #ccc;background-color:#fafafa;font-siz
 .wrap .side nav{font:normal 18px/50px "Droid Serif",sans-serif;text-align:right;text-transform:lowercase;padding-right:2px;}.wrap .side nav a{text-transform:capitalize;}
 .wrap .side nav .sep{padding:0 4px;color:#666;}
 .wrap footer{font-size:14px;font-style:italic;line-height:35px;text-align:center;}.wrap footer .copyright{position:absolute;right:0;color:#aaa;}
-blockquote{border:1px solid #ccc;background-color:#fafafa;padding:11px 15px 12px;margin-left:2em;overflow:auto;}
+blockquote{font-size:22px;line-height:26px;font-style:italic;}
+blockquote p{quotes:"\201c" "\201d";}
+blockquote p:first-of-type{text-indent:0;}
+blockquote p::before{content:open-quote;}
+blockquote p::after{content:no-close-quote;}
+blockquote p:last-of-type::after{content:close-quote;}
 blockquote p:last-child{margin-bottom:0;}
 #post-stats p{color:#666;margin-top:-22px;margin-bottom:22px;}
 body img{-webkit-box-shadow:1px 2px 7px #777777;-moz-box-shadow:1px 2px 7px #777777;box-shadow:1px 2px 7px #777777;-ms-filter:progid:DXImageTransform.Microsoft.Shadow(color=#777777,direction=125,strength=2);filter:progid:DXImageTransform.Microsoft.Shadow(color=#777777,direction=125,strength=2);float:right;margin:0 0 15px 15px;}
