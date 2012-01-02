@@ -107,7 +107,6 @@ date: 2011-12-31 23:11
 
   This shift in sleeping hours dispairs my sleeping quality and I felt a decline in endurance and time of focus when I am working.
 
-
 [link_to_eleme]: http://ele.me/at/entry/1
 [link_to_napos]: http://ele.me/napos.php "Link to Eleme Napos"
 [link_to_tedxfss_site]: http://tedxfivestarsquare.com

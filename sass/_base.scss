@@ -1,8 +1,8 @@
 @import "compass/css3";
 
-/*$body-font: ~"'OFL Sorts Mill Goudy', 'OFL Sorts Mill Goudy TT', sans-serif";*/
-/*$body-font: "Latine", sans-serif;*/
-$body-font: "Droid Serif", sans-serif;
+/*$head-font: ~"'OFL Sorts Mill Goudy', 'OFL Sorts Mill Goudy TT', sans-serif";*/
+/*$head-font: "Latine", sans-serif;*/
+$head-font: "Droid Serif", Palatino, "Palatino Linotype", sans-serif;
 
 //White Theme
 $tint: #E11d30; //#252fd7; //#e50053;
@@ -10,14 +10,13 @@ $text: #222;
 $bg: #e7e8e8 url(/images/noise.jpg);
 
 //Black Theme
-/*$tint: #E11D30;
-$text: #eee;
-$bg: #343535;*/
+// $tint: #E11D30;
+// $text: #eee;
+// $bg: #343535;
 
 html {
   overflow-y: scroll;
 }
-
 
 body {
   color: $text;
@@ -54,7 +53,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $body-font;
+  font-family: $head-font;
   font-weight: normal;
 }
 
@@ -172,7 +171,7 @@ body p code, body li code {
 }
 
 .wrap .side header {
-  font-family: $body-font;
+  font-family: $head-font;
   font-size: 23px;
   line-height: 50px;
   text-transform: lowercase;
@@ -196,7 +195,7 @@ body p code, body li code {
 }
 
 .wrap .side nav {
-  font: normal 18px/50px $body-font;
+  font: normal 18px/50px $head-font;
   text-align: right;
   text-transform: lowercase;
   padding-right: 2px;
@@ -326,7 +325,7 @@ img.self {
   color: #999;
   font-size: 23px;
   font-style: italic;
-  font: italic 23px $body-font;
+  font: italic 23px $head-font;
   line-height: 30px;
   position: fixed;
   top: 75px;
@@ -334,3 +333,14 @@ img.self {
   width: 180px;
 }
 
+.addthis_toolbox {
+  line-height:40px;
+}
+
+.addthis_default_style > div > a {
+  float:right !important;
+}
+
+.fb_iframe_widget iframe {
+  width:46px !important;
+}
