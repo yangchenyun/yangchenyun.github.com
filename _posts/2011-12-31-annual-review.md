@@ -26,7 +26,7 @@ date: 2011-12-31 23:00
 
   Thanks to the people I worked with, I also have fallen in love with Unix and learned to setup various backend service. A summary on technology learned will cover this geeky issue.
 
-  The progress is mostly due to the personal management system I have developed to manage my times and goals. In 2011, I **recorded 7.58 hours** and worked with focus **4.18 hours everyday**.
+  The progress is mostly due to the [personal management system][link_to_pms_article] I have developed to manage my times and goals. In 2011, I **recorded 7.58 hours** and worked with focus **4.18 hours everyday**.
 
   However in other aspects, things haven't worked out as expected. Due to my work English learning have been paused in the second half year and travel plan to Southern Asia was canceled. Besides I have been suffering from anxieties from time to time and getting up early still eludes me.
 
@@ -72,9 +72,10 @@ date: 2011-12-31 23:00
 
   I set travel the highest priority in the planning, but along the time, I found becoming a good developer and designer motivates me much more than travel. Near the end of year [Nancy from ScentLibrary][link_to_nancy_speech]{:target="_blank"} also asked me "Why are you travel?". It makes me powder my motivation underneath - exploration is just a process not a goal, so what is my ultimate goal of living?
 
-  This stunning question a clue I need to follow.
+  This stunning question provides a clue I need to follow.
 
 ###Physical Training and Habit
+
 ####Personal Management System
   The corner stone for all my growth is the time management system I invented by combining the methods of GTD, [Pomodoro][link_to_pomodoro]{:target="_blank"} and [Lyubishchev][link_to_Lyubishchev]{:target="_blank"}. I used GTD method to setup top-down goals and break them down to single tasks. Everyday I cleared my task stack one by one. At last, I recorded and audited my time spending to detect spaces for improvement. I edited the sheet created by [Chris@ANOC][link_to_aonc]{:target="_blank"} and I invented my own sheet for weekly and daily planning. You could find the whole toolkit [here][link_to_pms_sheet]{:target="_blank"}.
 
@@ -115,6 +116,7 @@ date: 2011-12-31 23:00
 [link_to_my_tedx_video]: http://www.tudou.com/programs/view/juhnvWn997s/ "My TEDxYouth Talk"
 [link_to_tedx_article]: /2011/08/tedxyouth-wesklake-speech/
 [link_to_tedxfss_event]: http://www.sxn.me/gallery/#/Gallery/TEDx%20FiveStarSquare%202011%20-%20May%2015%202011 "TEDxFSS Event"
+[link_to_pms_article]: /2011/12/annual-review/#personal-management-system "section of personal management system"
 [link_to_lesson]: /2011/12/lesson-learned/ "Lesson I have learned"
 [link_to_supermemo]: http://www.supermemo.com/english/princip.htm "Supermemo methods"
 [link_to_pdf_view]: http://www.tracker-software.com/product/pdf-xchange-viewer "PDF-XChange Viewer"
