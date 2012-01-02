@@ -199,7 +199,7 @@ body p code, body li code {
   text-align: right;
   text-transform: lowercase;
   padding-right: 2px;
-
+  line-height:30px;
   a {
     text-transform: capitalize;
   }
@@ -288,12 +288,16 @@ body img.right {
   margin-bottom: 25px;
   margin-right: 25px;
 }
-#post-content .toc ul {
+#post-content #markdown-toc ul {
   list-style: none;
+  li {
+    margin-left: 1.5em;
+  }
 }
-#post-content .toc ul:first-child > li {
+#post-content #markdown-toc ul:first-child > li {
   margin-left: 0em;
 }
+
 #post-content.with-diagrams img {
   display: block;
   margin: 25px auto;
@@ -333,6 +337,8 @@ img.self {
   width: 180px;
 }
 
+
+// 3rd Party Stylesheets Rewriting
 .addthis_toolbox {
   line-height:40px;
 }

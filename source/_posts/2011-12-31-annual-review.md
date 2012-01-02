@@ -4,6 +4,9 @@ title: Annual Review 2011
 date: 2011-12-31 23:11
 keywords: annual review, 2012 review, life changes, ELEME, TEDxFivestarsquare, TEDxFSS, 饿了么, 年度小结, 个人总结
 ---
+* Table of Content
+{:toc}
+
 ##A Successful Turning of Life
 
   2011 is crucial to me. Straying away from my Economics background, I started learning web design and development from scratch and ended up with a result better than my expectation.
@@ -62,7 +65,7 @@ keywords: annual review, 2012 review, life changes, ELEME, TEDxFivestarsquare, T
 ###Web Design and Computer Science
   I wanted myself to be a "qualified web designer" in the beginning of the year and thanks to my full-time work in the second half year I have exceeded this goal by all means.
 
-  I have acquired all the core skills I planned to master - `HTML5`, `CSS`, `javaScript` and created five sites. Besides, I also have switched my workspace to Unix (FreeBSD in specific), learned to setup servers (HTTP, SSH etc.), learned basic `Ruby` scripting and also contributed [a little back to the community][link_to_stackoverflow]{:target="_blank"}.
+  I have acquired all the core skills I planned to master - `HTML5`, `CSS`, `javaScript` and created five sites. Besides, I also have switched my workspace to Unix (MacOS and Ubuntu), learned to setup servers (HTTP, SSH etc.), learned basic `Ruby` scripting and also contributed [a little back to the community][link_to_stackoverflow]{:target="_blank"}.
 
   Beyond the details of various technology, I began to form a big picture about the whole "web stack" - how a browser renders to a user based on HTTP response processed by the server. This guide map now provides me a clear clue about what I need to learn in the future.
 
