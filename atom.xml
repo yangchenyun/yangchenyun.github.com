@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
-  <link href="http://yangchenyun.github.com/atom.xml" rel="self"/>
-  <link href="http://yangchenyun.github.com/"/>
-  <updated>2012-01-02T21:55:26+08:00</updated>
-  <id>http://yangchenyun.github.com/</id>
+  <title><![CDATA[Steven Yang's Blog | 杨晨昀]]></title>
+  <link href="http://blog.yangchenyun.com/atom.xml" rel="self"/>
+  <link href="http://blog.yangchenyun.com/"/>
+  <updated>2012-01-03T00:29:00+08:00</updated>
+  <id>http://blog.yangchenyun.com/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Steven Yang]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Annual Review 2011]]></title>
-    <link href="http://yangchenyun.github.com/2011/12/annual-review/"/>
-    <updated>2011-12-31T23:00:00+08:00</updated>
-    <id>http://yangchenyun.github.com/2011/12/annual-review</id>
+    <link href="http://blog.yangchenyun.com/2011/12/annual-review/"/>
+    <updated>2011-12-31T23:11:00+08:00</updated>
+    <id>http://blog.yangchenyun.com/2011/12/annual-review</id>
     <content type="html"><![CDATA[<h2 id="a-successful-turning-of-life">A Successful Turning of Life</h2>
 
 <p>2011 is crucial to me. Straying away from my Economics background, I started learning web design and development from scratch and ended up with a result better than my expectation.</p>
@@ -30,22 +30,22 @@
 
 <p>On June 7th, I started the <a href="http://ele.me/napos.php" title="Link to Eleme Napos" target="_blank">Napos</a> project at <a href="http://ele.me/at/entry/1" target="_blank">Eleme</a> and later I joined the team and took charge of UI design and frontend development.</p>
 
-<p>On August 21th, I made a <a href="http://yangchenyun.github.com/2011/08/tedxyouth-wesklake-speech/" target="_blank">speech</a> on TEDxYouth Westlake about making a change in your life at TEDxYouth West-lake.</p>
+<p>On August 21th, I made a <a href="http://blog.yangchenyun.com/2011/08/tedxyouth-wesklake-speech/" target="_blank">speech</a> on TEDxYouth Westlake about making a change in your life at TEDxYouth West-lake.</p>
 
 <h3 id="excerpt-of-2011">Excerpt of 2011</h3>
 
-<p><img src="http://yangchenyun.github.com/images/tedxfss_logo.png" alt="TEDxFiveStarSquare Logo" class="left" />
+<p><img src="http://blog.yangchenyun.com/images/tedxfss_logo.png" alt="TEDxFiveStarSquare Logo" class="left" />
   I expected one year preparation before I could deliver qualified projects. But the first website was accomplished after five months of learning. I built <a href="http://tedxfivestarsquare.com" target="_blank">the website of TEDxFiveStarSquare(TEDxFSS)</a> and later contributed to the design of the whole event. With the help of a great team, we pull off the only one <a href="http://www.sxn.me/gallery/#/Gallery/TEDx%20FiveStarSquare%202011%20-%20May%2015%202011" title="TEDxFSS Event" target="_blank">TEDx Event</a> in Shanghai.</p>
 
 <p>After that, I joined in a start-up company and created a <a href="http://ele.me/napos.php" title="Link to Eleme Napos" target="_blank">webapp</a> for restaurants and contributed to the <a href="http://ele.me/at/entry/1" target="_blank">new website</a> redesign and later led the frontend development.</p>
 
 <p>Thanks to the people I worked with, I also have fallen in love with Unix and learned to setup various backend service. A summary on technology learned will cover this geeky issue.</p>
 
-<p>The progress is mostly due to the <a href="http://yangchenyun.github.com/2011/12/annual-review/#personal-management-system" title="section of personal management system">personal management system</a> I have developed to manage my times and goals. In 2011, I <strong>recorded 7.58 hours</strong> and worked with focus <strong>4.18 hours everyday</strong>.</p>
+<p>The progress is mostly due to the <a href="http://blog.yangchenyun.com/2011/12/annual-review/#personal-management-system" title="section of personal management system">personal management system</a> I have developed to manage my times and goals. In 2011, I <strong>recorded 7.58 hours</strong> and worked with focus <strong>4.18 hours everyday</strong>.</p>
 
 <p>However in other aspects, things haven’t worked out as expected. Due to my work English learning have been paused in the second half year and travel plan to Southern Asia was canceled. Besides I have been suffering from anxieties from time to time and getting up early still eludes me.</p>
 
-<p>From the ups and downs of 2011, I learned a lot <a href="http://yangchenyun.github.com/2011/12/lesson-learned/" title="Lesson I have learned" target="_blank">lessons</a> and I am thinking about moving forward.</p>
+<p>From the ups and downs of 2011, I learned a lot <a href="http://blog.yangchenyun.com/2011/12/lesson-learned/" title="Lesson I have learned" target="_blank">lessons</a> and I am thinking about moving forward.</p>
 
 <h2 id="a-more-close-look-at-2011">A More Close Look at 2011</h2>
 
@@ -128,16 +128,14 @@ I recorded 1742 hours in the first 30 weeks and only recorded 433 in the later 2
 
 <p>This shift in sleeping hours dispairs my sleeping quality and I felt a decline in endurance and time of focus when I am working.</p>
 
-<p>[link_to_move_forward]</p>
-
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Lesson Learned]]></title>
-    <link href="http://yangchenyun.github.com/2011/12/lesson-learned/"/>
+    <link href="http://blog.yangchenyun.com/2011/12/lesson-learned/"/>
     <updated>2011-12-31T21:00:00+08:00</updated>
-    <id>http://yangchenyun.github.com/2011/12/lesson-learned</id>
+    <id>http://blog.yangchenyun.com/2011/12/lesson-learned</id>
     <content type="html"><![CDATA[<h2 id="lesson-1-know-how-to-sustain-yourself">Lesson 1: Know How to Sustain Yourself</h2>
 
 <p>Making decision is hard, but stick with it is much harder. when I was struggling with self-doubt and fear, I developed two ways to sustain myself: <strong>feed your motivation</strong>(with <a href="http://quote.yangchenyun.com" title="My Quotes" target="_blank">Qotto</a>) and <strong>always take actions</strong>.</p>
@@ -152,7 +150,7 @@ I recorded 1742 hours in the first 30 weeks and only recorded 433 in the later 2
 <p>The excitement and thrilling hope soon subsided. Fear and doubt began to accumulate and finally dominated myself. I was worn out. There comes the time when I found myself ulterly useless. I was 24 and I cannot even feed myself. I tried to carve out in a new field but didn’t know whether I am on the right track. Not to mention the endless road I am walking on.
   Is it time to give up?</p>
 
-<p><img src="http://yangchenyun.github.com/images/yelling.jpg" alt="My yelling self" class="right" />
+<p><img src="http://blog.yangchenyun.com/images/yelling.jpg" alt="My yelling self" class="right" />
   I had no answer to that question. All I know is that I have chosen a novel fields to explore and if I gave up and started to explore I had to experience the same frustration. If this <strong>pattern</strong> couldn’t be overcome, I will go nowhere further than where I am. I had to sustain myself and keep on walking.</p>
 
 <p>To deal with the fear and doubt, I developed the <a href="http://quote.yangchenyun.com" title="My Quotes" target="_blank">Qotto</a> to provide inspiration for me. I set it as my default browser page and feed motivation throughout the day.</p>
@@ -199,13 +197,13 @@ I recorded 1742 hours in the first 30 weeks and only recorded 433 in the later 2
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Talk@TEDxYouth Westlake]]></title>
-    <link href="http://yangchenyun.github.com/2011/08/tedxyouth-wesklake-speech/"/>
+    <title type="html"><![CDATA[Speech at TEDxYouth Westlake]]></title>
+    <link href="http://blog.yangchenyun.com/2011/08/tedxyouth-wesklake-speech/"/>
     <updated>2011-08-21T00:00:00+08:00</updated>
-    <id>http://yangchenyun.github.com/2011/08/tedxyouth-wesklake-speech</id>
+    <id>http://blog.yangchenyun.com/2011/08/tedxyouth-wesklake-speech</id>
     <content type="html"><![CDATA[<h2 id="what-holds-us-back-from-changes">What Holds Us Back from Changes</h2>
 
-<p><img src="http://yangchenyun.github.com/images/tedxwl_logo.png" alt="TEDxFiveStarSquare Logo" class="right" />
+<p><img src="http://blog.yangchenyun.com/images/tedxwl_logo.png" alt="TEDxWestlake Logo" class="right" />
 This is the a talk I made at <a href="http://www.ted.com/tedx/events/3030" title="TEDxYouth Details">TEDxYouth WeskLake</a> on August 21th 2011.</p>
 
 <p>I talked about lessons learned from my experience to change career path from Economics background to web designer and developer in 301 days.</p>
