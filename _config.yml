@@ -2,10 +2,10 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yangchenyun.github.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://blog.yangchenyun.com
+title: Steven Yang's Blog | 杨晨昀
+subtitle: A place to organize my thoughts on personal development and geeky frontend development.
+author: Steven Yang
 simple_search: http://google.com/search
 description:
 
