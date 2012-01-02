@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Talk@TEDxYouth Westlake
+title: Speech at TEDxYouth Westlake
 date: 2011-08-21
 ---
 ##What Holds Us Back from Changes

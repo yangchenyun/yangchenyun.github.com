@@ -126,5 +126,5 @@ date: 2011-12-31 23:11
 [link_to_Lyubishchev]: http://book.douban.com/subject/1115353/ "Lyubishchev's Methods"
 [link_to_aonc]: chrisguillebeau.com/3x5/ "aonc site"
 [link_to_pms_sheet]: http://ge.tt/9Rf7BoB?c "personal management toolkit"
-[link_to_move_forward]
+
 
