@@ -288,10 +288,11 @@ body img.right {
   margin-bottom: 25px;
   margin-right: 25px;
 }
-#post-content #markdown-toc ul {
-  list-style: none;
-  li {
-    margin-left: 1.5em;
+
+#post-content #markdown-toc {
+  list-style:none;
+  ul {
+    list-style: none;
   }
 }
 #post-content #markdown-toc ul:first-child > li {
