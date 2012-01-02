@@ -15,7 +15,7 @@ date: 2011-12-31 23:00
 
   On June 7th, I started the [Napos][link_to_napos]{:target="_blank"} project at [Eleme][link_to_eleme]{:target="_blank"} and later I joined the team and took charge of UI design and frontend development.
 
-  On August 21th, I made a [speech][link_to_my_tedx_video]{:target="_blank"} on TEDxYouth Westlake about making a change in your life at TEDxYouth West-lake.
+  On August 21th, I made a [speech][link_to_tedx_article]{:target="_blank"} on TEDxYouth Westlake about making a change in your life at TEDxYouth West-lake.
 
 ###Excerpt of 2011
 
@@ -113,6 +113,7 @@ date: 2011-12-31 23:00
 [link_to_adult_learning]: http://ge.tt/3XTYjJg? "Presentation about what hinders adult from learning"
 [link_to_tedxyouth]: http://www.ted.com/tedx/events/3030 "TEDxYouth Details"
 [link_to_my_tedx_video]: http://www.tudou.com/programs/view/juhnvWn997s/ "My TEDxYouth Talk"
+[link_to_tedx_article]: /2011/08/tedxyouth-wesklake-speech/
 [link_to_tedxfss_event]: http://www.sxn.me/gallery/#/Gallery/TEDx%20FiveStarSquare%202011%20-%20May%2015%202011 "TEDxFSS Event"
 [link_to_lesson]: /2011/12/lesson-learned/ "Lesson I have learned"
 [link_to_supermemo]: http://www.supermemo.com/english/princip.htm "Supermemo methods"
