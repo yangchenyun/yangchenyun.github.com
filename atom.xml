@@ -4,7 +4,7 @@
   <title><![CDATA[Steven Yang's Blog | 杨晨昀]]></title>
   <link href="http://blog.yangchenyun.com/atom.xml" rel="self"/>
   <link href="http://blog.yangchenyun.com/"/>
-  <updated>2012-01-03T00:29:00+08:00</updated>
+  <updated>2012-01-03T03:24:17+08:00</updated>
   <id>http://blog.yangchenyun.com/</id>
   <author>
     <name><![CDATA[Steven Yang]]></name>
@@ -18,7 +18,26 @@
     <link href="http://blog.yangchenyun.com/2011/12/annual-review/"/>
     <updated>2011-12-31T23:11:00+08:00</updated>
     <id>http://blog.yangchenyun.com/2011/12/annual-review</id>
-    <content type="html"><![CDATA[<h2 id="a-successful-turning-of-life">A Successful Turning of Life</h2>
+    <content type="html"><![CDATA[<ul id="markdown-toc">
+  <li><a href="#a-successful-turning-of-life">A Successful Turning of Life</a>    <ul>
+      <li><a href="#highlights">Highlights</a></li>
+      <li><a href="#excerpt-of-2011">Excerpt of 2011</a></li>
+    </ul>
+  </li>
+  <li><a href="#a-more-close-look-at-2011">A More Close Look at 2011</a>    <ul>
+      <li><a href="#english-writing">English Writing</a></li>
+      <li><a href="#web-design-and-computer-science">Web Design and Computer Science</a></li>
+      <li><a href="#travel">Travel</a></li>
+      <li><a href="#physical-training-and-habit">Physical Training and Habit</a>        <ul>
+          <li><a href="#personal-management-system">Personal Management System</a></li>
+          <li><a href="#physical-training-and-health">Physical Training and Health</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="a-successful-turning-of-life">A Successful Turning of Life</h2>
 
 <p>2011 is crucial to me. Straying away from my Economics background, I started learning web design and development from scratch and ended up with a result better than my expectation.</p>
 
@@ -78,7 +97,7 @@
 <h3 id="web-design-and-computer-science">Web Design and Computer Science</h3>
 <p>I wanted myself to be a “qualified web designer” in the beginning of the year and thanks to my full-time work in the second half year I have exceeded this goal by all means.</p>
 
-<p>I have acquired all the core skills I planned to master - <code>HTML5</code>, <code>CSS</code>, <code>javaScript</code> and created five sites. Besides, I also have switched my workspace to Unix (FreeBSD in specific), learned to setup servers (HTTP, SSH etc.), learned basic <code>Ruby</code> scripting and also contributed <a href="http://stackoverflow.com/users/966437/steven-yang" title="Stackoverflow Profile" target="_blank">a little back to the community</a>.</p>
+<p>I have acquired all the core skills I planned to master - <code>HTML5</code>, <code>CSS</code>, <code>javaScript</code> and created five sites. Besides, I also have switched my workspace to Unix (MacOS and Ubuntu), learned to setup servers (HTTP, SSH etc.), learned basic <code>Ruby</code> scripting and also contributed <a href="http://stackoverflow.com/users/966437/steven-yang" title="Stackoverflow Profile" target="_blank">a little back to the community</a>.</p>
 
 <p>Beyond the details of various technology, I began to form a big picture about the whole “web stack” - how a browser renders to a user based on HTTP response processed by the server. This guide map now provides me a clear clue about what I need to learn in the future.</p>
 
@@ -136,7 +155,18 @@ I recorded 1742 hours in the first 30 weeks and only recorded 433 in the later 2
     <link href="http://blog.yangchenyun.com/2011/12/lesson-learned/"/>
     <updated>2011-12-31T21:00:00+08:00</updated>
     <id>http://blog.yangchenyun.com/2011/12/lesson-learned</id>
-    <content type="html"><![CDATA[<h2 id="lesson-1-know-how-to-sustain-yourself">Lesson 1: Know How to Sustain Yourself</h2>
+    <content type="html"><![CDATA[<ul id="markdown-toc">
+  <li><a href="#lesson-1-know-how-to-sustain-yourself">Lesson 1: Know How to Sustain Yourself</a>    <ul>
+      <li><a href="#the-full-story">The Full Story</a></li>
+    </ul>
+  </li>
+  <li><a href="#lesson-2-dont-avoid-the-boring-work">Lesson 2: Don’t avoid the boring work</a></li>
+  <li><a href="#lesson-3-guard-against-distraction">Lesson 3: Guard Against Distraction</a></li>
+  <li><a href="#lesson-4-slow-slow-slow">Lesson 4: Slow, Slow, Slow</a></li>
+  <li><a href="#lesson-5-be-careful-about-opportunity">Lesson 5: Be careful about ‘Opportunity’</a></li>
+</ul>
+
+<h2 id="lesson-1-know-how-to-sustain-yourself">Lesson 1: Know How to Sustain Yourself</h2>
 
 <p>Making decision is hard, but stick with it is much harder. when I was struggling with self-doubt and fear, I developed two ways to sustain myself: <strong>feed your motivation</strong>(with <a href="http://quote.yangchenyun.com" title="My Quotes" target="_blank">Qotto</a>) and <strong>always take actions</strong>.</p>
 
