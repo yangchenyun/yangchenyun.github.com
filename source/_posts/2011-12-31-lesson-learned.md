@@ -2,6 +2,7 @@
 layout: post
 title: Lesson Learned
 date: 2011-12-31 21:00
+published: false
 ---
 * Table of Content
 {:toc}
@@ -58,11 +59,14 @@ date: 2011-12-31 21:00
   To prevent taking action, I will ask another question against it - 'will you do it one month later? six month later? one year later?' It the answer is no, I won't start it because I cannot sustain myself until I finished it.
 
 
-##Lesson 4: Slow, Slow, Slow
+##Lesson 4: Find Your Own Pace
+  In the first few weeks, I always crammed too much stuff into one single week - I wanted to read half a book, write a post, practice programming skills while learn design ideas. To add all these up, goals were, obvious, unreachable. So I always rushed through the weekwith a frustrating result.
+
+  I soon realized that when I was rushing, I will inevitably miss something.
 
 
 ##Lesson 5: Be careful about 'Opportunity'
-[Lessons learned from ele.me]
+
 
 [link_to_qotto]: http://quote.yangchenyun.com "My Quotes"
 [link_to_adult_learning]: http://ge.tt/3XTYjJg "Presentation about what hinders adult from learning"
