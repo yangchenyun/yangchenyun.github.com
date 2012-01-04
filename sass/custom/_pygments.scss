@@ -1,3 +1,46 @@
+/* ===== Code Styles  ===== */
+body code, body pre {
+  font-family: Consolas, Menlo, "Courier New", monospace;
+  font-size: 14px;
+}
+
+.highlight pre {
+  font-family: Consolas, Menlo, "Courier New", monospace;
+  font-size: 16px;
+  line-height: 25px;
+  overflow-x: auto;
+  border: 1px solid #d5d5d5;
+  border-left: 10px solid #d5d5d5;
+  background-color: #fafafa;
+  padding: 11px 15px 12px;
+  margin-left: -25px;
+}
+.highlight pre::-webkit-scrollbar {
+  height: 25px;
+}
+.highlight pre::-webkit-scrollbar-button:start, .highlight pre::-webkit-scrollbar-button:end {
+  display: none;
+}
+.highlight pre::-webkit-scrollbar-track-piece {
+  background-color: #eee;
+}
+.highlight pre::-webkit-scrollbar-thumb {
+  background-color: #bbb;
+  border: 7px solid #eee;
+  -webkit-background-clip: padding-box;
+  -webkit-border-radius: 12px;
+}
+
+body p code, body li code {
+  border: 1px solid #ccc;
+  background-color: #fafafa;
+  font-size: 13px;
+  padding: 1px 3px;
+  line-height: 20px;
+  margin: 0;
+  white-space: nowrap;
+}
+
 .highlight  { background: #ffffff; }
 .highlight .c { color: #999988; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
