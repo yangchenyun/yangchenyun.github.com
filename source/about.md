@@ -20,17 +20,17 @@ permalink: /about/
 
   >Creating useful things with elegance is what drives me so far.
 
-  By the way, my name is Steven yang graduated from the Zhejiang University with a degree of Economics.
+  By the way, my name is Steven Yang graduated from Zhejiang University with a Bachelor degree in Economics.
 
 ##About the Site
 
-  The site come to existence most for my selfish need.
+  The site come to exist most for selfish reasons.
 
   I want a place to organize the knowledge I acquired day in day out. The process to write a public article forces me to pay attention to details and think problems in structure.
 
   I am learning `Ruby` and the full web stack, so I need a project to drive me through the whole process - how the data on one server is rendered in your browser.
 
-  I will write about two topics in the future:
+  I will write articles about two topics in the future:
 
   * The methods I used for learning([such as this one](http://http://ge.tt/3XTYjJg)) and keep myself productive.
 

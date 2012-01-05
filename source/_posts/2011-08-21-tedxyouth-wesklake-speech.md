@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Speech at TEDxYouth Westlake
+title: Speech at TEDxYouth West Lake
 date: 2011-08-21
 keywords: TEDx, TEDxYouth, TEDxWestlake, Hangzhou, Speech, Talk, Life changes
 ---
