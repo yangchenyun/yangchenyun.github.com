@@ -43,12 +43,12 @@ published: false
 ##Lesson 3: Guard Against Distraction
   Along the year, I recorded 130 new ideas (big or small) and took actions on 43 ones. Some are improvement on what I had been doing and some are sporadic interest in one field. The list covers:
 
-    * Learning Drovak Keyboard
-    * Attend 54 Frequent miles program
-    * Recite <the old man and sea>
-    * Dig into Wordpress
-    * Learning Django
-    * Worked on several side projects
+  * Learning Drovak Keyboard
+  * Attend 54 Frequent miles program
+  * Recite <the old man and sea>
+  * Dig into Wordpress
+  * Learning Django
+  * Worked on several side projects
 
   All of these projects doesn't sustain longer than one month. Thus the time spent is wasted. This is the **cost of distraction**. What if I turned down all of them but focus my time on one project? At least I would have another output which might be useful.
 
@@ -59,13 +59,25 @@ published: false
   To prevent taking action, I will ask another question against it - 'will you do it one month later? six month later? one year later?' It the answer is no, I won't start it because I cannot sustain myself until I finished it.
 
 
-##Lesson 4: Find Your Own Pace
-  In the first few weeks, I always crammed too much stuff into one single week - I wanted to read half a book, write a post, practice programming skills while learn design ideas. To add all these up, goals were, obvious, unreachable. So I always rushed through the weekwith a frustrating result.
+##Lesson 4: Walk at Your Own Pace
+  In the first few weeks, I always crammed too much stuff into one single week - I wanted to read several chapters of a book, write a post, practice programming and design kills. A goal which covers all these was, obvious, unreachable.
 
-  I soon realized that when I was rushing, I will inevitably miss something.
+  After several rushing but frustrating weeks, I gradually discovered my own pace for **each** task. When reading, I need 8 pages/hour to follow a technology book, 12 pages/hour for topics with familarity, 2-3 pages/hour to follow a literature book. When writing, I need 8 hours to produce an article through the process of organizing, writing and polishing up. When doing design work, I need 15-20 hours to find the right tone of the whole project and I need 4-5 hours for individual page/poster design.
 
+  Whenever I rush a task I will inevitably miss something. If I rush at technology learning, I won't have time to exercise. Thus I will end up with only acquaintance with the technology but not practical knowledge. If I rush a literature book, I will miss the subtle nuance of meaning and end up with a fuzzy story outline. If rush my coding, I will copy and paste snippets from others without fully understanding. Thus my skills aren't improved and maintainance work will be painful in the future.
 
-##Lesson 5: Be careful about 'Opportunity'
+  Being slow is in fact being fast. It is natural to begin slowly because there are skills to learn, knowledge to acquire and obstacles to overcome. Being a beginner in a novel field, I couldn't predict the situation with accurancy. I need to learn crawling before I could walk and run. Only after practices at a slow pace, I could get myself accustomed to crawling and it is the time I could get my hands off the ground and start learning walking and then running. Being slow is the necessary process before being fast. Rushing up in the beginning will only trip me up.
+
+##Lesson 5: Identify YOUR "Opportunity"
+  >If you do not find an intelligent companion, a wise and well-behaved person going the same way as yourself, then go on your way alone, like a king abandoning a conquered kingdom, or like a great elephant in the deep forest. - Buddha
+
+  In my second half year, most of my goals are not archieved (English learning, design, backend technology and financial goals), productivity drops and unhappiness arrives. My original direction is diverted to another route. This setback is caused by the fault to mistake "one possible way" for my opportunity.
+
+  Opportunity is a very personal thing. Another people's opportunity isn't necessarily mine as we might have very difference goals. **Opportunity is like the highway which leads to my destination**. There are lots of entrances to different highways. Driving into the wrong ones won't get me closer to my destination.
+
+  To identify the right one, it is essential to have one specific destination. The mistake I made in August is that I was not determined enough to stick to my destination. I was convinced that "being a core team member of a successful project will be a huge booth for my personal goals" and entered this branch 'highway'. It turned out to be so wrong, working with people whose values aren't congruent with mine is a miserable experience.
+
+  This is a costy lesson learned. In 2012, I will lay down the most important goals in the annual plan and use them to prevent the same mistake happenning again.
 
 
 [link_to_qotto]: http://quote.yangchenyun.com "My Quotes"
