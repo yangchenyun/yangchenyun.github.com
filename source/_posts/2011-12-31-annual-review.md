@@ -95,7 +95,7 @@ keywords: annual review, 2012 review, life changes, ELEME, TEDxFivestarsquare, T
 
   * **Always** start your week with a plan.
     When you postponed the planning, I have whiled away my time in 78 days.
-  * Plan loosely, work hardly.
+  * Plan loosely, work hard.
     In the first several weeks, I packed too much tasks into a week. It overwhelmingly exceeded my capacity and resulted in anxiety and frustration.
   * Leave flexible time with planning.
     I find there are always some inevitable sporadic events I need to handle.
