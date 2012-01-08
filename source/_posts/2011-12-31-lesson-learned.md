@@ -4,29 +4,39 @@ title: Lesson Learned
 date: 2011-12-31 21:00
 published: false
 ---
+  The experience I had in 2011 is invaluable. It extends my perception of work and achievement. Some lessons are learned through trial-and-error to improve productivity and some are learned from costly mistakes.
+
 * Table of Content
 {:toc}
 
 ##Lesson 1: Know How to Sustain Yourself
 
-  Making decision is hard, but stick with it is much harder. when I was struggling with self-doubt and fear, I developed two ways to sustain myself: **feed your motivation**(with [Qotto][link_to_qotto]{:target="_blank"}) and **always take actions**.
+###A Frustrating Start
 
-###The Full Story
-  After the first thrilling week after I dived into computer science, things turned out to be much more difficult than I thought before. It's as if without preparation I walked into a Arabic village with a map full of mystical symbols which seems to contain the biggest secret of the city. I started with the simpliest ones, tried to understand it through searching and asking.
+  >Nobody, as long as he moves about among the chaotic currents of life, is without trouble. - Carl Jung
 
-  After I have acquired the basic knowledge, I soon realized that there are more areas I need to explore, the map I had is just the entrance of a much bigger world. From times to times, I received news about this bigger world. The more news I heart about it, the eager I wanted to see it, the more frustrating I became - because it is far away from where I am.
+  After the first thrilling weeks I dived into computer science, things turned out to be much more difficult than I thought before. Without preparation I walked into an obscure reign with a 'map' full of mystical symbols. Soon I realized that there were more areas I need to explore, the 'map' I had was just an entrance to a much bigger world. From this world, I would encounter stunning web products on a daily basis. The more products I saw, the eager I wanted to be part of it and the more frustration I ended up with - I didn't even know how to code down a website.
 
-  Besides the frustrating endless journey, loneliness is another threat. Because I have no experience in this fields, I constantly doubt myself - Am I choose the right way? Am I walking too slowly or too fast? How long will it take to reach the next station? Without an companion, the only effort to comfort myself is to ignore them.
-
-  The excitement and thrilling hope soon subsided. Fear and doubt began to accumulate and finally dominated myself. I was worn out. There comes the time when I found myself ulterly useless. I was 24 and I cannot even feed myself. I tried to carve out in a new field but didn't know whether I am on the right track. Not to mention the endless road I am walking on.
-  Is it time to give up?
+  Besides frustration, self-doubt is another setback. I constantly doubted myself because I had zilch experience in computer science. Am I choose the right technology to learn? Am I learning too slowly? Do I miss something important? How long will it take to reach the next stage? There was no place to find authorized answers. To comfort myself I had to ignore all of them.
 
   ![My yelling self](/images/yelling.jpg){:class="right"}
-  I had no answer to that question. All I know is that I have chosen a novel fields to explore and if I gave up and started to explore I had to experience the same frustration. If this **pattern** couldn't be overcome, I will go nowhere further than where I am. I had to sustain myself and keep on walking.
+  Ignoring didn't solve the problem. As the excitement and confidence subsided, accumulating fear and doubt finally dominated. I was worn out. There comes the time when I found myself utterly useless:
 
-  To deal with the fear and doubt, I developed the [Qotto][link_to_qotto]{:target="_blank"} to provide inspiration for me. I set it as my default browser page and feed motivation throughout the day.
+  A 24-year-old who just start learning web design and development without the ability to feed his own living.
 
-  Whenever I feel overwhelmed by self-doubt, I force myself to do something - begin reading one or two pages, write several lines of code or write down the fear and doubt.The actions I took always provide me some positive feedback, this feedback makes me feel better.
+  What a bum.
+
+###Always Choose to Take Action
+
+  Time to give up?
+
+  I had no answer to that question. All I know was that if I gave up and started in another field I had to experience the same frustration. If this **pattern of problem** couldn't be overcome, I could go nowhere further than where I was. I had to sustain myself and keep on walking.
+
+  >If this **pattern of problem** couldn't be overcome, I could go nowhere further than where I was.
+
+  I need to **protect my motivation** in order to deal with the fear and doubt. Thus I developed [Qotto][link_to_qotto]{:target="_blank"} - a collection of quotes I like. I set it as my default browser tab and feed me inspiration when I feel disheartened.
+
+  I also decided **always choose to take action** when I feel frustrated. Whenever I feel overwhelmed by self-doubt, I force myself to do something - anything from reading one or two pages of a book to making several lines of code work. The actions I took always provide me positive feedback. I learned one or two tips to use a language, make a small piece of code work under my will. However small they were, it convinced me that I was moving forward. And moving forward is the one important to overcome the frustration.
 
 ##Lesson 2: Don't avoid the boring work
 
@@ -69,7 +79,7 @@ published: false
   Being slow is in fact being fast. It is natural to begin slowly because there are skills to learn, knowledge to acquire and obstacles to overcome. Being a beginner in a novel field, I couldn't predict the situation with accurancy. I need to learn crawling before I could walk and run. Only after practices at a slow pace, I could get myself accustomed to crawling and it is the time I could get my hands off the ground and start learning walking and then running. Being slow is the necessary process before being fast. Rushing up in the beginning will only trip me up.
 
 ##Lesson 5: Identify YOUR "Opportunity"
-  >If you do not find an intelligent companion, a wise and well-behaved person going the same way as yourself, then go on your way alone, like a king abandoning a conquered kingdom, or like a great elephant in the deep forest. - Buddha
+  >When it is obvious that the goals cannot be reached, don't adjust the goals, adjust the action steps. - Confucius
 
   In my second half year, most of my goals are not archieved (English learning, design, backend technology and financial goals), productivity drops and unhappiness arrives. My original direction is diverted to another route. This setback is caused by the fault to mistake "one possible way" for my opportunity.
 
