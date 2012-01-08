@@ -40,15 +40,15 @@ published: false
 
 ##Lesson 2: Don't avoid the boring work
 
-  After working on the some personal projects and later in a start-up company, I learned getting the boring things done is necessary to deliver great work.
+  After working on some personal projects and later in a start-up company, I learned that getting the boring parts done is necessary to deliver great work.
 
-  Every task has their 20% exciting and 80% boring part but it is **usually the 80% boring part determines the quality of the work**. It applies to every type of work.
+  For every creative work, the process to form and express an idea is often thrilling and exciting, be it in way of writing, drawing, coding etc. It is then followed by a long and boring process to fix things and polish them up. This sort of work seems not creative. However it is **this boring process determines the quality of the creation**.
 
-  When I was writing [the article][link_to_adult_learning]{:target="_blank"}, there are dull process such as seeking for the right words to express my idea or correct mistakes in spelling, grammar or word usage. The same applies to design. Andy and Dai (two co-workers at ele.me) used more than 60 days to just adjust the color, icons, button shapes, border lines and other details on the iOS app they are developing. Coding is no exception. When start from scratch, it's not about writing the elegant solution right away, it's ususlly about writing a piece of code, testing, editing former code, testing and moving on. After the first workable solution, you will refactor the code every day.
+  Take writing as an example, the first several hours of writing are always thrilling. With several rough points of view, it is easy to type tens of paragraphs on the screen quickly. But then there comes the boring part. The right words need to be found and weighed in order to express ideas with accuracy. The whole structure needs to be balanced - excessive part need be compressed or removed, confused part will be rewritten, weak arguments need to be strengthened. Then mistakes in spelling and grammar need to be spotted and fixed. For me, the polishing up work will often take almost twice the time of writing itself.
 
-  Those boring parts are necessary because they are in the process which guarantees the quality of output. Without word refinement and spell checking, I couldn't deliver it out; without improvement on details, current ele.me iOS app won't be stunning elegant; without continuous refactoring there won't be beautiful code.
+  The same rule applies to coding. An elegant solution isn't found in the beginning. After thinking about a problem, doing some research and weighing several choices, I would rough out a solution to work with. When this creative part is done and coding starts, I need to sketch from writing the first piece of code, making it work, adding another part, making them work together and so on so forth. When the whole pieces are working as expected, I will rewrite it for a modularized structure or solution with better performance and clearer legibility.
 
-  It is the boring parts which separates professionals and amateurs.
+  This repetitive and humdrum process is shared in all kinds of work. **It is often this boring parts separate professionals from amateurs.** We could only take care of one aspect of creation at one time. When writing, the first stage is about pulling ideas out of the head - usually in a mess. The second stage is about fixing it and the third polishing up. It is thrilling and exciting to pulling ideas out, but without the second and third stage, this is only a mass.
 
 ##Lesson 3: Guard Against Distraction
   Along the year, I recorded 130 new ideas (big or small) and took actions on 43 ones. Some are improvement on what I had been doing and some are sporadic interest in one field. The list covers:
