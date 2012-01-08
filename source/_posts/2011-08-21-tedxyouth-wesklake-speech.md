@@ -7,9 +7,9 @@ keywords: TEDx, TEDxYouth, TEDxWestlake, Hangzhou, Speech, Talk, Life changes
 ##What Holds Us Back from Changes
 
 ![TEDxWestlake Logo](/images/tedxwl_logo.png){:class="right"}
-This is the a talk I made at [TEDxYouth WeskLake][link_to_tedxyouth] on August 21th 2011.
+This is the a talk I delivered at [TEDxYouth Wesk Lake][link_to_tedxyouth] on August 21th 2011.
 
-I talked about lessons learned from my experience to change career path from Economics background to web designer and developer in 301 days.
+I talked about lessons learned from my experience to change career path from an background of Economics to web designer and developer in 301 days.
 
   <embed class="" src="http://www.tudou.com/v/juhnvWn997s/v.swf" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" wmode="opaque" width="480" height="360"/>
 
