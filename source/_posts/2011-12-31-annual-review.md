@@ -19,7 +19,7 @@ keywords: annual review, 2012 review, life changes, ELEME, TEDxFivestarsquare, T
 
   On June 7th, I started the [Napos][link_to_napos]{:target="_blank"} project at [Eleme][link_to_eleme]{:target="_blank"} and later I joined the team and took charge of UI design and frontend development.
 
-  On August 21th, I made a [speech][link_to_tedx_article]{:target="_blank"} on TEDxYouth Westlake about making a change in your life at TEDxYouth West-lake.
+  On August 21th, I made a [speech][link_to_tedx_article]{:target="_blank"} at TEDxYouth Westlake about making a change in your life.
 
 ###Excerpt of 2011
 
