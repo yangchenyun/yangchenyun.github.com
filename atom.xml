@@ -4,7 +4,7 @@
   <title><![CDATA[Steven Yang's Blog | 杨晨昀]]></title>
   <link href="http://blog.yangchenyun.com/atom.xml" rel="self"/>
   <link href="http://blog.yangchenyun.com/"/>
-  <updated>2012-01-09T00:38:23+08:00</updated>
+  <updated>2012-01-10T00:27:51+08:00</updated>
   <id>http://blog.yangchenyun.com/</id>
   <author>
     <name><![CDATA[Steven Yang]]></name>
@@ -14,16 +14,15 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Annual Review 2011]]></title>
+    <title type="html"><![CDATA[Annual Review 2011 - A Turning of Life]]></title>
     <link href="http://blog.yangchenyun.com/2011/12/annual-review/"/>
     <updated>2011-12-31T23:11:00+08:00</updated>
     <id>http://blog.yangchenyun.com/2011/12/annual-review</id>
-    <content type="html"><![CDATA[<ul id="markdown-toc">
-  <li><a href="#a-successful-turning-of-life">A Successful Turning of Life</a>    <ul>
-      <li><a href="#highlights">Highlights</a></li>
-      <li><a href="#excerpt-of-2011">Excerpt of 2011</a></li>
-    </ul>
-  </li>
+    <content type="html"><![CDATA[<p>2011 is a turning corner of my life. Straying away from my Economics background, I started learning web design and development from scratch and ended up with a result better than my expectation.</p>
+
+<ul id="markdown-toc">
+  <li><a href="#highlights">Highlights</a></li>
+  <li><a href="#excerpt-of-2011">Excerpt of 2011</a></li>
   <li><a href="#a-more-close-look-at-2011">A More Close Look at 2011</a>    <ul>
       <li><a href="#english-writing">English Writing</a></li>
       <li><a href="#web-design-and-computer-science">Web Design and Computer Science</a></li>
@@ -37,32 +36,28 @@
   </li>
 </ul>
 
-<h2 id="a-successful-turning-of-life">A Successful Turning of Life</h2>
+<h2 id="highlights">Highlights</h2>
 
-<p>2011 is crucial to me. Straying away from my Economics background, I started learning web design and development from scratch and ended up with a result better than my expectation.</p>
+<p>On March 14th, I made a <a href="http://ge.tt/3XTYjJg?" title="Presentation about what hinders adult from learning" target="_blank">presentation</a> at Barcamp Shanghai talking about what hinders adult learning and I met Peter and later the whole TEDxFiveStarSquare(TEDxFSS) team.</p>
 
-<h3 id="highlights">Highlights</h3>
-
-<p>On March 14th, I made a <a href="http://ge.tt/3XTYjJg?" title="Presentation about what hinders adult from learning" target="_blank">presentation</a> at Barcamp Shanghai talking about what hinders adult learning and I met Peter and later the whole TEDxFSS team.</p>
-
-<p>On May 15th, I designed and deployed <a href="http://tedxfivestarsquare.com" target="_blank">the site of TEDxFiveStarSquare</a> and later designed the banner, poster and screen for the event. This solidates my confidence to deliver design and development work.</p>
+<p>On May 15th, I created <a href="http://tedxfivestarsquare.com" target="_blank">the site of TEDxFSS</a> and designed the banner, poster and screen for this event. This solidates my confidence to deliver word of design and development.</p>
 
 <p>On June 7th, I started the <a href="http://ele.me/napos.php" title="Link to Eleme Napos" target="_blank">Napos</a> project at <a href="http://ele.me/at/entry/1" target="_blank">Eleme</a> and later I joined the team and took charge of UI design and frontend development.</p>
 
 <p>On August 21th, I made a <a href="http://blog.yangchenyun.com/2011/08/tedxyouth-wesklake-speech/" target="_blank">speech</a> at TEDxYouth Westlake about making a change in your life.</p>
 
-<h3 id="excerpt-of-2011">Excerpt of 2011</h3>
+<h2 id="excerpt-of-2011">Excerpt of 2011</h2>
 
 <p><img src="http://blog.yangchenyun.com/images/tedxfss_logo.png" alt="TEDxFiveStarSquare Logo" class="left" />
-  I expected one year preparation before I could deliver qualified projects. But the first website was accomplished after five months of learning. I built <a href="http://tedxfivestarsquare.com" target="_blank">the website of TEDxFiveStarSquare(TEDxFSS)</a> and later contributed to the design of the whole event. With the help of a great team, we pull off the only one <a href="http://www.sxn.me/gallery/#/Gallery/TEDx%20FiveStarSquare%202011%20-%20May%2015%202011" title="TEDxFSS Event" target="_blank">TEDx Event</a> in Shanghai.</p>
+  I expected one year preparation before I could deliver qualified projects. But the first website was accomplished after five months of learning. I built <a href="http://tedxfivestarsquare.com" target="_blank">the website of TEDxFSS</a> and later contributed to the design of the whole event. With the help of a great team, we pull off the only one <a href="http://www.sxn.me/gallery/#/Gallery/TEDx%20FiveStarSquare%202011%20-%20May%2015%202011" title="TEDxFSS Event" target="_blank">TEDx Event</a> this year in Shanghai.</p>
 
 <p>After that, I joined in a start-up company and created a <a href="http://ele.me/napos.php" title="Link to Eleme Napos" target="_blank">webapp</a> for restaurants and contributed to the <a href="http://ele.me/at/entry/1" target="_blank">new website</a> redesign and later led the frontend development.</p>
 
 <p>Thanks to the people I worked with, I also have fallen in love with Unix and learned to setup various backend service. A summary on technology learned will cover this geeky issue.</p>
 
-<p>The progress is mostly due to the <a href="http://blog.yangchenyun.com/2011/12/annual-review/#personal-management-system" title="section of personal management system">personal management system</a> I have developed to manage my times and goals. In 2011, I <strong>recorded 7.58 hours</strong> and worked with focus <strong>4.18 hours everyday</strong>.</p>
+<p>The progress is mostly due to the <a href="http://blog.yangchenyun.com/2011/12/annual-review/#personal-management-system" title="section of personal management system">personal management system</a> I have developed to manage my times and goals. In 2011, I <strong>recorded 7.58 hours</strong> and worked with focus for <strong>4.18 hours everyday</strong>.</p>
 
-<p>However in other aspects, things haven’t worked out as expected. Due to my work English learning have been paused in the second half year and travel plan to Southern Asia was canceled. Besides I have been suffering from anxieties from time to time and getting up early still eludes me.</p>
+<p>However in other aspects, things haven’t worked out as expected. Due to my work in the second half year, English learning have been paused and travel plan to Southern Asia was canceled. Besides I have been suffering from anxieties from time to time and getting up early still eludes me.</p>
 
 <p>From the ups and downs of 2011, I learned a lot <a href="http://blog.yangchenyun.com/2011/12/lesson-learned/" title="Lesson I have learned" target="_blank">lessons</a> and I am thinking about moving forward.</p>
 
@@ -146,6 +141,125 @@ I recorded 1742 hours in the first 30 weeks and only recorded 433 in the later 2
 <p>Another setback in health is my biological clock. The habit of getting up early still eluded me. I was still quite exciting after midnight and I used to work later than 12:00pm since May. The situation got worse when I went to work where I slept later than 2:00am in average. With the shift in sleeping hours, I also have shifted the time I get up - usually 8 hours after I went to bed.</p>
 
 <p>This shift in sleeping hours dispairs my sleeping quality and I felt a decline in endurance and time of focus when I am working.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Lesson Learned]]></title>
+    <link href="http://blog.yangchenyun.com/2011/12/lesson-learned/"/>
+    <updated>2011-12-31T21:00:00+08:00</updated>
+    <id>http://blog.yangchenyun.com/2011/12/lesson-learned</id>
+    <content type="html"><![CDATA[<p>The experience I had in 2011 is invaluable. It extends my perception of work and achievement. Some lessons are learned through trial-and-error and some are learned from costly mistakes.</p>
+
+<ul id="markdown-toc">
+  <li><a href="#lesson-1-know-how-to-sustain-yourself">Lesson 1: Know How to Sustain Yourself</a>    <ul>
+      <li><a href="#a-frustrating-start">A Frustrating Start</a></li>
+      <li><a href="#always-choose-to-take-action">Always Choose to Take Action</a></li>
+    </ul>
+  </li>
+  <li><a href="#lesson-2-dont-avoid-the-boring-work">Lesson 2: Don’t avoid the boring work</a></li>
+  <li><a href="#lesson-3-guard-against-distraction">Lesson 3: Guard Against Distraction</a></li>
+  <li><a href="#lesson-4-walk-at-your-own-pace">Lesson 4: Walk at Your Own Pace</a></li>
+  <li><a href="#lesson-5-identify-the-opportunity">Lesson 5: Identify the “Opportunity”</a></li>
+</ul>
+
+<h2 id="lesson-1-know-how-to-sustain-yourself">Lesson 1: Know How to Sustain Yourself</h2>
+
+<h3 id="a-frustrating-start">A Frustrating Start</h3>
+<blockquote>
+  <p>Nobody, as long as he moves about among the chaotic currents of life, is without trouble. - Carl Jung</p>
+</blockquote>
+
+<p>After the first thrilling weeks since I dived into computer science, things turned out to be much more daunting than I thought before. Without preparation I walked into an obscure reign with a ‘map’ full of mystical symbols. Soon I realized that there were more areas I needed to explore, the ‘map’ I had was just an entrance to a much bigger world. In that world, I would encounter stunning web products on a daily basis. The more products I saw, the eager I wanted to be able to create and the more frustration I ended up with - I didn’t even know how to make a single web page.</p>
+
+<p>Besides frustration, self-doubt is another setback. I constantly doubted myself because I had no experience in computer science. Did I choose the right technology to learn? Was I learning too slowly? Did I miss something important? How long would it take to reach the next stage? There was no place to find the answers. To comfort myself I had to choose to ignore them.</p>
+
+<p><img src="http://blog.yangchenyun.com/images/yelling.jpg" alt="My yelling self" class="right" />
+  Ignoring didn’t solve the problem. As the excitement and confidence subsided, the accumulating fear and doubt finally dominated. I was worn out. There comes the time when I found myself utterly useless:</p>
+
+<p>A 24-year-old who just start learning web design and development alone without the ability to feed his own living.</p>
+
+<p>What a bum.</p>
+
+<h3 id="always-choose-to-take-action">Always Choose to Take Action</h3>
+
+<p>Time to give up?</p>
+
+<p>I thought about it honestly. However, I reasoned out that if I gave up and started in another field I had to experience the same frustration again. If this <strong>pattern of problem</strong> couldn’t be overcome, I could go nowhere further than where I was. I had to sustain myself and keep on walking.</p>
+
+<blockquote>
+  <p>If this <strong>pattern of problem</strong> couldn’t be overcome, I could go nowhere further than where I was.</p>
+</blockquote>
+
+<p>Having no choice to fall back on, I needed to <strong>protect my motivation</strong> in order to deal with the fear and doubt. Thus I developed <a href="http://quote.yangchenyun.com" title="My Quotes" target="_blank">Qotto</a> - a collection of quotes I like. I set it as my default browser tab and feed me inspiration when I feel disheartened.</p>
+
+<p>I also decided <strong>always choose to take action</strong> when I feel frustrated. Whenever I feel overwhelmed by self-doubt, I force myself to do something - anything from reading one or two pages of a book to making several lines of code work. The actions I took always provide me with positive feedback. I learned one or two tips to use a language, make a small piece of code work under my will. However small they were, it convinced me that I was moving forward. And moving forward is the one most important action to overcome the frustration.</p>
+
+<h2 id="lesson-2-dont-avoid-the-boring-work">Lesson 2: Don’t avoid the boring work</h2>
+<p>After working on some personal projects and later in a start-up company, I learned that getting the boring work done is necessary to deliver great work.</p>
+
+<p>For every creative work, the process to form and express an idea is often thrilling and inspiring, be it in way of writing, drawing, coding etc. It is then followed by a long and boring process to fix things and polish them up. This sort of work seems not as creative as the previous one. However it is <strong>this boring process determines the quality of the creation</strong>.</p>
+
+<p>Take writing as an example, the first several hours of writing are always thrilling. With several rough points of view in mind, it is easy to pull together several ideas into paragraphs quickly. But then there comes the boring part. The right words need to be found and weighed in order to express the ideas with accuracy. The whole structure needs to be balanced - excessive part need be compressed or removed, confusing one will be rewritten, weak arguments need to be strengthened. Then mistakes in spelling and grammar need to be spotted and fixed. For me, the polishing up work will often take almost twice the time of writing itself.</p>
+
+<p>The same rule applies to coding. An elegant solution isn’t found in the from the outset. After thinking about a problem, doing some research and weighing several choices, I would rough out a solution to work with. When this creative part of work is done, I need to sketch the idea out from writing the first piece of code, making it work, adding another part, making them work together and so on so forth. When the whole pieces are working as expected, I will rewrite it towards a modularized structure and improve its performance and legibility.</p>
+
+<blockquote>
+  <p>…it is often this boring parts of work separate professionals from amateurs.</p>
+</blockquote>
+
+<p>This repetitive and humdrum process is shared in all kinds of work. <strong>It is often this boring work separates professionals from amateurs.</strong> We could only take care of one aspect of creation at one time. When pulling ideas out of our head, we want it to flow smoothly, one after another, and often result in a mess. When an idea is roughed out, refinement process is needed to fix the part that doesn’t work and polish the whole thing up in all aspects. Although boring and daunting, without this refinement, a messed-up products based on even brilliant idea won’t work.</p>
+
+<h2 id="lesson-3-guard-against-distraction">Lesson 3: Guard Against Distraction</h2>
+<blockquote>
+  <p>It takes time to realize even one idea and there are so many of them. Thus it is important to guard myself against distraction.</p>
+</blockquote>
+
+<p>In 2011, I recorded 130 new ideas and took actions on 43 of them. Some were improvement on what I had been doing but some were only sporadic impulses to try something out. The projects driven by these impulses were often canceled or abandoned within one month. This failed attempts cover:</p>
+
+<ul>
+  <li>Learning Drovak keyboard layout</li>
+  <li>Attend 54 air companies’ frequent miles program to earn travel tickets</li>
+  <li>Try to recite &lt;the old man and sea&gt;</li>
+  <li>To learn the ins and outs of <code>Wordpress</code></li>
+  <li>Learning <code>Django</code></li>
+  <li>Worked on several projects with friends</li>
+</ul>
+
+<p>The time spent on those projects was wasted. This wasted time is the <strong>cost of distraction</strong>. If I was able to turn down all of them but focus my work on one, at least I could make one difference in my current situation.</p>
+
+<p>It takes time to realize even one idea and there are so many of them I <em>could</em> take action on. Thus it is important to guard myself against distraction and only focus on the most important stuff. I need to <strong>detect those distraction</strong> and <strong>prevent myself taking actions</strong>.</p>
+
+<p>To detect distraction, the <strong>minimal viable rule</strong> works well. When I get thrilled by one idea, I will check it against the question ‘is it necessary or better than my current methods to approach my goal?’. If the answer is not an absolutely ‘yes’, it is a distraction.</p>
+
+<p>To prevent taking action, I will ask another question against it - ‘will you be doing it one month later? six month later? one year later?’ It the answer is no, I will drop it because I don’t even have enough determination in the beginning. Without the resolution, I won’t be able to sustain myself through the tough process to pull an idea off.</p>
+
+<h2 id="lesson-4-walk-at-your-own-pace">Lesson 4: Walk at Your Own Pace</h2>
+<blockquote>
+  <p>Being slow is in fact being fast. It is natural to begin slowly because there are skills to learn, knowledge to acquire and obstacles to overcome.</p>
+</blockquote>
+
+<p>In the first few weeks, I always crammed too much stuff into one single week - I wanted to read several chapters of a book, write an article, practice programming and design skills. A goal to accomplish all these tasks was, obviously, unreachable.</p>
+
+<p>After several rushing but frustrating weeks, I gradually discovered my own pace for <strong>each</strong> task. When reading, I need 8 pages/hour to follow a technology book, 12 pages/hour for familiar topics, 2-3 pages/hour to follow a literature book. When writing, I need 8 hours to produce an article. When doing design work, I need 15-20 hours to find the right tone of the whole project and I need 4-5 hours for each individual page/poster design.</p>
+
+<p>Whenever I rush a task I will inevitably miss something. If I rush at technology learning, I wouldn’t have time to exercise. Thus I will end up with only acquaintance with the technology but not practical experience. If I rush a literature book, I would miss the subtle nuance of meaning and end up with a fuzzy story outline. If I rush the coding, I would copy and paste snippets from others without a fully understanding. Thus my skill isn’t improved and the following maintenance work will be a pain.</p>
+
+<p>Being slow is in fact being fast. It is natural to begin slowly because there are skills to learn, knowledge to acquire and obstacles to overcome. Being a beginner in a novel field, I couldn’t predict the situation with accuracy. I need to learn crawling before I could walk and run. Only after required practices at a slow pace, I could get myself accustomed to crawling and it is the time I could get my hands off the ground and start learning walking and then running. Being slow is the necessary process before being fast. Rushing up in the beginning would only trip me up.</p>
+
+<h2 id="lesson-5-identify-the-opportunity">Lesson 5: Identify the “Opportunity”</h2>
+<blockquote>
+  <p>Opportunity is a very personal thing. Another people’s opportunity isn’t necessarily mine as we might have very difference goals.</p>
+</blockquote>
+
+<p>In my second half year, most of my goals are not archived (English learning, design, backend technology and financial goals), productivity drops and unhappiness arrives. After I join in a company, my original direction is diverted to another route. This setback is caused by the fault to mistake “one possible way” for my opportunity.</p>
+
+<p>Opportunity is a very personal thing. Another people’s opportunity isn’t necessarily mine as we might have very difference goals. <strong>Opportunity is like the highway which leads to <em>my</em> destination</strong>. There are lots of entrances to different highways. Driving into the wrong ones won’t get me further.</p>
+
+<p>To choose the right one, it is essential to have one confirmed destination. I made a mistake in August when joining the company because I was not determined to stick to mine. I was convinced that “being a core member of a successful company will be a huge boost for my personal development”. It turned out to be a bad choice as working with the company whose values aren’t congruent with mine is a miserable experience.</p>
+
+<p>This is a costly lesson learned. In 2012, I will lay down the most important goals in the annual plan and use them to prevent the same mistake happening again.</p>
 
 ]]></content>
   </entry>
