@@ -2,6 +2,7 @@
 layout: post
 title: Lesson Learned
 date: 2011-12-31 21:00
+keywords: lessons, sustain oneself, do boring work, distraction, focus, opportunity
 ---
   The experience I had in 2011 is invaluable. It extends my perception of work and achievement. Some lessons are learned through trial-and-error and some are learned from costly mistakes.
 

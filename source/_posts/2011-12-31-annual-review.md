@@ -1,38 +1,36 @@
 ---
 layout: post
-title: Annual Review 2011
+title: Annual Review 2011 - A Turning of Life
 date: 2011-12-31 23:11
 keywords: annual review, 2012 review, life changes, ELEME, TEDxFivestarsquare, TEDxFSS, 饿了么, 年度小结, 个人总结
 ---
+  2011 is a turning corner of my life. Straying away from my Economics background, I started learning web design and development from scratch and ended up with a result better than my expectation.
+
 * Table of Content
 {:toc}
 
-##A Successful Turning of Life
+##Highlights
 
-  2011 is crucial to me. Straying away from my Economics background, I started learning web design and development from scratch and ended up with a result better than my expectation.
+  On March 14th, I made a [presentation][link_to_adult_learning]{:target="_blank"} at Barcamp Shanghai talking about what hinders adult learning and I met Peter and later the whole TEDxFiveStarSquare(TEDxFSS) team.
 
-###Highlights
-
-  On March 14th, I made a [presentation][link_to_adult_learning]{:target="_blank"} at Barcamp Shanghai talking about what hinders adult learning and I met Peter and later the whole TEDxFSS team.
-
-  On May 15th, I designed and deployed [the site of TEDxFiveStarSquare][link_to_tedxfss_site]{:target="_blank"} and later designed the banner, poster and screen for the event. This solidates my confidence to deliver design and development work.
+  On May 15th, I created [the site of TEDxFSS][link_to_tedxfss_site]{:target="_blank"} and designed the banner, poster and screen for this event. This solidates my confidence to deliver word of design and development.
 
   On June 7th, I started the [Napos][link_to_napos]{:target="_blank"} project at [Eleme][link_to_eleme]{:target="_blank"} and later I joined the team and took charge of UI design and frontend development.
 
   On August 21th, I made a [speech][link_to_tedx_article]{:target="_blank"} at TEDxYouth Westlake about making a change in your life.
 
-###Excerpt of 2011
+##Excerpt of 2011
 
   ![TEDxFiveStarSquare Logo](/images/tedxfss_logo.png){:class="left"}
-  I expected one year preparation before I could deliver qualified projects. But the first website was accomplished after five months of learning. I built [the website of TEDxFiveStarSquare(TEDxFSS)][link_to_tedxfss_site]{:target="_blank"} and later contributed to the design of the whole event. With the help of a great team, we pull off the only one [TEDx Event][link_to_tedxfss_event]{:target="_blank"} in Shanghai.
+  I expected one year preparation before I could deliver qualified projects. But the first website was accomplished after five months of learning. I built [the website of TEDxFSS][link_to_tedxfss_site]{:target="_blank"} and later contributed to the design of the whole event. With the help of a great team, we pull off the only one [TEDx Event][link_to_tedxfss_event]{:target="_blank"} this year in Shanghai.
 
   After that, I joined in a start-up company and created a [webapp][link_to_napos]{:target="_blank"} for restaurants and contributed to the [new website][link_to_eleme]{:target="_blank"} redesign and later led the frontend development.
 
   Thanks to the people I worked with, I also have fallen in love with Unix and learned to setup various backend service. A summary on technology learned will cover this geeky issue.
 
-  The progress is mostly due to the [personal management system][link_to_pms_article] I have developed to manage my times and goals. In 2011, I **recorded 7.58 hours** and worked with focus **4.18 hours everyday**.
+  The progress is mostly due to the [personal management system][link_to_pms_article] I have developed to manage my times and goals. In 2011, I **recorded 7.58 hours** and worked with focus for **4.18 hours everyday**.
 
-  However in other aspects, things haven't worked out as expected. Due to my work English learning have been paused in the second half year and travel plan to Southern Asia was canceled. Besides I have been suffering from anxieties from time to time and getting up early still eludes me.
+  However in other aspects, things haven't worked out as expected. Due to my work in the second half year, English learning have been paused and travel plan to Southern Asia was canceled. Besides I have been suffering from anxieties from time to time and getting up early still eludes me.
 
   From the ups and downs of 2011, I learned a lot [lessons][link_to_lesson]{:target="_blank"} and I am thinking about moving forward.
 
