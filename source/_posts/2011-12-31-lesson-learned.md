@@ -2,9 +2,8 @@
 layout: post
 title: Lesson Learned
 date: 2011-12-31 21:00
-published: false
 ---
-  The experience I had in 2011 is invaluable. It extends my perception of work and achievement. Some lessons are learned through trial-and-error to improve productivity and some are learned from costly mistakes.
+  The experience I had in 2011 is invaluable. It extends my perception of work and achievement. Some lessons are learned through trial-and-error and some are learned from costly mistakes.
 
 * Table of Content
 {:toc}
@@ -12,17 +11,16 @@ published: false
 ##Lesson 1: Know How to Sustain Yourself
 
 ###A Frustrating Start
-
   >Nobody, as long as he moves about among the chaotic currents of life, is without trouble. - Carl Jung
 
-  After the first thrilling weeks I dived into computer science, things turned out to be much more difficult than I thought before. Without preparation I walked into an obscure reign with a 'map' full of mystical symbols. Soon I realized that there were more areas I need to explore, the 'map' I had was just an entrance to a much bigger world. From this world, I would encounter stunning web products on a daily basis. The more products I saw, the eager I wanted to be part of it and the more frustration I ended up with - I didn't even know how to code down a website.
+  After the first thrilling weeks since I dived into computer science, things turned out to be much more daunting than I thought before. Without preparation I walked into an obscure reign with a 'map' full of mystical symbols. Soon I realized that there were more areas I needed to explore, the 'map' I had was just an entrance to a much bigger world. In that world, I would encounter stunning web products on a daily basis. The more products I saw, the eager I wanted to be able to create and the more frustration I ended up with - I didn't even know how to make a single web page.
 
-  Besides frustration, self-doubt is another setback. I constantly doubted myself because I had zilch experience in computer science. Am I choose the right technology to learn? Am I learning too slowly? Do I miss something important? How long will it take to reach the next stage? There was no place to find authorized answers. To comfort myself I had to ignore all of them.
+  Besides frustration, self-doubt is another setback. I constantly doubted myself because I had no experience in computer science. Did I choose the right technology to learn? Was I learning too slowly? Did I miss something important? How long would it take to reach the next stage? There was no place to find the answers. To comfort myself I had to choose to ignore them.
 
   ![My yelling self](/images/yelling.jpg){:class="right"}
-  Ignoring didn't solve the problem. As the excitement and confidence subsided, accumulating fear and doubt finally dominated. I was worn out. There comes the time when I found myself utterly useless:
+  Ignoring didn't solve the problem. As the excitement and confidence subsided, the accumulating fear and doubt finally dominated. I was worn out. There comes the time when I found myself utterly useless:
 
-  A 24-year-old who just start learning web design and development without the ability to feed his own living.
+  A 24-year-old who just start learning web design and development alone without the ability to feed his own living.
 
   What a bum.
 
@@ -30,67 +28,68 @@ published: false
 
   Time to give up?
 
-  I had no answer to that question. All I know was that if I gave up and started in another field I had to experience the same frustration. If this **pattern of problem** couldn't be overcome, I could go nowhere further than where I was. I had to sustain myself and keep on walking.
+  I thought about it honestly. However, I reasoned out that if I gave up and started in another field I had to experience the same frustration again. If this **pattern of problem** couldn't be overcome, I could go nowhere further than where I was. I had to sustain myself and keep on walking.
 
   >If this **pattern of problem** couldn't be overcome, I could go nowhere further than where I was.
 
-  I need to **protect my motivation** in order to deal with the fear and doubt. Thus I developed [Qotto][link_to_qotto]{:target="_blank"} - a collection of quotes I like. I set it as my default browser tab and feed me inspiration when I feel disheartened.
+  Having no choice to fall back on, I needed to **protect my motivation** in order to deal with the fear and doubt. Thus I developed [Qotto][link_to_qotto]{:target="_blank"} - a collection of quotes I like. I set it as my default browser tab and feed me inspiration when I feel disheartened.
 
-  I also decided **always choose to take action** when I feel frustrated. Whenever I feel overwhelmed by self-doubt, I force myself to do something - anything from reading one or two pages of a book to making several lines of code work. The actions I took always provide me positive feedback. I learned one or two tips to use a language, make a small piece of code work under my will. However small they were, it convinced me that I was moving forward. And moving forward is the most important action to overcome the frustration.
+  I also decided **always choose to take action** when I feel frustrated. Whenever I feel overwhelmed by self-doubt, I force myself to do something - anything from reading one or two pages of a book to making several lines of code work. The actions I took always provide me with positive feedback. I learned one or two tips to use a language, make a small piece of code work under my will. However small they were, it convinced me that I was moving forward. And moving forward is the one most important action to overcome the frustration.
 
 ##Lesson 2: Don't avoid the boring work
+  After working on some personal projects and later in a start-up company, I learned that getting the boring work done is necessary to deliver great work.
 
-  After working on some personal projects and later in a start-up company, I learned that getting the boring parts done is necessary to deliver great work.
+  For every creative work, the process to form and express an idea is often thrilling and inspiring, be it in way of writing, drawing, coding etc. It is then followed by a long and boring process to fix things and polish them up. This sort of work seems not as creative as the previous one. However it is **this boring process determines the quality of the creation**.
 
-  For every creative work, the process to form and express an idea is often thrilling and inspiring, be it in way of writing, drawing, coding etc. It is then followed by a long and boring process to fix things and polish them up. This sort of work seems not creative. However it is **this boring process determines the quality of the creation**.
+  Take writing as an example, the first several hours of writing are always thrilling. With several rough points of view in mind, it is easy to pull together several ideas into paragraphs quickly. But then there comes the boring part. The right words need to be found and weighed in order to express the ideas with accuracy. The whole structure needs to be balanced - excessive part need be compressed or removed, confusing one will be rewritten, weak arguments need to be strengthened. Then mistakes in spelling and grammar need to be spotted and fixed. For me, the polishing up work will often take almost twice the time of writing itself.
 
-  Take writing as an example, the first several hours of writing are always thrilling. With several rough points of view in mind, it is easy to type tens of paragraphs on the screen quickly. But then there comes the boring part. The right words need to be found and weighed in order to express ideas with accuracy. The whole structure needs to be balanced - excessive part need be compressed or removed, confused part will be rewritten, weak arguments need to be strengthened. Then mistakes in spelling and grammar need to be spotted and fixed. For me, the polishing up work will often take almost twice the time of writing itself.
-
-  The same rule applies to coding. An elegant solution isn't found in the beginning. After thinking about a problem, doing some research and weighing several choices, I would rough out a solution to work with. When this creative part is done, I need to sketch the idea out from writing the first piece of code, making it work, adding another part, making them work together and so on so forth. When the whole pieces are working as expected, I will rewrite it for a modularized structure or solution with better performance and clearer legibility.
+  The same rule applies to coding. An elegant solution isn't found in the from the outset. After thinking about a problem, doing some research and weighing several choices, I would rough out a solution to work with. When this creative part of work is done, I need to sketch the idea out from writing the first piece of code, making it work, adding another part, making them work together and so on so forth. When the whole pieces are working as expected, I will rewrite it towards a modularized structure and improve its performance and legibility.
 
   >...it is often this boring parts of work separate professionals from amateurs.
 
-  This repetitive and humdrum process is shared in all kinds of work. **And it is often this boring parts of work separate professionals from amateurs.** We could only take care of one aspect of creation at one time. When pulling ideas out of our head, we want it to flow smoothly, one after another, and often in a mess. When an idea is roughed out, another process is taken to polish this raw material up in non-creative aspects. Although boring and daunting, without this refinement, an idea in a mess won't work.
+  This repetitive and humdrum process is shared in all kinds of work. **It is often this boring work separates professionals from amateurs.** We could only take care of one aspect of creation at one time. When pulling ideas out of our head, we want it to flow smoothly, one after another, and often result in a mess. When an idea is roughed out, refinement process is needed to fix the part that doesn't work and polish the whole thing up in all aspects. Although boring and daunting, without this refinement, a messed-up products based on even brilliant idea won't work.
 
 ##Lesson 3: Guard Against Distraction
-  Along the year, I recorded 130 new ideas (big or small) and took actions on 43 ones. Some are improvement on what I had been doing and some are sporadic interest in one field. The list covers:
+  >It takes time to realize even one idea and there are so many of them. Thus it is important to guard myself against distraction.
 
-  * Learning Drovak Keyboard
-  * Attend 54 Frequent miles program
-  * Recite <the old man and sea>
-  * Dig into Wordpress
-  * Learning Django
-  * Worked on several side projects
+  In 2011, I recorded 130 new ideas and took actions on 43 of them. Some were improvement on what I had been doing but some were only sporadic impulses to try something out. The projects driven by these impulses were often canceled or abandoned within one month. This failed attempts cover:
 
-  All of these projects doesn't sustain longer than one month. Thus the time spent is wasted. This is the **cost of distraction**. What if I turned down all of them but focus my time on one project? At least I would have another output which might be useful.
+  * Learning Drovak keyboard layout
+  * Attend 54 air companies' frequent miles program to earn travel tickets
+  * Try to recite <the old man and sea>
+  * To learn the ins and outs of `Wordpress`
+  * Learning `Django`
+  * Worked on several projects with friends
 
-  It takes time to pull even single one idea off, so I need to guard myself against distraction. I will learn to detect distractions and then prevent yourself from taking actions on them.
+  The time spent on those projects was wasted. This wasted time is the **cost of distraction**. If I was able to turn down all of them but focus my work on one, at least I could make one difference in my current situation.
 
-  To detect distractions, the **minimal viable rules** help a lot. I will check the idea againt the question 'is it necessary to accomplish my goal?'. If the answer is not an absolutely 'yes', it is an distraction.
+  It takes time to realize even one idea and there are so many of them I *could* take action on. Thus it is important to guard myself against distraction and only focus on the most important stuff. I need to **detect those distraction** and **prevent myself taking actions**.
 
-  To prevent taking action, I will ask another question against it - 'will you do it one month later? six month later? one year later?' It the answer is no, I won't start it because I cannot sustain myself until I finished it.
+  To detect distraction, the **minimal viable rule** works well. When I get thrilled by one idea, I will check it against the question 'is it necessary or better than my current methods to approach my goal?'. If the answer is not an absolutely 'yes', it is a distraction.
 
+  To prevent taking action, I will ask another question against it - 'will you be doing it one month later? six month later? one year later?' It the answer is no, I will drop it because I don't even have enough determination in the beginning. Without the resolution, I won't be able to sustain myself through the tough process to pull an idea off.
 
 ##Lesson 4: Walk at Your Own Pace
-  In the first few weeks, I always crammed too much stuff into one single week - I wanted to read several chapters of a book, write a post, practice programming and design kills. A goal which covers all these was, obvious, unreachable.
+  >Being slow is in fact being fast. It is natural to begin slowly because there are skills to learn, knowledge to acquire and obstacles to overcome.
 
-  After several rushing but frustrating weeks, I gradually discovered my own pace for **each** task. When reading, I need 8 pages/hour to follow a technology book, 12 pages/hour for topics with familarity, 2-3 pages/hour to follow a literature book. When writing, I need 8 hours to produce an article through the process of organizing, writing and polishing up. When doing design work, I need 15-20 hours to find the right tone of the whole project and I need 4-5 hours for individual page/poster design.
+  In the first few weeks, I always crammed too much stuff into one single week - I wanted to read several chapters of a book, write an article, practice programming and design skills. A goal to accomplish all these tasks was, obviously, unreachable.
 
-  Whenever I rush a task I will inevitably miss something. If I rush at technology learning, I won't have time to exercise. Thus I will end up with only acquaintance with the technology but not practical knowledge. If I rush a literature book, I will miss the subtle nuance of meaning and end up with a fuzzy story outline. If rush my coding, I will copy and paste snippets from others without fully understanding. Thus my skills aren't improved and maintainance work will be painful in the future.
+  After several rushing but frustrating weeks, I gradually discovered my own pace for **each** task. When reading, I need 8 pages/hour to follow a technology book, 12 pages/hour for familiar topics, 2-3 pages/hour to follow a literature book. When writing, I need 8 hours to produce an article. When doing design work, I need 15-20 hours to find the right tone of the whole project and I need 4-5 hours for each individual page/poster design.
 
-  Being slow is in fact being fast. It is natural to begin slowly because there are skills to learn, knowledge to acquire and obstacles to overcome. Being a beginner in a novel field, I couldn't predict the situation with accurancy. I need to learn crawling before I could walk and run. Only after practices at a slow pace, I could get myself accustomed to crawling and it is the time I could get my hands off the ground and start learning walking and then running. Being slow is the necessary process before being fast. Rushing up in the beginning will only trip me up.
+  Whenever I rush a task I will inevitably miss something. If I rush at technology learning, I wouldn't have time to exercise. Thus I will end up with only acquaintance with the technology but not practical experience. If I rush a literature book, I would miss the subtle nuance of meaning and end up with a fuzzy story outline. If I rush the coding, I would copy and paste snippets from others without a fully understanding. Thus my skill isn't improved and the following maintenance work will be a pain.
 
-##Lesson 5: Identify YOUR "Opportunity"
-  >When it is obvious that the goals cannot be reached, don't adjust the goals, adjust the action steps. - Confucius
+  Being slow is in fact being fast. It is natural to begin slowly because there are skills to learn, knowledge to acquire and obstacles to overcome. Being a beginner in a novel field, I couldn't predict the situation with accuracy. I need to learn crawling before I could walk and run. Only after required practices at a slow pace, I could get myself accustomed to crawling and it is the time I could get my hands off the ground and start learning walking and then running. Being slow is the necessary process before being fast. Rushing up in the beginning would only trip me up.
 
-  In my second half year, most of my goals are not archieved (English learning, design, backend technology and financial goals), productivity drops and unhappiness arrives. My original direction is diverted to another route. This setback is caused by the fault to mistake "one possible way" for my opportunity.
+##Lesson 5: Identify the "Opportunity"
+  >Opportunity is a very personal thing. Another people's opportunity isn't necessarily mine as we might have very difference goals.
 
-  Opportunity is a very personal thing. Another people's opportunity isn't necessarily mine as we might have very difference goals. **Opportunity is like the highway which leads to my destination**. There are lots of entrances to different highways. Driving into the wrong ones won't get me closer to my destination.
+  In my second half year, most of my goals are not archived (English learning, design, backend technology and financial goals), productivity drops and unhappiness arrives. After I join in a company, my original direction is diverted to another route. This setback is caused by the fault to mistake "one possible way" for my opportunity.
 
-  To identify the right one, it is essential to have one specific destination. The mistake I made in August is that I was not determined enough to stick to my destination. I was convinced that "being a core team member of a successful project will be a huge booth for my personal goals" and entered this branch 'highway'. It turned out to be so wrong, working with people whose values aren't congruent with mine is a miserable experience.
+  Opportunity is a very personal thing. Another people's opportunity isn't necessarily mine as we might have very difference goals. **Opportunity is like the highway which leads to *my* destination**. There are lots of entrances to different highways. Driving into the wrong ones won't get me further.
 
-  This is a costy lesson learned. In 2012, I will lay down the most important goals in the annual plan and use them to prevent the same mistake happenning again.
+  To choose the right one, it is essential to have one confirmed destination. I made a mistake in August when joining the company because I was not determined to stick to mine. I was convinced that "being a core member of a successful company will be a huge boost for my personal development". It turned out to be a bad choice as working with the company whose values aren't congruent with mine is a miserable experience.
 
+  This is a costly lesson learned. In 2012, I will lay down the most important goals in the annual plan and use them to prevent the same mistake happening again.
 
 [link_to_qotto]: http://quote.yangchenyun.com "My Quotes"
 [link_to_adult_learning]: http://ge.tt/3XTYjJg "Presentation about what hinders adult from learning"
