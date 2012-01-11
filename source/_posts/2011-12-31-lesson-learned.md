@@ -88,7 +88,7 @@ keywords: lessons, sustain oneself, do boring work, distraction, focus, opportun
 
   Opportunity is a very personal thing. Another people's opportunity isn't necessarily mine as we might have very difference goals. **Opportunity is like the highway which leads to *my* destination**. There are lots of entrances to different highways. Driving into the wrong ones won't get me further.
 
-  To choose the right one, it is essential to have one confirmed destination. I made a mistake in August when joining the company because I was not determined to stick to mine. I was convinced that "being a core member of a successful company will be a huge boost for my personal development". It turned out to be a bad choice as working with the company whose values aren't congruent with mine is a miserable experience.
+  To choose the right one, it is essential to have one confirmed destination. I made a mistake in August when joining the company because I was not determined to stick to mine. I was convinced that "being a core member of a successful company will be a huge boost for my personal development". It turned out to be a bad choice as working with the company whose values aren't congruent with mine is a miserable experience. When I left the team, both sides suffered from some loss.
 
   This is a costly lesson learned. In 2012, I will lay down the most important goals in the annual plan and use them to prevent the same mistake happening again.
 

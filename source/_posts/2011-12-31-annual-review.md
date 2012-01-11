@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Annual Review 2011 - A Turning of Life
+title: Annual Review 2011 - A Turning in Life
 date: 2011-12-31 23:11
 keywords: annual review, 2012 review, life changes, ELEME, TEDxFivestarsquare, TEDxFSS, 饿了么, 年度小结, 个人总结
 ---
@@ -13,7 +13,7 @@ keywords: annual review, 2012 review, life changes, ELEME, TEDxFivestarsquare, T
 
   On March 14th, I made a [presentation][link_to_adult_learning]{:target="_blank"} at Barcamp Shanghai talking about what hinders adult learning and I met Peter and later the whole TEDxFiveStarSquare(TEDxFSS) team.
 
-  On May 15th, I created [the site of TEDxFSS][link_to_tedxfss_site]{:target="_blank"} and designed the banner, poster and screen for this event. This solidates my confidence to deliver word of design and development.
+  On May 15th, I created [the site of TEDxFSS][link_to_tedxfss_site]{:target="_blank"} and designed the banner, poster and screen for this event. This solidates my confidence to deliver work of design and development.
 
   On June 7th, I started the [Napos][link_to_napos]{:target="_blank"} project at [Eleme][link_to_eleme]{:target="_blank"} and later I joined the team and took charge of UI design and frontend development.
 
