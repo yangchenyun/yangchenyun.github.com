@@ -30,7 +30,7 @@ TEDxFiveStarSquare
 
 From a technology gathering, I met Peter and later the whole TEDxFiveStarSquare team in coincidence. I created the site and designed the banner, poster and screen for this event. This is my first 'real world' project and thanks to the great work of all the teammates, we pull this event off. This experience consolidates my confidence to work in the field of design and development. Read More &raquo;
 
-Development Work at ELEME
+Work at ELEME
 
 In June, I started the NAPOS project with the CTO at ELEME. It is the first interactive software I made. After I finished this work, I joined in the team and contributed to the redesign of ELEME 2011 website and refactoring project. Read More &raquo;
 
