@@ -1,16 +1,19 @@
 ---
 layout: post
-title: "Plans for 2012"
+title: "Annual Plan 2012 - One Step Further"
 date: 2012-02-16 22:51
 comments: true
+keywords: annual plans, web development, 2012, 年度计划
 categories:
 ---
-My annual plan of 2012 finally comes to exist after I made decision of moving to Beijing and joining in [ScentLibrary][link_to_demetercn]{:target="_blank"}.
+![img for 2012 plannings](/images/annual_2012.jpg){:class="center"}
+
+My 2012 annual plan is finally finished after the decision making about moving to Beijing and joining in [ScentLibrary][link_to_demetercn]{:target="_blank"}.
 
 ## The Purpose of 2012
-Along the [changes][link_to_changes]{:target="_blank"} I made in 2011, I will expand my skills to the full-web development stack from LAN setup, web services configuration, backend development and agile development with Rails. Besides, I will start learning the basics of design skills - drawing while dust off my photograph skills. I would also explore new areas such as branding, scents in life, innovation and story-telling. On the physical part, I would recover my backbone aches through exercise routines which will also prepare myself for the snow mountain climbing to Mt.Haba and cycling to southern Asia.
+From the [changes][link_to_changes]{:target="_blank"} I made in 2011, I will expand my skills to the full-web development stack from LAN setup, web services configuration, backend development and agile development with Rails. Besides, I will start practicing the very basics of design - drawing while dust off my photograph skills. I would also explore new fields such as branding, scents in daily life, innovation and story-telling. On the physical side, I would recover my backbone aches through exercise routines which will also prepare myself for the snow mountain climbing and cycling in countries of southern Asia.
 
-The detailed plan could be downloaded [here][link_to_2012_plan]{:target="_blank"}.
+The detailed plan could be downloaded [here][link_to_2012_plan]{:target="_blank"}. And the spreadsheets I used to do this practice is [here][link_to_pms_sheet].
 
 ## Outcome of 2012
 The main goals of accomplishment includes:
@@ -24,8 +27,8 @@ The main goals of accomplishment includes:
 * HTML5/CSS3 powered branding website for ScentLibrary.
 * A e-commerce web app based on agile development using Rails.
 * Setup web services on Linux (DNS/HTTP/SFTP/VPN etc.)
-* 2 cutting-edge experiments with HTML5/CSS3/JS.
-* Rank yearly top 10% at [stackoverflow.com][link_to_stackoverflow]{:target="_blank"}
+* Two cutting-edge experiments with HTML5/CSS3/JS.
+* Reach a rank of annual top 10% at [stackoverflow.com][link_to_stackoverflow]{:target="_blank"}
 * Contribute to one open-source project.
 * Write 20 tutorials about web development.
 
@@ -40,10 +43,10 @@ The main goals of accomplishment includes:
 * Make four public presentations.
 * Climbed one snow mountain.
 
-The spreadsheets I used to do annual plannings could be download [here][link_to_pms_sheet].
+Footnote: The photo is credited to [frank-k_](http://www.flickr.com/photos/flevasseur/).
 
-[link_to_2012_plan]:
+[link_to_2012_plan]: /assets/download/2012_plans.pdf "2012 Annual Plans"
 [link_to_demetercn]: http://demetercn.com/shop/index.html "ScentLibrary"
 [link_to_changes]: /2011/12/annual-review/ "2011 Annual Reviews"
 [link_to_stackoverflow]: http://http://stackoverflow.com/ "StackOverflow"
-[link_to_pms_sheet]: http://ge.tt/9Rf7BoB?c "personal management toolkit"
+[link_to_pms_sheet]: /assets/download/toolkit_v2.zip "personal management toolkit"

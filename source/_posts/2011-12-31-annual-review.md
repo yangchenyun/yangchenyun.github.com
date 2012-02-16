@@ -126,6 +126,6 @@ keywords: annual review, 2012 review, life changes, ELEME, TEDxFivestarsquare, T
 [link_to_pomodoro]: http://en.wikipedia.org/wiki/Pomodoro_Technique "Pomodoro Methods"
 [link_to_Lyubishchev]: http://book.douban.com/subject/1115353/ "Lyubishchev's Methods"
 [link_to_aonc]: chrisguillebeau.com/3x5/ "aonc site"
-[link_to_pms_sheet]: http://ge.tt/9Rf7BoB?c "personal management toolkit"
+[link_to_pms_sheet]: /assets/download/toolkit_v2.zip "personal management toolkit"
 
 

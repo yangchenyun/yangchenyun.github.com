@@ -236,6 +236,11 @@ body img.right {
   margin: 0 0 15px 15px;
 }
 
+body img.center {
+  display:block;
+  margin: 0 auto;
+}
+
 #post-content .gallery img {
   background: none;
   padding: 0;
