@@ -4,7 +4,7 @@
   <title><![CDATA[Steven Yang's Blog | 杨晨昀]]></title>
   <link href="http://blog.yangchenyun.com/atom.xml" rel="self"/>
   <link href="http://blog.yangchenyun.com/"/>
-  <updated>2012-01-28T21:35:40+08:00</updated>
+  <updated>2012-02-17T00:46:32+08:00</updated>
   <id>http://blog.yangchenyun.com/</id>
   <author>
     <name><![CDATA[Steven Yang]]></name>
@@ -12,6 +12,61 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Plans for 2012]]></title>
+    <link href="http://blog.yangchenyun.com/2012/02/plans-for-2012/"/>
+    <updated>2012-02-16T22:51:00+08:00</updated>
+    <id>http://blog.yangchenyun.com/2012/02/plans-for-2012</id>
+    <content type="html"><![CDATA[<p><img src="http://blog.yangchenyun.com/images/annual_2012.jpg" alt="img for 2012 plannings" class="center" /></p>
+
+<p>My 2012 annual plan is finally finished after the decision making about moving to Beijing and joining in <a href="http://demetercn.com/shop/index.html" title="ScentLibrary" target="_blank">ScentLibrary</a>.</p>
+
+<h2 id="the-purpose-of-2012">The Purpose of 2012</h2>
+<p>Along the <a href="http://blog.yangchenyun.com/2011/12/annual-review/" title="2011 Annual Reviews" target="_blank">changes</a> I made in 2011, I will expand my skills to the full-web development stack from LAN setup, web services configuration, backend development and agile development with Rails. Besides, I will start practicing the very basics of design - drawing while dust off my photograph skills. I would also explore new fields such as branding, scents in daily life, innovation and story-telling. On the physical side, I would recover my backbone aches through exercise routines which will also prepare myself for the snow mountain climbing and cycling in countries of southern Asia.</p>
+
+<p>The detailed plan could be downloaded <a href="http://blog.yangchenyun.com/assets/download/2012_plans.pdf" title="2012 Annual Plans" target="_blank">here</a>. And the spreadsheets I used to do this practice is <a href="http://blog.yangchenyun.com/assets/download/toolkit_v2.zip" title="personal management toolkit">here</a>.</p>
+
+<h2 id="outcome-of-2012">Outcome of 2012</h2>
+<p>The main goals of accomplishment includes:</p>
+
+<h3 id="internal-development">Internal Development</h3>
+<ul>
+  <li>More patience about my work.</li>
+  <li>Take record of 3000 hours.</li>
+  <li>Increase productive hours (pomodoros) to 5.5 hours per day.</li>
+</ul>
+
+<h3 id="computer-science">Computer Science</h3>
+<ul>
+  <li>HTML5/CSS3 powered branding website for ScentLibrary.</li>
+  <li>A e-commerce web app based on agile development using Rails.</li>
+  <li>Setup web services on Linux (DNS/HTTP/SFTP/VPN etc.)</li>
+  <li>Two cutting-edge experiments with HTML5/CSS3/JS.</li>
+  <li>Reach a rank of annual top 10% at <a href="http://http://stackoverflow.com/" title="StackOverflow" target="_blank">stackoverflow.com</a></li>
+  <li>Contribute to one open-source project.</li>
+  <li>Write 20 tutorials about web development.</li>
+</ul>
+
+<h3 id="design">Design</h3>
+<ul>
+  <li>Finish one drawing curriculum.</li>
+  <li>Conduct two graphic design projects.</li>
+  <li>Make one short video about natural scenes.</li>
+</ul>
+
+<h3 id="misc">Misc</h3>
+<ul>
+  <li>Exercise 285 hours.</li>
+  <li>Run 10km in 50’, swim 50m in 60’’ and 500m in 15’.</li>
+  <li>Make four public presentations.</li>
+  <li>Climbed one snow mountain.</li>
+</ul>
+
+<p>Footnote: The photo is credited to <a href="http://www.flickr.com/photos/flevasseur/">frank-k_</a>.</p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Annual Review 2011 - A Turning in Life]]></title>
@@ -108,7 +163,7 @@
 <h3 id="physical-training-and-habit">Physical Training and Habit</h3>
 
 <h4 id="personal-management-system">Personal Management System</h4>
-<p>The corner stone for all my growth is the time management system I invented by combining the methods of GTD, <a href="http://en.wikipedia.org/wiki/Pomodoro_Technique" title="Pomodoro Methods" target="_blank">Pomodoro</a> and <a href="http://book.douban.com/subject/1115353/" title="Lyubishchev's Methods" target="_blank">Lyubishchev</a>. I used GTD method to setup top-down goals and break them down to single tasks. Everyday I cleared my task stack one by one. At last, I recorded and audited my time spending to detect spaces for improvement. I edited the sheet created by <a href="chrisguillebeau.com/3x5/" title="aonc site" target="_blank">Chris@ANOC</a> and I invented my own sheet for weekly and daily planning. You could find the whole toolkit <a href="http://ge.tt/9Rf7BoB?c" title="personal management toolkit" target="_blank">here</a>.</p>
+<p>The corner stone for all my growth is the time management system I invented by combining the methods of GTD, <a href="http://en.wikipedia.org/wiki/Pomodoro_Technique" title="Pomodoro Methods" target="_blank">Pomodoro</a> and <a href="http://book.douban.com/subject/1115353/" title="Lyubishchev's Methods" target="_blank">Lyubishchev</a>. I used GTD method to setup top-down goals and break them down to single tasks. Everyday I cleared my task stack one by one. At last, I recorded and audited my time spending to detect spaces for improvement. I edited the sheet created by <a href="chrisguillebeau.com/3x5/" title="aonc site" target="_blank">Chris@ANOC</a> and I invented my own sheet for weekly and daily planning. You could find the whole toolkit <a href="http://blog.yangchenyun.com/assets/download/toolkit_v2.zip" title="personal management toolkit" target="_blank">here</a>.</p>
 
 <p>I also did some improvement to this system while I am using it:</p>
 
