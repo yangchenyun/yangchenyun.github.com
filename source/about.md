@@ -6,9 +6,7 @@ permalink: /about/
 ##About me
 
   ![self-potrait](/images/me.jpg){:class="right"}
-  I am a web designer and developer from Beijing. In Oct 2010, I resolved to start this career after my strong desire for creation.
-
-  One year later, I learned to deliver websites with a focus on minimal design and clear information structure.
+  I am an self-taught craftman, I like build and design products with computers.
 
   In 2011, I led the UI design and frontend development at a start-up([site](http://ele.me/at/entry/1), [webapp](http://ele.me/napos.php)).
 
