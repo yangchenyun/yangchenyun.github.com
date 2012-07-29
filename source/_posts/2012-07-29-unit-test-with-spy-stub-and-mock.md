@@ -3,11 +3,10 @@ layout: post
 title: "Use spy, stub and mock in tests"
 date: 2012-07-29 16:51
 comments: true
-keywords: 
+keywords: test, spy, stub, mock
 categories: geek
-tags: 
-  - test, programming
-published: false
+published: true
+
 ---
 
 This article will share some lessons I learned through writing tests at work. It will explain why doing unit-test and shed light on the confusing concepts of **spy**, **stub** and **mock** and how to apply them in order to meet the goal in a unit-test.
@@ -63,11 +62,41 @@ With a little refactoring, we could test all the five possible paths for the `ca
 
 We use mocha's `before` helper to create spies for all our methods and we share this spies through `@`(`this`) across every tests. 
 
-### Stubs, 
-## Use SinoJS to write tests
+The spy is so dictated to its work that we could assert individual method behaviors. But it comes with a caveat, look the following test:
 
+{% gist 3199904 %}
+
+the following test fail with an exception `Error: minus takes only two operands`. This exception is thrown by the `minus()` method. But we are testing `calculator()` now, as long as it calls the `minus()` method correctly, we shouldn't blame it for exception thrown by other functions. 
+
+Thus we need to **isolate `calculator()` from `minus()`**, that's what stub and mock is good at.
+
+### Stubs, they are dummy objects.
+**Stubs are objects with pre-programmed behavior.** Unlike spy, it not only observes the methods but also **alter the output of the method**. In order to isolate the `minus()` method from the `calculator()` method, we need to shutdown the `minus()` method temporarily. 
+
+{% gist 3200012 %} 
+
+This tests pass because the actual `minus()` method is "stubbed" now, and `calculator` behaves exactly as we expect - call the right method, pass the parameters in an array.
+
+One thing to note for the last line, we need to **restore** this method to its original behavior after test.
+
+
+### Mocks
+Sometimes, we want more than stubs, we **expect** stubs also have certain behaviors. Add preprogrammed behavior expectation to stubs, we have mocks. Mocks are be viewed as an combination of stubs and assertions. Mocks observe the method behavior as a spy, re-program method behavior as a stub and verify method behavior when it gets called.
+
+Here is our test rewritten with mocks:
+
+{% gist 3200122 %} 
+
+With mocks, we also change the structure of our test cases, we move up our assertion to the top of each test cases.
+
+[Some Summary]
 
 ## Further Readings
+- [xUnit Patterns][1] has a table summaries the difference between spies, stubs and mocks. 
+- CJ has written a very detailed [book][3] with step-by-step examples about testing in `javascript`.
+- The [Sinon.JS][2] Doc he creates is also documented very well.
 
 [^1]: http://en.wikipedia.org/wiki/Unit_tests
 [1]: http://xunitpatterns.com/Mocks,%20Fakes,%20Stubs%20and%20Dummies.html
+[2]: http://cjohansen.no/en/javascript/javascript_test_spies_stubs_and_mocks
+[3]: http://www.amazon.com/Test-Driven-JavaScript-Development-Developers-Library/dp/0321683919/ref=sr_1_1?ie=UTF8&qid=1343580825&sr=8-1&keywords=test+driven+javascript
