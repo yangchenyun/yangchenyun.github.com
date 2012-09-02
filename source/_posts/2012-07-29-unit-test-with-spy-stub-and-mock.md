@@ -13,6 +13,9 @@ This article will share some lessons I learned through writing tests at work. It
 
 The concept itself is explained in general and examples will be written in `coffeescript` with `SinonJS`.
 
+* Table of Content
+{:toc}
+
 ## What unit test?
 Spy, stub and mock are all created to accomplish the goal of unit test - *"to isolate each part of the program and show that the individual parts are correct."*[^1]
 
