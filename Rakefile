@@ -4,9 +4,9 @@ require "stringex"
 
 ## -- Rsync Deploy config -- ##
 # Be sure your public key is listed in your server's ~/.ssh/authorized_keys file
-ssh_user       = "user@domain.com"
+ssh_user       = "yangchenyun@lua"
 ssh_port       = "22"
-document_root  = "~/website.com/"
+document_root  = "/var/www/yangchenyun_com"
 rsync_delete   = true
 deploy_default = "push"
 
@@ -100,6 +100,7 @@ task :new_post, :title do |t, args|
     abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
   end
   puts "Creating new post: #{filename}"
+  published = ask("Do you want to publish #{filename} by default", ['y', 'n']) == 'y' ? true : false
   open(filename, 'w') do |post|
     post.puts "---"
     post.puts "layout: post"
@@ -107,6 +108,7 @@ task :new_post, :title do |t, args|
     post.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M')}"
     post.puts "comments: true"
     post.puts "categories: "
+    post.puts "published: #{published}"
     post.puts "---"
   end
 end
