@@ -4,6 +4,7 @@ title: How to Measure and Monitor Network Performance
 date: 2012-02-17 15:54
 comments: true
 keywords: iperf, vnstat, ntop, traffic, LAN, bandwidth, network, speed, measurement
+published: true
 ---
 
 When a network is set up it is also necessary to measure the real performance. Does the real WAN bandwidth match ISP's promise? What's the real bandwidth of the 1Gbit ethernet LAN? When is the busiest hours of the network? How the traffic is distributed across different IPs and hosts?

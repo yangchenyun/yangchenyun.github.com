@@ -4,6 +4,7 @@ title: "Ack - a better way to search in files"
 date: 2012-09-02 16:58
 comments: true
 categories: unix, tool
+keywords: ack, grep
 published: true
 ---
 Recently, [ack][1] became the replacement for `grep` when I need to spot editing point in my code bases. It wins over `grep` in terms of:
