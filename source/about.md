@@ -6,26 +6,16 @@ permalink: /about/
 ##About me
 
   ![self-potrait](/images/me.jpg){:class="right"}
-  I am an self-taught craftman, I like build and design products with computers.
+  I am an self-taught craftman, I like design and build stuff with computers.
 
-  In 2011, I led the UI design and frontend development at a start-up([site](http://ele.me/at/entry/1), [webapp](http://ele.me/napos.php)).
+  In 2011, I led the UI design and frontend development at [eleme](http://ele.me/at/entry/1) and build a [webapp](http://ele.me/napos.php) there. And currently I am starting up a [company](http://zenhacks.org/) at Shanghai.
 
-  I also collect [inspiration](http://quote.yangchenyun.com) to keep myself motivated and volunteer to work at [TEDxFivestarsquare](http://tedxfivestarsquare.com).
+  I am fluent in `javascript`/`coffeescript` and `Ruby`. I worked with `Symfony` and `Django` before. But now I am using `Rails` to create web application and  `nodeJS` to do some cutting edge experiments. You could find me on [github](https://github.com/yangchenyun) and [stackoverflow](http://stackoverflow.com/users/966437/steven-yang). I am also fascinated about [Unix's philosophy](http://www.faqs.org/docs/artu/ch01s06.html).
 
-  My toolkit consists of `javaScript`/`coffeescript`, `HTML5` and `CSS3`. I also use `Ruby` for scripting. For the backend, I have worked with projects based on `Rails`, `Django` and `Symfony`. I am also fascinated about Unix's simplified philosophy after switching my workspace from the cumbersome Windows system.
-
-  Currently, I am developing and organizing design and develop knowledge on the front-end side while digging more deeper into the details. Besides, I am also learning basic system administration, data abstraction and `Rails` to accomplish my personal projects. Because...
-
-  >Creating useful products with elegance is what drives me so far.
+  Creating useful products with elegance is what drives me so far.
 
   By the way, my name is Steven Yang graduated from Zhejiang University with a Bachelor degree in Economics.
 
-##About the Site
-
-  The site come to exist for selfish reasons.
-
-  I need a place to organize the knowledge I acquired day in day out. The process to write a public article forces me to pay attention to details and think solutions in a structured way.
-
-  Besides, I am learning `Ruby` and how the full web stack works, so I need a project to get my hands dirty.
+  I'd love to collect [inspiration](http://quote.yangchenyun.com) to keep myself motivated and volunteer to work at [TEDxFivestarsquare](http://tedxfivestarsquare.com).
 
   This site is created with [Jekyll](http://github.com/mojombo/jekyll) and hosted on [github](http://github.com).
