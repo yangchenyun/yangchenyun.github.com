@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: tool | Steven Yang's Blog | 杨晨昀]]></title>
+  <link href="http://blog.yangchenyun.com/blog/categories/tool/atom.xml" rel="self"/>
+  <link href="http://blog.yangchenyun.com/"/>
+  <updated>2012-10-08T00:13:59+08:00</updated>
+  <id>http://blog.yangchenyun.com/</id>
+  <author>
+    <name><![CDATA[Steven Yang]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Ack - a better way to search in files]]></title>
+    <link href="http://blog.yangchenyun.com/2012/09/ack-a-better-way-to-search-in-files/"/>
+    <updated>2012-09-02T16:58:00+08:00</updated>
+    <id>http://blog.yangchenyun.com/2012/09/ack-a-better-way-to-search-in-files</id>
+    <content type="html"><![CDATA[<p>Recently, <a href="http://betterthangrep.com/">ack</a> became the replacement for <code>grep</code> when I need to spot editing point in my code bases. It wins over <code>grep</code> in terms of:</p>
+
+<ul>
+  <li>A better pattern match syntax with <a href="http://perldoc.perl.org/perlre.html">Perl regular expressions</a></li>
+  <li>Smarter to limit searches in directories or certain file types</li>
+  <li>Much prettier display of result</li>
+  <li>Config files to make customization permanent</li>
+</ul>
+
+<p>These advantages will be introduced in the the following sections and after reading it I hope you will be comfortable with it.</p>
+
+<p>Let’s start by installing <code>ack</code>:</p>
+
+<p>Mac OS X with homebrew:</p>
+
+<pre><code>brew install ack
+</code></pre>
+
+<p>Debian/Ubuntu</p>
+
+<pre><code>sudo apt-get install ack-grep; sudo ln -s $(which ack-grep) /usr/local/bin/ack
+</code></pre>
+
+<p>Then <code>git clone https://github.com/twitter/bootstrap</code> to get the directory used in following examples.</p>
+
+<ul id="markdown-toc">
+  <li><a href="#search-with-modern-regexp-pattern">Search with Modern Regexp Pattern</a></li>
+  <li><a href="#limit-where-the-search-happens">Limit Where the Search Happens</a></li>
+  <li><a href="#add-files-to-be-searched">Add Files to be Searched</a></li>
+  <li><a href="#make-configuration-sticky">Make Configuration Sticky</a></li>
+  <li><a href="#sort-files-by-default">Sort files by default</a></li>
+  <li><a href="#use-smart-case-by-default">Use smart-case by default</a></li>
+  <li><a href="#extended-file-types">Extended File Types</a>    <ul>
+      <li><a href="#more-magic-and-conclusion">More Magic and Conclusion</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="search-with-modern-regexp-pattern">Search with Modern Regexp Pattern</h2>
+<p>Let’s start with a simple search <code>ack diff</code>.</p>
+
+<p>It prints out all the files whose lines contain the string <code>'diff'</code> within the current working directory.</p>
+
+<p>In fact <code>'diff'</code> could be any valid Perl Regular Expression include the <a href="http://www.regular-expressions.info/refadv.html">advanced regular expression syntax</a>, if you are familiar with regular expression in Ruby, Python, javaScript or Perl, you will be far more at home with the syntax than GNU Basic Regular Expression.</p>
+
+<p>For example, we could use <code>ack 'diff\(.+\)'</code> to detect a string as a function call such as <code>'diff(o, n)''</code> .</p>
+
+<p>It will be common that we will be more interested in <code>'diff'</code> as a word than a portion of string. In this case, we could use <code>ack '\bdiff\b'</code> but there is a handy option <code>-w</code> which force a pattern to match a complete word. So we could send our search result as <code>ack -w diff</code>.</p>
+
+<p>As in any regular expression flavors, to match character such as <code>$</code> or <code>.</code>, we need to escape them in the pattern as <code>'\$\.proxy'</code>. In this case, <code>ack</code> also comes with a handy way to treat the pattern as string literal. Use <code>ack -Q $.proxy</code> to match text against liternal <code>'$.proxy'</code>. It is useful to match IP addresses in log file such as <code>ack aa.bb.cc.dd access.log -Q</code>.</p>
+
+<h2 id="limit-where-the-search-happens">Limit Where the Search Happens</h2>
+<p>You might have already noticed that in the above example, <code>ack</code> automatically search under your current working directory.</p>
+
+<p>In order to alter this behavior, you could specify the file or directory to be searched in.  <code>ack href js/bootstrap-alert.js</code> will only match pattern in the <code>js/bootstrap-alert.js</code> file.  Similarly, if you specify a directory name as <code>ack proxy docs</code>, it will search in the <code>'docs'</code> directory recursively.</p>
+
+<p>To cancel the recursive behavior, pass in <code>-n</code> or <code>--no-recurce</code>. For example <code>ack post docs -n</code> will only match pattern in the <code>'docs'</code> directory but not its subdirectories.</p>
+
+<p>You can also ignore directory with <code>--ignore-dir=name</code> option, <code>ack post --ignore-dir=docs</code> will seek <code>'post'</code> in all directories other than <code>'docs'</code>.</p>
+
+<p>Sometimes the constrain is complicated, then the option <code>-f</code> will be helpful as it will print the files to be searched before performing the search. For example <code>ack --ignore-dir=docs -f</code> will print all the files <code>ack</code> will search in.</p>
+
+<p>Besides reading from arguments for files, <code>ack</code> could also reads from STDIN. This makes <code>ack</code> a nice candidate in unix pipeline. We could chain multiple <code>ack</code> together to zero in on what the text you really care about.  For example <code>ack postError js | ack message</code> <strong>first</strong> find matches for <code>'postError'</code> in all <code>'js'</code> directory and <strong>within the result</strong> it find matches for <code>'message'</code>.</p>
+
+<h2 id="add-files-to-be-searched">Add Files to be Searched</h2>
+<p>Try <code>ack background less</code> to search files in the <code>less</code> directory. It doesn’t return the result we are looking for, the <code>.less</code> files are ignored by <code>ack</code>. There must be something wrong with <code>ack</code>, right?</p>
+
+<p>However, this behavior is not an error but is by design by its author Andy Lester:</p>
+
+<blockquote>
+  <p>… Most codebases have a lot files in them which aren’t source files, and grep wastes a lot of time searching through all of those as well and returning matches from those files.  </p>
+</blockquote>
+
+<blockquote>
+  <p>That’s why ack’s behavior of not searching things it doesn’t recognize is one of its greatest strengths: the speed you get from only searching the things that you want to be looking at.</p>
+</blockquote>
+
+<p><code>ack</code> is designed to only search in file types it knows. The file types known by <code>ack</code> could be seen with <code>ack --help-types</code>.  Through <code>ack --help-types | ack less</code> we found that, <code>*.less</code> is not known by <code>ack</code> and that’s the reason why they are ignored.</p>
+
+<p>To add more file types we use <code>--type-set</code> and <code>--type-add</code>.  With <code>ack background less --type-set less=.less</code>, we succeeded in searching in the <code>*.less</code> files.  </p>
+
+<p>Sometimes, we don’t care about file type and just want search in all files in the directory, in these cases, we use <code>--all-types</code> or <code>-a</code>. It will search in all files regardless of its type with one exception - the CVS directory such as <code>.git</code> or <code>.svn</code> is excluded. If we want to count them in, use the ultimate <code>--unrestricted</code> or <code>-u</code> options to search <strong>everything</strong> within a directory.</p>
+
+<h2 id="make-configuration-sticky">Make Configuration Sticky</h2>
+<p>In most cases, we want to limit our searches to certain types, then it will be tedious to type <code>--type-set</code> or <code>--type-add</code> every time we want to search beyond build-in file types. <code>~/.ackrc</code> comes into play in these case. This is the configuration file which will be loaded by <code>ack</code>. All the options we introduced above could be written to it to make it permanent.</p>
+
+<p>Take my configuration as an example:</p>
+
+<p>```bash
+# ~/.ackrc ack configuration file</p>
+
+<h1 id="sort-files-by-default">Sort files by default</h1>
+<p>–sort-files</p>
+
+<h1 id="use-smart-case-by-default">Use smart-case by default</h1>
+<p>–smart-case</p>
+
+<h1 id="extended-file-types">Extended File Types</h1>
+<p>–type-add=css=.less,.scss,.sass
+–type-add=ruby=.haml
+–type-set=coffee=.coffee
+–type-set=markdown=.md,.markdown
+–type-set=json=.json
+```</p>
+
+<p>One thing to be noticed, instead of use whitespace in <code>--type-add less=.less</code> use <code>=</code>. Also, line begins with <code>#</code> is ignored.</p>
+
+<p>After adding our own file types, we could use <code>--type less</code> / <code>--less</code> to limit searches in certain file types or <code>--type noless</code> or <code>--noless</code> to exclude them. </p>
+
+<h2 id="more-magic-and-conclusion">More Magic and Conclusion</h2>
+<p><code>ack</code> comes a lot options for the format of output, you could use <code>--pager=less -r</code> to use <code>less</code> as pager with color support, or use <code>-C</code> to display the lines above/below the matched line as well. For more information, check out <code>man ack</code>.</p>
+
+<p>This handy tool is smarter and faster than <code>grep</code> and I have been using it heavily in my workflow.  Moreover, the coming <a href="http://stackoverflow.com/questions/9508431/ack-binding-an-actual-file-name-to-a-filetype#answer-9511450">ack2.0</a> is more powerful in terms of file type filtering and multiple config file support.</p>
+
+<p>Hope this introduction makes you comfortable with <code>ack</code>.</p>
+
+<p>Do you know other “improved” substitute for daily unix utility?</p>
+
+]]></content>
+  </entry>
+  
+</feed>
