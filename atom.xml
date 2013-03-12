@@ -4,7 +4,7 @@
   <title><![CDATA[Steven Yang's Blog | 杨晨昀]]></title>
   <link href="http://blog.yangchenyun.com/atom.xml" rel="self"/>
   <link href="http://blog.yangchenyun.com/"/>
-  <updated>2013-03-05T00:39:49+08:00</updated>
+  <updated>2013-03-13T03:06:57+08:00</updated>
   <id>http://blog.yangchenyun.com/</id>
   <author>
     <name><![CDATA[Steven Yang]]></name>
@@ -44,7 +44,7 @@
 <h2 id="highlights">Highlights</h2>
 <p>In the very early 2012, I went to Beijing and joined in ScentLibrary (气味图书馆) to help build the tech department. Thanks to this opportunity, I set up the whole network architecture from scratch - from the topology design, routing rules, DNS/DHCP setup, NAT/firewall rules to several supporting services. This experience provided me a solid experience when I started up my own company later this year.</p>
 
-<p>I peaked Mt.Haba (5396m) in May. It is the first snow mountain in my life. I had been preparing it since the start of this year. The 14-hour continuous ascending was both challenging and exciting.</p>
+<p>I peaked <a href="http://www.flickr.com/photos/32400097@N08/">Mt.Haba (5396m)</a> in May. It is the first snow mountain in my life. I had been preparing it since the start of this year. The 14-hour continuous ascending was both challenging and exciting.</p>
 
 <p>Late in May, by the invitation of <a href="http://yaokunjie.com">Peter</a>, I went back to Shanghai and initiated the <a href="http://zenhacks.org">endeavor</a> to bring our shared dream to reality. The ideas we are trying out includes <a href="http://manzuoapp.com">this</a>. </p>
 
@@ -85,9 +85,10 @@
   <li>Wrote a small tool <a href="https://github.com/yangchenyun/ask">ask</a> one day at a hackthon with my roomate Kuno, it helps you accumulate your knowledge about commandline tools.</li>
   <li>Wrote a simple Ruby wrapper <a href="https://github.com/yangchenyun/foxit">foxit</a> for <a href="http://gitlabhq.com/">gitlab</a> API v2.</li>
   <li>Created a bot to parse the railscasts.com and mirror it privately with <code>express</code>. The source code is <a href="https://github.com/yangchenyun/railscasts-mirror">here</a>.</li>
+  <li>I learned and improved the tool I am using for programming and became more effective with them. Checkout my <a href="https://github.com/yangchenyun/.vim"><code>vim</code> config files</a> and <a href="https://github.com/yangchenyun/fish-config"><code>fish</code> config files</a>.</li>
 </ul>
 
-<p>Through the working with various web application, I gained a in-depth understanding over HTTP - a communication protocol between two processes across the Internet just as any RPC service. I’ve worked with beautifully designed APIs such as Github’s and also have designed APIs for manzuoapp and built wrapper around exist API. Through the process, I was more aware of the RESTful design principle.</p>
+<p>Through the working with various web application, I gained an in-depth understanding over HTTP - a communication protocol between two processes across the Internet just as any RPC service. I’ve worked with beautifully designed APIs such as Github’s and also have designed APIs for manzuoapp and built wrapper around exist API. Through the process, I was more aware of the RESTful design principle.</p>
 
 <p>I adapted the ideas in the <a href="http://www.12factor.net/">12 factor app</a> when design the architecture for the Rails application. I broke down the application into difference Unix processes - web apps, background workers and http workers. This separation helps the application to allocate different responsibility to different processes. </p>
 
@@ -138,7 +139,7 @@
   <li><a href="http://www.amazon.com/Ten-Faces-Innovation-Strategies-Organization/dp/0385512074/">The Ten Faces of Innovation</a> provides a clue to detect creative people and form a creative team.</li>
 </ul>
 
-<p>In the aspect of social activity, I seemed more active comparing with last year due to living locations. I attended several tech gatherings in Shanghai such as HuJS and RubyConf China. I attended Hobby Project Day twice and toped <a href="http://www.primesplus.com/2012/10/17/hobby-project-day-%E2%80%93-10-2012/">both</a> <a href="http://www.primesplus.com/2012/10/29/hobby-project-day-%E2%80%93-11-2012/">times</a>. I also co-hosted <a href="http://wazopartners.com/box.html">Wazo Box</a> and made a speech about Chinese color there.</p>
+<p>In the aspect of social activity, I seemed more active comparing with last year due to living locations. I attended several tech gatherings in Shanghai such as HuJS and RubyConf China. I attended Hobby Project Day twice and topped <a href="http://www.primesplus.com/2012/10/17/hobby-project-day-%E2%80%93-10-2012/">both</a> <a href="http://www.primesplus.com/2012/10/29/hobby-project-day-%E2%80%93-11-2012/">times</a>. I also co-hosted <a href="http://wazopartners.com/box.html">Wazo Box</a> and made a speech about Chinese color there.</p>
 
 <h2 id="summary">Summary</h2>
 <p>In summary, 2012 was an unbalanced year for me, all my time and effort has been put into hacking and programming (as I really enjoyed it!). But this unbalanced life also hurt: my health condition declined severely, design and art practice had no progress, exploration was halted etc. Balancing programming and other parts of life will be a challenge for me in 2013.  </p>
