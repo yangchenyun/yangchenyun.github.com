@@ -1,71 +1,76 @@
 ---
 layout: post
-title: "How I Finished the DBClass from Stanford with full score"
+title: "How I Finished the DBClass from Stanford with Full Score"
 date: 2013-03-24 20:44
 comments: true
-categories: 
-published: false
+categories: database, study
+published: true
 ---
 * Table of Content
 {:toc}
 
-After submitting the final exam button, there came the end of the 10 weeks' studying of [DBClass online courses][db-class] offered by Standord. 
+For the past ten weeks, I've been working the [DBClass][db-class] offered by Standord. With 40 hours' study I achieved full score on all exercises and both exams. 
 
-In this period, I used 3 - 4 hours per week to follow the schedule and at last archieved full score on both the required and optional exercises and both the middle-term and final exams. Check out all the code I wrote in this courses: [relational algebra exercises][ra-ex], [sql related exercises][sql-ex], [xml related exercises][xml-ex].
+In this course, I've acquired a solid knowledge about the algebra used behind the SQL language, learned advanced usage of database system and also get to know the basics to work with XML.
 
-Moreover, I also got a systematic understanding of the relational database system and I could apply the knowledge I acquired into my work easily.
+## The Summary of Material
 
-I'd like to share how I approach the studies required by this course and what I've summarized from this courses.
+You might checkout [all the exercise code][db-ex-repo] I've written for the course and some mindmaps I summarized for the reviews: [assertions and triggers][assert-mm], [constrains][constrains-mm], [transactions][transactions-mm], [XML][xml-mm].
+
+Besides following the class instruction, I added some materials for learning and set up a more convenient development environment. The great learning experience is certainly brought by these improvements which I would like to share.
 
 ## How I Approach the Course Differently
 I have approached the course differently in three aspects:
 
-- I made a discipline effort to read related chapters in text book.
-- I made deliberate effort to setup development environment to ease practices.
-- I tried to study real-world examples.
+- I read all related chapters in text book.
+- I studied and wrote real-world examples.
+- I made deliberate effort to setup development environment to ease practice and test.
 
-I follow the text book [<The Database System - The Complete Book>][db-book] along the course schedule. This was the text book used in former Stanford DB courses and it is what the course's materials are sourced. I read the related chapters in the text book after watching the videos. Reading reveals details I would ignore in the video and helps form a systemetic view over the topic.
+### More Reading and Practice
+I followed the text book [The Database System - The Complete Book][db-book] along the course schedule. This is the text book used in former Stanford database courses and it is what the course's material origined. I read related chapters in the text book after watching the videos. Reading would reveal some points I've missed in the video and help build up a systemetic view over the topic.
 
-One of the principal rule I applied when learning programming is that to practice help speed up the understanding, an easier practice environment will help the learning progress. Thus I made some deliberate effort to setup and tune the development environment to make it as easy as possible to run examples, test new ideas and work on exercises. I will cover the details of the setup [later][db-setup] in this article.
+As I work as a programmer, I applied the knowledge I learned in this course directly to several relational database based projects. 
 
-As I was working on several relational database based projects while studying the course, I applied the knowledge I learned in this course. I wrote a lot of raw SQLs to fetch analytic data against our production database and I read the source code of about the database migrations in [squash][squash-repo].
+I wrote a lot of [raw SQLs][raw-sql] to fetch analytic data against our production database, it helped me to understand subqueries, natural joins and aggregations in the real world.  
 
-## What I Have Learned
-### A Solid Understanding over SQL
-At work, I mainly use ORMs such as [ActiveRecord][ar-repo] to access a relational database. Besides working with the library API, I don't know too much details about the underlying running SQLs. It is impossible for me to tune up the performance of certain SQL or structure complex query against the database.
+I substituted the backend with `sqlite` for [one command line tool][ask-repo] I was building at local hackthon.
 
-In this course, I was guided through an enlightening experience. I was introduced the relational algebra algorithm, which is the basic idea behind the SQL language. Then, set operations, joins and subqueries are introduced to structure complex SQL step by step.
+To understand the advanced usage of triggers and constrains, I also read the source code of [squash][squash-repo], an open source tool we use internally for bug tracking.
 
-### Advanced Usage of SQL
+### Tune the Tools
 
-[mindmap summary for assertions and triggers][assert-mm]
-[mindmap summary for constrains][constrains-mm]
-[mindmap summary for transactions][transactions-mm]
+Another improvment I made is the development environment. I wanted to make it as easy and quick as possible to test out codes. This is the principal rule I've learned from former programming experience. Thus I made some deliberate effort to tune up the development environment.
 
-### Working with XML
+As my major editor is `vim`, I use the database plugin [`dbext`][dbext-link] to play with SQL. `dbext` enables me to execute SQLs and get the result back in my editor. Instead of editing the SQL, doing copy-and-paste, printing the result out, I could write, run, edit, run, cleanup, run with one simple key binding. This convenience was very helpful when solving complex problems. I could start with some instinct ideas and tested them out right away and improved based on the result I got back. This fast cycle of feedback s helped to evolve one idea to one correct solution.
 
-[mindmap summary for XML][xml-mm]
+![dbext image][dbext-img]
 
-## Tools I Used to Ease Practices
-dbext
-bash-wrapper
-vim-util inspired by dbext
+Later, when I was working with XQuery, I missed the convenience I got from `dbext`. So I decided to implement it myself. Together with some [bash script][util-bin] and a [vim function][util-vim], I built the same experience for XQuery editing. One key binding would fire the XQuery expression against the xml file and return the result right in the editor.
 
+![xquery image][xquery-img]
+
+There is also simple [bash script][util-bin] to make working with relational algebra compiler `ra` and xslt compiler easier.
 
 ## What's next?
-Other uncovered topics: modules, schemes, tablespaces, procedures.
-Extra problems
+The [extra problems][extra-problem] included in the DBClass is well designed and is aimed to test more practical skills. I will finish them within this week.
 
-[db-class]: http://
-[db-book]: http://
-[db-setup]: http://
-[site-huali]: 
-[squash-repo]:
-[ra-ex]:
-[sql-ex]:
-[xml-ex]:
-[ar-repo]:
+DBclass has covered a wide range of topics in such a short period, but it also omits some concepts such as schemes, procedures, functions which are also widely used in modern databases. I will refer to the book and database system documentations to fill the gap.
+
+Thanks for all the class2go team and Professor Jennifer Widom to carry out such an excellent course.
+
+[db-class]: https://class2go.stanford.edu/db/Winter2013
+[db-book]: http://www.amazon.com/Database-Systems-Complete-Edition-ebook/dp/B004XJIVIC/ref=sr_1_2
+[squash-repo]: https://github.com/SquareSquash/web/blob/master/db/migrate/1_initial_schema.rb
+[db-ex-repo]: https://github.com/yangchenyun/dbclass-exercises
 [xml-mm]: /images/xml-query.png
 [assert-mm]: /images/assertions-triggers.png
 [constrains-mm]: /images/constrains.png
 [transactions-mm]: /images/transactions.png
+[raw-sql]: https://gist.github.com/yangchenyun/5254141
+[extra-problem]: https://class2go.stanford.edu/db/Winter2013/pages/extra-problems
+[dbext-link]: http://www.vim.org/scripts/script.php?script_id=356
+[dbext-img]: /images/dbext-img.png
+[xquery-img]: /images/xquery-img.png
+[util-vim]: https://github.com/yangchenyun/dbclass-exercises/blob/master/utils/xquery-helper.vim
+[util-bin]: https://github.com/yangchenyun/dbclass-exercises/tree/master/utils/bin
+[ask-repo]: https://github.com/yangchenyun/ask/compare/cf510240b0f6f1b52d69426c4ba38227c0de2efc...master
