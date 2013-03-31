@@ -9,7 +9,7 @@ published: true
 * Table of Content
 {:toc}
 
-For the past ten weeks, I've been working the [DBClass][db-class] offered by Standord. With 40 hours' study I achieved full score on all exercises and both exams. 
+For the past ten weeks, I've been working the [DBClass][db-class] offered by Standord. With 40 hours' study I achieved [distinguished statement with full score][db-statement] on all exercises and both exams. 
 
 In this course, I've acquired a solid knowledge about the algebra used behind the SQL language, learned advanced usage of database system and also get to know the basics to work with XML.
 
@@ -74,3 +74,4 @@ Thanks for all the class2go team and Professor Jennifer Widom to carry out such 
 [util-vim]: https://github.com/yangchenyun/dbclass-exercises/blob/master/utils/xquery-helper.vim
 [util-bin]: https://github.com/yangchenyun/dbclass-exercises/tree/master/utils/bin
 [ask-repo]: https://github.com/yangchenyun/ask/compare/cf510240b0f6f1b52d69426c4ba38227c0de2efc...master
+[db-statement]: /assets/download/db-statement.pdf
