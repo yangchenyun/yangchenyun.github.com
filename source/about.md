@@ -16,6 +16,6 @@ permalink: /about/
 
   By the way, my name is Steven Yang graduated from Zhejiang University with a Bachelor degree in Economics.
 
-  I'd love to collect [inspiration](http://quote.yangchenyun.com) to keep myself motivated and volunteer to work at [TEDxFivestarsquare](http://tedxfivestarsquare.com).
+  I'd love to collect [inspiration](http://quote.yangchenyun.com) to keep myself motivated and do volunteer work at [TEDxFivestarsquare](http://ted.yangchenyun.com).
 
   This site is created with [Jekyll](http://github.com/mojombo/jekyll) and hosted on [github](http://github.com).
