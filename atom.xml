@@ -4,7 +4,7 @@
   <title><![CDATA[Steven Yang's Blog | 杨晨昀]]></title>
   <link href="http://blog.yangchenyun.com/atom.xml" rel="self"/>
   <link href="http://blog.yangchenyun.com/"/>
-  <updated>2013-05-03T20:54:20+08:00</updated>
+  <updated>2013-05-04T21:54:44+08:00</updated>
   <id>http://blog.yangchenyun.com/</id>
   <author>
     <name><![CDATA[Steven Yang]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[A Plan to Read the Ruby Standard Library]]></title>
-    <link href="http://blog.yangchenyun.com/2013/05/plans-to-read-the-ruby-standard-library/"/>
+    <link href="http://blog.yangchenyun.com/2013/05/plan-to-read-the-ruby-standard-library/"/>
     <updated>2013-05-03T20:39:00+08:00</updated>
-    <id>http://blog.yangchenyun.com/2013/05/plans-to-read-the-ruby-standard-library</id>
+    <id>http://blog.yangchenyun.com/2013/05/plan-to-read-the-ruby-standard-library</id>
     <content type="html"><![CDATA[<ul id="markdown-toc">
   <li><a href="#why-bother-reading-the-source-code">Why Bother Reading the Source Code?</a></li>
   <li><a href="#resources">Resources</a></li>
@@ -89,7 +89,7 @@ SUM:                           283           9649          26961          51770
 <h2 id="track-of-my-studies">Track of My Studies</h2>
 
 <pre><code>[ ] ├── English.rb
-[ ] ├── abbrev.rb
+[x] ├── abbrev.rb
 [ ] ├── base64.rb
 [ ] ├── benchmark.rb
 [ ] ├── bigdecimal
