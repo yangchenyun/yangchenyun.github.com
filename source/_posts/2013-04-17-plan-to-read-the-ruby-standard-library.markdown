@@ -66,7 +66,7 @@ All learning progress will be recorded here.
 
 ## Track of My Studies
 
-    [ ] ├── English.rb
+    [x] ├── English.rb
     [x] ├── abbrev.rb
     [ ] ├── base64.rb
     [ ] ├── benchmark.rb
