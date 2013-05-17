@@ -249,7 +249,7 @@ All learning progress will be recorded here.
     [ ] ├── prime.rb
     [ ] ├── profile.rb
     [ ] ├── profiler.rb
-    [ ] ├── pstore.rb
+    [x] ├── pstore.rb
     [ ] ├── racc
     [ ] │   └── parser.rb
     [ ] ├── rake.rb
