@@ -131,7 +131,7 @@ All learning progress will be recorded here.
     [ ] ├── fiddle.rb
     [ ] ├── fileutils.rb
     [ ] ├── find.rb
-    [ ] ├── forwardable.rb
+    [x] ├── forwardable.rb
     [ ] ├── getoptlong.rb
     [ ] ├── gserver.rb
     [ ] ├── io
