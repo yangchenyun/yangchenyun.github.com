@@ -22,7 +22,7 @@ It might be hard to begin with - lots of unknown idioms, unknown concepts and la
 
 Most of the studies will take place in the [`ruby 1.9.3`][ruby-1-9-3] source code.  I decided to read 1.9.3 instead of 2.0 because most of my work still runs in 1.9.3 that and it would be living for a while. It would be good I could adapt what I've learned into my work quickly.
 
-I decided to leave out some of the ['default gems'][default-gem] in the ruby trunk as they have either an indenpedent or a large code base and deserve dedicate attention in the future. So are some domain-specific parser or gui libraries such as `psych`, `rexml`, `rss`, `tk` and `tkextlib`.
+I decided to leave out some of the ['default gems'][default-gem] in the ruby trunk as they have either an indenpedent or a large code base and deserve dedicate attention in the future. So are some domain-specific parser or gui libraries such as `syck`, `psych`, `rexml`, `rss`, `tk` and `tkextlib`.
 
 Along the way, [`ruby-spec`][ruby-spec] and [Programming Ruby][programming-ruby] will be the guide book to help me dive in the source code.
 
@@ -70,12 +70,12 @@ All learning progress will be recorded here.
     [x] ├── abbrev.rb
     [ ] ├── base64.rb
     [ ] ├── benchmark.rb
-    [ ] ├── bigdecimal
-    [ ] │   ├── jacobian.rb
-    [ ] │   ├── ludcmp.rb
-    [ ] │   ├── math.rb
-    [ ] │   ├── newton.rb
-    [ ] │   └── util.rb
+    [x] ├── bigdecimal
+    [x] │   ├── jacobian.rb
+    [x] │   ├── ludcmp.rb
+    [x] │   ├── math.rb
+    [x] │   ├── newton.rb
+    [x] │   └── util.rb
     [ ] ├── cgi
     [ ] │   ├── cookie.rb
     [ ] │   ├── core.rb
@@ -288,22 +288,6 @@ All learning progress will be recorded here.
     [ ] ├── shellwords.rb
     [ ] ├── singleton.rb
     [ ] ├── socket.rb
-    [ ] ├── syck
-    [ ] │   ├── baseemitter.rb
-    [ ] │   ├── basenode.rb
-    [ ] │   ├── constants.rb
-    [ ] │   ├── encoding.rb
-    [ ] │   ├── error.rb
-    [ ] │   ├── loader.rb
-    [ ] │   ├── rubytypes.rb
-    [ ] │   ├── stream.rb
-    [ ] │   ├── stringio.rb
-    [ ] │   ├── syck.rb
-    [ ] │   ├── tag.rb
-    [ ] │   ├── types.rb
-    [ ] │   ├── yamlnode.rb
-    [ ] │   └── ypath.rb
-    [ ] ├── syck.rb
     [ ] ├── sync.rb
     [ ] ├── tags
     [ ] ├── tcltk.rb
@@ -385,9 +369,8 @@ All learning progress will be recorded here.
     [ ] │   └── utils.rb
     [ ] ├── yaml
     [ ] │   ├── dbm.rb
-    [ ] │   ├── store.rb
-    [ ] │   └── syck.rb
-    [ ] └── yaml.rb
+    [ ] │   └── store.rb
+    [x] └── yaml.rb
 
 
 [well-ground-ruby]: http://www.amazon.com/The-Well-Grounded-Rubyist-David-Black/dp/1933988657
