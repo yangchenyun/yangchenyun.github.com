@@ -62,7 +62,7 @@ Reading is also about quality and understanding, so for each library I will:
 - write some example code to use this library
 - do researches about unique techniques I found within the source code
 
-All learning progress will be recorded here.
+All learning progress will be recorded here. `[x]` is finished file, `[-]` is skipped file.
 
 ## Track of My Studies
 
@@ -93,7 +93,7 @@ All learning progress will be recorded here.
     [ ] │   └── format.rb
     [ ] ├── date.rb
     [ ] ├── debug.rb
-    [ ] ├── delegate.rb
+    [x] ├── delegate.rb
     [ ] ├── digest
     [ ] │   ├── hmac.rb
     [ ] │   └── sha2.rb
@@ -123,7 +123,7 @@ All learning progress will be recorded here.
     [ ] │   └── unix.rb
     [ ] ├── drb.rb
     [ ] ├── e2mmap.rb
-    [ ] ├── erb.rb
+    [x] ├── erb.rb
     [ ] ├── expect.rb
     [ ] ├── fiddle
     [ ] │   ├── closure.rb
@@ -195,7 +195,7 @@ All learning progress will be recorded here.
     [ ] │   └── version.rb
     [ ] ├── json.rb
     [ ] ├── kconv.rb
-    [ ] ├── logger.rb
+    [x] ├── logger.rb
     [ ] ├── mathn.rb
     [ ] ├── matrix
     [ ] │   ├── eigenvalue_decomposition.rb
@@ -208,7 +208,7 @@ All learning progress will be recorded here.
     [ ] │   ├── pride.rb
     [ ] │   ├── spec.rb
     [ ] │   └── unit.rb
-    [ ] ├── mkmf.rb
+    [-] ├── mkmf.rb
     [ ] ├── monitor.rb
     [ ] ├── multi-tk.rb
     [ ] ├── mutex_m.rb
@@ -254,9 +254,9 @@ All learning progress will be recorded here.
     [ ] │   └── parser.rb
     [ ] ├── rake.rb
     [ ] ├── rational.rb
-    [ ] ├── rbconfig
-    [ ] │   ├── datadir.rb
-    [ ] │   └── obsolete.rb
+    [x] ├── rbconfig
+    [x] │   ├── datadir.rb
+    [x] │   └── obsolete.rb
     [ ] ├── rdoc.rb
     [ ] ├── remote-tk.rb
     [ ] ├── resolv-replace.rb
@@ -367,9 +367,9 @@ All learning progress will be recorded here.
     [ ] │   ├── parser.rb
     [ ] │   ├── server.rb
     [ ] │   └── utils.rb
-    [ ] ├── yaml
-    [ ] │   ├── dbm.rb
-    [ ] │   └── store.rb
+    [x] ├── yaml
+    [-] │   ├── dbm.rb
+    [x] │   └── store.rb
     [x] └── yaml.rb
 
 
@@ -380,3 +380,4 @@ All learning progress will be recorded here.
 [default-gem]: https://bugs.ruby-lang.org/projects/ruby/wiki/StdlibGem
 [read-stdlib]: http://blog.rubybestpractices.com/posts/gregory/005-code-reading-stdlib.html
 [code-reading]: http://on-ruby.blogspot.jp/2009/05/questions-five-ways-code-reading.html
+[tails-stdlib]: http://prezi.com/duxiux-wl8v7/tales-of-a-ruby-committer/
