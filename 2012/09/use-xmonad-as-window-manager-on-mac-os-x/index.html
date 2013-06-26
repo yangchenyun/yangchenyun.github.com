@@ -2,9 +2,9 @@
 <html xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:g="urn:g">
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  <meta name="keywords" content="TEDx, TEDxYouth, TEDxWestlake, Hangzhou, Speech, Talk, Life changes">
-  <meta name="description" content="Blog about hackings and development | Speech at TEDxYouth West Lake">
-  <title>Speech at TEDxYouth West Lake | 杨晨昀 Steven Yang</title>
+  <meta name="keywords" content="">
+  <meta name="description" content="Blog about hackings and development | use xmonad as window manager on mac OS X">
+  <title>use xmonad as window manager on mac OS X | 杨晨昀 Steven Yang</title>
   <link rel="stylesheet" href="/stylesheets/screen.css">
   <!--[if lt IE 9]>
     <script src="/javascripts/html5.js"></script>
@@ -44,26 +44,76 @@
     <div class="content">
       <article class="post">
   <header id="post-title">
-    <h1>Speech at TEDxYouth West Lake</h1>
+    <h1>use xmonad as window manager on mac OS X</h1>
   </header>
   <div id="post-stats">
-    <p>Posted on August 21, 2011</p>
+    <p>Posted on September 18, 2012</p>
   </div>
   <div id="post-content">
-    <h2 id="what-holds-us-back-from-changes">What Holds Us Back from Changes</h2>
+    <h2 id="why-use-xmonad">Why Use Xmonad</h2>
 
-<p><img src="/images/tedxwl_logo.png" alt="TEDxWestlake Logo" class="right" />
-This is the a talk I delivered at <a href="http://www.ted.com/tedx/events/3030" title="TEDxYouth Details">TEDxYouth Wesk Lake</a> on August 21th 2011.</p>
+<h2 id="install-on-mac-os-x">Install on Mac OS X</h2>
 
-<p>I talked about lessons learned from my experience to change career path from an background of Economics to web designer and developer in 301 days.</p>
+<h3 id="step-1-build-haskell-env">Step 1 Build Haskell Env</h3>
+<p>Install the <code>Haskell</code> environment which <strong>Xmonad</strong> depends on:</p>
 
-<embed class="" src="http://www.tudou.com/v/juhnvWn997s/v.swf" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" wmode="opaque" width="480" height="360" />
+<pre><code>brew update
+brew install ghc haskell-platform
+</code></pre>
 
-<div style="width:480px; margin:0 auto;" id="__ss_10760600"><object id="__sse10760600" width="480" height="404"><param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=whatholdsusbackfromchanges-120102035627-phpapp01&amp;stripped_title=what-holds-us-back-from-changes&amp;userName=yangchenyun" /><param name="allowFullScreen" value="true" /><param name="allowScriptAccess" value="always" /><param name="wmode" value="transparent" /><embed name="__sse10760600" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=whatholdsusbackfromchanges-120102035627-phpapp01&amp;stripped_title=what-holds-us-back-from-changes&amp;userName=yangchenyun" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" wmode="transparent" width="480" height="404" /></object></div>
+<h3 id="step-2-install-xmonad-packages">Step 2 Install xmonad Packages</h3>
+<p>It gonna take a while. Once finished we need the package manager in <code>Haskell</code> to install any Haskell packages:</p>
 
-<p>The related files could be found <a href="http://ge.tt/97rT6pB" title="Presentation Files of my TEDxYouth Talk">here</a>.</p>
+<pre><code>brew install cabal-install
+</code></pre>
 
-<p>Thanks for all the lovely organizers to pull this event off.</p>
+<p>Now let’s install <strong>Xmonad</strong> and its dependencies:</p>
+
+<pre><code>cabal upgrade
+cabal install xmonad
+</code></pre>
+
+<p><code>cabal</code> will solve the dependency and once it is installed, we have a working <code>xnomad</code> binary under <code>~/.cabal/bin</code>.</p>
+
+<h3 id="step-3-configure-x11-to-load-xmonad">Step 3 Configure X11 to load xmonad</h3>
+
+<p>Now we need to config <code>X11</code> to load xmonad when it is launched.</p>
+
+<pre><code>mkdir ~/.xinitrc.d
+vim vim 90-xmonad.sh
+
+#! /bin/sh
+# "chmod +x ~/.xinitrc.d/90-xmonad.sh" to activate
+USERWM=$HOME/.cabal/bin/xmonad
+</code></pre>
+
+<p>Now you could start <code>X11</code> server with <code>xinit</code> and start the first <a href="http://xmonad.org/tour.html">tour</a> under xnomad.</p>
+
+<p>The <code>X11</code> or <code>XQuarz</code> will be opened, press <code>Command+Alt+A</code> to switch between you desktop and X11 server.</p>
+
+<p>Next let start configuring our xnomad.</p>
+
+<h2 id="configure-xmonad">Configure Xmonad</h2>
+
+<h3 id="dzen2">Dzen2</h3>
+<p>Download <a href="https://sites.google.com/site/gotmor/dzen2-latest.tar.gz?attredirects=0">dzen2</a>, it is a tool to manage status bar</p>
+
+<p>Use options 4 in the <code>config.mk</code> file</p>
+
+<pre><code>LIBS = -L/usr/lib -lc -L${X11LIB} -lX11 -lXinerama -lXpm
+CFLAGS = -Os ${INCS} -DVERSION=\"${VERSION}\" -DDZEN_XINERAMA -DDZEN_XPM
+
+make install
+</code></pre>
+
+<h3 id="install-xmonad-contrib">Install Xmonad-Contrib</h3>
+<p><code>xmonad-contrib</code> is used to access 
+When I try to <code>cabal install xmonad-contrib</code>, it complains about missing <code>pkg-config xfr</code>. So I directly put the dependency in the installment:</p>
+
+<pre><code>cabal install xmonad-contrib --flags="-use_xft"
+</code></pre>
+
+<h2 id="further-readings">Further Readings</h2>
 
 
   </div>
