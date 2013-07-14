@@ -9,7 +9,7 @@ published: false
 
 This article explains the concept of value objects. It first defines and demonstrates various kinds of value objects, then it explains the rule to construct valid ones and consequence of violation. At last, it shows several ways to implement value objects in Ruby. 
 
-Although the examples are written in Ruby, the concept could be easily applied to other language as well. 
+Although the examples are written in Ruby, the concept could be easily applied to other languages as well. 
 
 * Table of Content
 {:toc}
@@ -19,7 +19,7 @@ A value object as defined in [P of EAA][p-eqq-value-object] is:
 
      ...their notion of equality isn't based on identity, instead two value objects are equal if all their fields are equal. 
 
-That means value objects which **have the same internal fields must equal*** to each other. The value of all fields sufficiently **determines** the equality of a value object.
+That means value objects which **have the same internal fields must equal** to each other. The value of all fields sufficiently **determines** the equality of a value object.
 
 The simplest examples are the primitive objects - `Symbol`, `String`, `Integer`, `TrueClass`(`true`), `FalseClass`(`false`), `NilClass`(`nil`), `Range`, `Regexp` etc. The value of the object determines its equality. For example, **whenever** `1.0` appears in a program, it should be the equal[^1] to `1.0` because they have the same value.
 
@@ -63,7 +63,7 @@ var1 == var2  # => true
 
 These are examples of value objects with one field. 
 
-There are more complex value objects with multiple fields. For example, the [`IPAddr`][ipaddr-lib] class in the standard library have three fields, `@addr`, `@mask_addr` and `@family`. `@addr` and `@mask_addr` defines the IP addresses values and `@family` stores its type as IPv4 or IPv6. `IPAddr` objects which have the same fields are equal to each other.
+Value objects could also be composed of multiple fields. For example, the [`IPAddr`][ipaddr-lib] class in the standard library have three fields, `@addr`, `@mask_addr` and `@family`. `@addr` and `@mask_addr` defines the IP addresses values and `@family` determines its type as IPv4 or IPv6. `IPAddr` objects which have the same fields are equal to each other.
 
 ```ruby
 require 'ipaddr'
@@ -109,7 +109,7 @@ usd.inspect
 
 The `usd` money value object is changed during its life cycle due to the changes to its `@amount` field.
 
-The public setter method `amount=` violates the rule because When it is called on a value object, the value object shifts from its original value.
+The public setter method `amount=` violates the rule because When it is called, the value shifts from the object's original one.
 
 The correct approach to create variants of value objects is to implement the setter method to initialize a new value object instead of modifying the current one:
 
@@ -145,7 +145,7 @@ Now, it is clear to implement a value object following the above definition and 
 
 - Value objects have multiple attributes
 - Attributes should be immutable across its life cycle
-- Equality is determined by its attributes (and its type).
+- Equality is determined by its attributes (and its type)
 
 We've already seen the implementation of `Money` value objects with Ruby normal class syntax. Let's complete the implementation by adding methods for determining equality.
 
@@ -156,6 +156,7 @@ class Money
     amount == other_money.amount && 
     currency == other_money.currency
   end
+  alias :eql? :==
 
   def hash
     [@amount, @currency].hash
@@ -167,13 +168,19 @@ usd2 = Money.new(10, 'USD')
 usd == usd2 # => true
 ```
 
-The line `self.class == other_money.class` distinguishes `Money` from other objects which might have the same attributes. For example:
+`eql?` and `==` are standard Ruby methods to determine equality at the object level. By the definition of value objects, the comparison results of all the fields are applied. It is also required to distinguish `Money` from other objects which might have the same attributes. 
+
+For example:
 
 ```ruby
 AnotherMoney = Struct.new(:money, :currency)
 other_usd = AnotherMoney.new(10, 'USD')
 usd == other_usd # => false
 ```
+
+That is accomplished by the line `self.class == other_money.class`.
+
+`hash` method is standard Ruby methods to generate hash value for an object. From the Ruby doc, "...this function must have the property that a.eql?(b) implies a.hash == b.hash." So the implementation uses all the fields' value to generate the hash.
 
 Besides the normal class syntax, `Struct` as shown in the last example is a very concise way to build value objects. Here is an example to implement the same `Money` value objects using `Struct`:
 
@@ -231,7 +238,7 @@ Start with definition of value objects, this article shows the usage of value ob
 
 At last, we've went through several different ways to implement the concept of values objects using Ruby's normal class definition and `Struct` class. Finally, we ended up with a useful gem `Values` to create value objects with ease and conciseness.
 
-Does the explanation of value objects provide you inspiration for writing more elegant code? What's your experience with value objects?
+Does the explanation of value objects provide you inspiration for writing more elegant code? What's your opinions towards the usage of value objects?
 
 [^1]: "Equal" is used in the meaning of equality(`==` or `eql?`) instead of identify(`equal?`) here.
 
@@ -240,7 +247,7 @@ Does the explanation of value objects provide you inspiration for writing more e
 ## References
 [Value Object][wiki-value-object] on Wikipedia.
 
-Some [discussionn][c2-value-object] [on][c2-value-object-hypotheses] [value objects][c2-immutable] at c2.com.
+Some [discussion][c2-value-object] [on][c2-value-object-hypotheses] [value objects][c2-immutable] at c2.com.
 
 [p-eqq-value-object]: http://martinfowler.com/bliki/ValueObject.html
 [ipaddr-lib]: https://github.com/ruby/ruby/blob/ruby_2_0_0/lib/ipaddr.rb#L350-352
@@ -249,18 +256,3 @@ Some [discussionn][c2-value-object] [on][c2-value-object-hypotheses] [value obje
 [c2-immutable]: http://c2.com/cgi/wiki?ValueObjectsShouldBeImmutable
 [value-gem]: https://github.com/tcrayford/Values
 [wiki-value-object]: http://en.wikipedia.org/wiki/Value_object
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
