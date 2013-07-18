@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: learning | Steven Yang's Blog | 杨晨昀]]></title>
+  <link href="http://blog.yangchenyun.com/blog/categories/learning/atom.xml" rel="self"/>
+  <link href="http://blog.yangchenyun.com/"/>
+  <updated>2013-07-18T21:20:28+08:00</updated>
+  <id>http://blog.yangchenyun.com/</id>
+  <author>
+    <name><![CDATA[Steven Yang]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Guidelines for Learning Anything from Scratch]]></title>
+    <link href="http://blog.yangchenyun.com/2013/05/guidelines-for-learning-anything-from-scratch/"/>
+    <updated>2013-05-04T13:55:00+08:00</updated>
+    <id>http://blog.yangchenyun.com/2013/05/guidelines-for-learning-anything-from-scratch</id>
+    <content type="html"><![CDATA[<ul id="markdown-toc">
+  <li><a href="#keep-yourself-motivated-all-the-time">Keep Yourself Motivated All the Time</a>    <ul>
+      <li><a href="#realize-the-difficulties-and-set-proper-expectation">Realize the Difficulties and Set Proper Expectation</a></li>
+      <li><a href="#seek-motivation-deliberately">Seek Motivation Deliberately</a></li>
+      <li><a href="#focus-on-steps-one-at-a-time">Focus on Steps, One at a Time</a></li>
+    </ul>
+  </li>
+  <li><a href="#choose-the-direction-to-make-effort">Choose the Direction to Make Effort</a>    <ul>
+      <li><a href="#start-from-the-basics">Start from the Basics</a></li>
+      <li><a href="#when-in-doubt-make-instinct-decision">When in Doubt, Make Instinct Decision</a></li>
+      <li><a href="#follow-the-uncomfortable-zone">Follow the Uncomfortable Zone</a></li>
+    </ul>
+  </li>
+  <li><a href="#conclusion">Conclusion</a></li>
+</ul>
+
+<p>October 28th, 2010 is the day I started to learn programming from scratch all by myself. I built my first website in 6 months, got a  programming job in 8 months, and begin to lead the development in a startup in 18 months and now I am still making progress and exploring new fields everyday.</p>
+
+<p>This self-educating experience is both challenging and rewarding. To conquer obstacles and make the learning process effective, I’ve learned, tested and applied some principles of learning to my own studies.</p>
+
+<p>Despite their effectiveness, these principles are often misunderstood or ignored by most people, even by education institutions. Thus I am sorting them out here and hope it might be helpful for you to apply some in your own studies.</p>
+
+<h2 id="keep-yourself-motivated-all-the-time">Keep Yourself Motivated All the Time</h2>
+<p>Motivation matters. </p>
+
+<p>Continuous effort is required to build skills and it is hard to commit that effort without being motivated <strong>during the whole learning process</strong>. People tend to give up shortly after they decided to start something new, even those who are highly motivated at the beginning.</p>
+
+<p>Given any book series, the first volume always outsells later sequences; among curriculum provided by schools, introductory courses are more popular than advanced ones; in gym business, registered members are much more than regular ones.  People tend to initialize something on a hunch but few will succeed to develop it into a hobby, fewer into a profession. </p>
+
+<p>These phenomena are common because motivation doesn’t arrive naturally, deliberate effort is required to obtain that.</p>
+
+<h3 id="realize-the-difficulties-and-set-proper-expectation">Realize the Difficulties and Set Proper Expectation</h3>
+<p>When people decide to initialize a learning process, they rarely vision the resulting tedious details, boring exercises and uncomfortable stretches. To learn a foreign language, memorizing the basic vocabulary, grammar and pronunciation is required before any serious reading and writing; to learn a music instrument, scale exercise is required to let the body play seamlessly with an instrument; to learn programming, basic syntaxes and tedious rules are required to work with computers.</p>
+
+<p>The starting process is particularly difficult because it usually takes quite a long period before a beginner realizes the outcome of the effort. It might take several months to compose a paragraph in a foreign language, play one complete song or write a practical program. The beginning phase of learning is like the ‘death valley’ - dry, harsh and seems forever. </p>
+
+<p>Frustration comes up when the initial expectation mismatches the reality. The illusion of an easy start and fancy progress vanishes shortly after the learning starts. When people realise learning as tedious and boring exercises with little progress, they easily become disappointed, self-doubting and later give up.</p>
+
+<p>A prepared mind for those difficulties will avoid the frustration. When the tedious and boring exercise is within the initial expectaion, less frustration will occur when encounter them in reality. </p>
+
+<p>When the learning has initialized, it is time to learn how to keep motivation along the way.</p>
+
+<h3 id="seek-motivation-deliberately">Seek Motivation Deliberately</h3>
+<p>Motivation could be collected from external source. You could deliberately look for materials which inspire you and it doesn’t need to be directly related to the fields you are studying. When I was learning programming, I collected short inspiring quotes deliberately and turn this collection into a <a href="http://quote.yangchenyun.com">site</a> which I set as default home page in the browser. Those quotes fed me inspiration on a daily basis to move forward.</p>
+
+<p>Motivation could be cultivated internally as well. The hunch which drives you to learning is a good place to start. Ask yourself why you want to acquire those skills in the first place. It’s okay the motivation doesn’t sound noble but it must matter to yourself. Once you dig out the motivation, keep reminding yourself of it - write down on paper, paste on the wall or set as screen saver etc.  </p>
+
+<h3 id="focus-on-steps-one-at-a-time">Focus on Steps, One at a Time</h3>
+<p>A clear goal helps keep motivation high but narrowing yourself to that goal is counter-productive.</p>
+
+<p>It is a good start to have a clear goal - speak Spanish with Latin friends, learn to cover your famous guitar song, write a program to crawl a website etc. . But if you only keep your eyes on the goals, the necessary exercises and effort become painful and unpleasant obstacles in order to reach that destination. <strong>The process itself becomes frustrating.</strong></p>
+
+<p>However, if you think on a broader scale, <strong>the destination doesn’t exist</strong>. Even for professionals, there is always space to improve. How would you tell that one writer has reached the “destination” of writing, or one musician has developed all the skills to perform music. Any endeavour is serious enough to commit a lifelong effort so that there is no destination but an endless journey with seemingly repetitive but rewarding daily activities.</p>
+
+<p>Instead of feeling obliged and restricted about the boring and tedious exercises, it is better to embrace and enjoy this experience because this experience together with the resulting progress is the everything about learning.</p>
+
+<p>Then focus on individual steps and pay attention to however tiny progress made every day. Be proud of how you’ve learned to pronounce a new word, how you could play the scale little faster, how you have grasped the meaning of a new syntax.</p>
+
+<p>When focusing on the individual steps, positive feedback will be accumulating along the way, which will collectively serve as a greater momentum to move you forward.</p>
+
+<h2 id="choose-the-direction-to-make-effort">Choose the Direction to Make Effort</h2>
+<p>Once you have learned to keep your motivation high, you are ready to invest your efforts in your studies. </p>
+
+<p>For a beginner in one field, there are a lot of choices needed to be made. These choices certainly determine how much progress you might make along the way. </p>
+
+<h3 id="start-from-the-basics">Start from the Basics</h3>
+<p>In any fields, there are several levels of concepts which might be exposed to you. Some are the basics. In learning a language, vocabulary, grammar and spelling are the basic; in programming, syntax, data structure, clauses are the basics; in guitar playing, chord switches, playing scales, picking and strumming are the basics.</p>
+
+<p>There are also high level concepts. In learning a language, they include tones, choices of words, idioms; in programming, design pattern, abstraction, architecture; in guitar playing, musicality, negative spaces and dynamics.</p>
+
+<p>These two kinds of concepts are usually exposed to a beginner simultaneously, but the higher concepts could not be fully understood without a comprehensive understanding of the lower ones. It is impossible to write a well-structured articles in one language if the author still struggles with the meaning and spelling of most of the vocabulary, same for a programmer to write an application when he is still confused by the syntaxes.</p>
+
+<p>Despite the dependencies, beginners are inclined to learn the high-level concepts instead of low-level ones.  This is reasonable tendency. Learning the basics usually requires plain, tedious, repeated exercises. Memorize vocabulary, do repetitive exercises, read dry documentation. These basics seem to have no relationship with the work carried out by experts. It is easily get bored practicing those basics.  On the other hand, the ambiguity of high-level concepts makes them easily to be understood ‘in general’. This ‘general understanding’ creates an illusion in the beginners to believe they have grasped this concept by being able to talk about these concepts. </p>
+
+<p>The attractiveness of high-level concepts will misguide the beginners to skip practicing the basics and jump to the high-level ones. This will in fact slow down the actual progress they could potentially make.</p>
+
+<p>Slow is fast. For a beginner, it is more important to focus on the basics. Practice those basics until they become natural to the brain and the high level concepts will be built on top of those.</p>
+
+<h3 id="when-in-doubt-make-instinct-decision">When in Doubt, Make Instinct Decision</h3>
+<p>Besides the choices between low-level ones and high-level ones, there are still a lot of detailed choices to be made for a beginner. Which dictionary should I purchase when learning Spanish? Which guitar should I play? Acoustic or electric? Which language should I use to start programming? Python, Ruby or C? </p>
+
+<p>The answer is <strong>any one</strong> which you find most accessible and inspiring. These detailed choices don’t matter that much comparing with the effort to move forward. If you master the acoustic guitar, it won’t be hard to switch to an electric one; if you master Ruby, it only takes days to work with Python.</p>
+
+<p>And those really important choices will reveal themselves to you later in the future when you are mature enough to distinguish the difference then.</p>
+
+<p>So when you are in doubt, just follow the instinct and move forward.</p>
+
+<h3 id="follow-the-uncomfortable-zone">Follow the Uncomfortable Zone</h3>
+<p>The starting experience is usually unpleasant. It might be hard to reason out a very simple sentence when studying a foreign language, hard to play the simplest scales, hard to write a small piece of program that doesn’t generate an error.</p>
+
+<p>This hardness usually leads to frustration which stops beginners making progress. But why not see it as a sign of where breakthroughs can be made?</p>
+
+<p>If you find some words very hard to understand, look up dictionaries to learn more examples about it; if you feel certain scales are hard to play, practice more on them and let the muscle memory get used to that; if you constantly make certain type of errors when programming, look up the documentation for more details.</p>
+
+<p>This short term goals will also feed you motivation. With continuous effort, you will notice improvement on that particular spot quickly, this generates feeling of accomplishment and help to keep the morale high.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+<p>These are the principles that I have gleaned from my own learning experience and which, I believe, underlies what will really help you survive the ‘death valley of giving up’. To get through the hard beginning phase, you need to focus on small steps and put efforts on the basics. Do not worry about the choices you make, worry about the actions you are not about to make. You should live with the stretches and let the uncomfortable stretches guide you through the journey of learning.</p>
+
+<p>Connect these principles with your successful learning experience and apply them into your next learning attempt. Happy Learning.</p>
+
+<p>Thanks for <a href="http://www.dingchenjie.com/">Chenjie Ding</a> for reading draft of this.</p>
+
+]]></content>
+  </entry>
+  
+</feed>
